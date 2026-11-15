@@ -1,0 +1,35 @@
+{
+  "schema": "race-report-pdf-visual-review-v1",
+  "report_date_jst": "2026-11-15",
+  "pdf_relative_path": "output/pdf/autonomous_race_report_20261115.pdf",
+  "pdf_sha256": "ee6dabebfc4c9c10555ac088079ad4ae71e35006ac4e3f0bb58ff3ef8657d4c1",
+  "reviewed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "render_command": "/usr/bin/pdftoppm -r 90 -png",
+  "checks": [
+    "All 16 pages rendered and visually inspected; later identical pages compared by PNG digest",
+    "Japanese and Latin embedded fonts readable",
+    "Seven figures present with legible labels and intact captions",
+    "Tables within page boundaries; repeated headers supported",
+    "Related equation lines and individual reference entries kept together",
+    "No open clipping, overlap, missing glyph or isolated reference continuation issues"
+  ],
+  "open_layout_issues": [],
+  "final_edit_review": "ICMP measurement target clarified; page 12 rerendered and inspected, remaining 15 pages byte-identical at rendering."
+}

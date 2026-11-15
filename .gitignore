@@ -1,0 +1,63 @@
+# Credentials and local identity
+.env
+.env.*
+!.env.example
+**/.ssh/
+**/.gh/
+**/.aws/
+**/.gnupg/
+**/credentials*
+**/*private-key*
+**/*secret-token*
+*.pem
+*.key
+*.har
+known_hosts*
+*_qr*.png
+*qr-url*.txt
+
+# Runtime output and recorded identities/media
+**/output/
+**/wifi_capture/
+**/drive_capture/
+**/raw_logs/
+**/raw_data/
+*.jsonl
+*.log
+*.bag
+*.db3
+*.mcap
+*.mp4
+*.mov
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# Environments, caches, machine state
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.tmp
+*.pid
+*.sock
+
+# Preserve deliverable PDFs/figures; ignore build scratch only
+reports/build/
+reports/tmp/
+reports/research/pdf_render/
+
+# Selected report deliverables (runtime output remains ignored)
+!reports/output/
+!reports/output/pdf/
+!reports/output/pdf/*.pdf
+!reports/output/*receipt.json

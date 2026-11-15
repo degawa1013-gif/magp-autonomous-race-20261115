@@ -1,0 +1,184 @@
+{
+  "schema": "autonomous-race-report-verification-v1",
+  "created_utc": "2026-11-15T13:22:56.047918+00:00",
+  "event_date_jst": "2026-11-15",
+  "reports": "${PACKAGE_ROOT}/reports",
+  "requested_mode": "cached",
+  "verification_scope": "Cached CSV/JSON/paper/source/figure consistency. Raw recomputation is attested separately by rebuild's executed steps; no physical experiment or automatic visual verdict.",
+  "config_sha256": "43942a10e1cfe525ac29e13ca8a3357b9ac58118150ba8ffb2d1ede9bf7b308c",
+  "paper_sha256": "1fa926d6018d54106ef1394022d7b12bf8a077b81bd69800177bb1558802426b",
+  "status": "passed",
+  "checks": [
+    {
+      "name": "configuration_and_inputs",
+      "status": "passed",
+      "detail": {
+        "date_jst": "2026-11-15",
+        "cached_inputs": 14
+      }
+    },
+    {
+      "name": "retained_csv_metrics",
+      "status": "passed",
+      "detail": {
+        "samples": 1973,
+        "sessions": 38,
+        "state_counts": {
+          "TRACK": 1866,
+          "LOST": 28,
+          "DEGRADED": 3,
+          "STOP": 76
+        },
+        "track_sample_percent": 94.57678661936139,
+        "track_estimated_time_percent": 94.54221751924582,
+        "camera_to_output_median_ms": 60.69,
+        "camera_to_output_p95_ms": 78.228,
+        "scope": "Recomputed from retained CSV; not a raw-capture or physical response measurement"
+      }
+    },
+    {
+      "name": "macro_and_contact_timing",
+      "status": "passed",
+      "detail": {
+        "macro_bins": 9,
+        "selected_frames": 16,
+        "freeze_samples": 73
+      }
+    },
+    {
+      "name": "software_benchmark",
+      "status": "passed",
+      "detail": {
+        "conditions": 4,
+        "samples_per_condition": 200,
+        "radio_gpio_measured": false
+      }
+    },
+    {
+      "name": "official_result_provenance",
+      "status": "passed",
+      "detail": {
+        "team": "NATC Tochigi",
+        "qualifying_rank": 7,
+        "final_round1_provenance": "参加者本人の2026-11-15申告",
+        "official_final_overall_rank": null
+      }
+    },
+    {
+      "name": "qualifying_source_and_runtime_hashes",
+      "status": "passed",
+      "detail": {
+        "source_directory": "${PACKAGE_ROOT}/source/system",
+        "actual_files_rehashed": 25,
+        "recorded_hashes_per_build": 11,
+        "build_groups": 6
+      }
+    },
+    {
+      "name": "radio_aggregate_scope",
+      "status": "passed",
+      "detail": {
+        "pico_scans": 1360,
+        "pi_cached_snapshots": 7297,
+        "pi_missing_minutes": 102,
+        "matched_minutes": 152,
+        "exploratory_correlation": 0.1353324688637135,
+        "independent_radio_trials": false
+      }
+    },
+    {
+      "name": "references_and_citations",
+      "status": "passed",
+      "detail": {
+        "references": 12,
+        "bibtex_entries": 12,
+        "all_citations_resolved": true,
+        "network_recheck_performed": false
+      }
+    },
+    {
+      "name": "paper_numeric_claims",
+      "status": "passed",
+      "detail": {
+        "checked_display_values": [
+          "94.58",
+          "94.54",
+          "60.69",
+          "78.23",
+          "36.04",
+          "47.97",
+          "65.20",
+          "133.01",
+          "261.070"
+        ],
+        "pending_confirmation_markers": 3,
+        "scope": "Targeted numeric and limitation checks; no automated proof of all prose claims"
+      }
+    },
+    {
+      "name": "figures_and_contact_images",
+      "status": "passed",
+      "detail": {
+        "figures": 7,
+        "figure_files_rehashed": 21,
+        "contact_jpegs_rehashed": 3
+      }
+    },
+    {
+      "name": "implemented_scripts_and_cli",
+      "status": "passed",
+      "detail": {
+        "syntax_and_declared_cli": {
+          "rebuild.py": [
+            "--config",
+            "--mode",
+            "--reports",
+            "--skip-figures",
+            "--skip-pdf",
+            "--source-root"
+          ],
+          "verify_report.py": [
+            "--config",
+            "--reports",
+            "--skip-pdf",
+            "--source-root"
+          ],
+          "analyze_runs.py": [
+            "--base",
+            "--inventory-only",
+            "--out",
+            "--reviews"
+          ],
+          "make_figures.py": [
+            "--out",
+            "--reports"
+          ],
+          "build_pdf.py": [
+            "--reports"
+          ],
+          "update_references.py": [
+            "--reports"
+          ],
+          "extract_radio_summary.py": [
+            "--base",
+            "--out"
+          ]
+        },
+        "vehicle_code_imported": false
+      }
+    },
+    {
+      "name": "pdf_structure_and_text",
+      "status": "passed",
+      "detail": {
+        "pages": 16,
+        "searchable_text_characters": 18126,
+        "sha256": "ee6dabebfc4c9c10555ac088079ad4ae71e35006ac4e3f0bb58ff3ef8657d4c1",
+        "visual_review": "matching_independent_visual_review_receipt",
+        "pdfinfo": "/usr/bin/pdfinfo",
+        "pdftotext": "/usr/bin/pdftotext"
+      }
+    }
+  ],
+  "warnings": []
+}

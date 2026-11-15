@@ -1,0 +1,152 @@
+{
+  "schema": "autonomous-race-report-build-v1",
+  "event": {
+    "id": "magp4-20261115",
+    "date_jst": "2026-11-15",
+    "timezone": "Asia/Tokyo",
+    "date_source": "User-specified client date; not derived from build host clock",
+    "team": "NATC Tochigi",
+    "qualifying_session": "20261115-112838-1628279c",
+    "stage": "qualifying",
+    "final_race_log_identified": false
+  },
+  "python": {
+    "core": "auto",
+    "figures": "auto",
+    "pdf": "auto"
+  },
+  "paths": {
+    "paper": "paper.md",
+    "metrics": "data/run_metrics.json",
+    "timeline": "data/qualifying_timeline.csv",
+    "macro_bins": "data/qualifying_30s_bins.csv",
+    "software_benchmark": "data/manual_software_latency_benchmark.csv",
+    "radio_summary": "data/radio_event_summary.json",
+    "official_results": "data/official_competition_results.json",
+    "reference_index": "data/reference_index.json",
+    "bibliography": "references.bib",
+    "figure_metadata": "figures/figure_metadata.json",
+    "code_evidence": "research/code_evidence.json",
+    "verification_receipt": "data/verification_results.json",
+    "build_receipt": "output/build_receipt.json",
+    "pdf": "output/pdf/autonomous_race_report_20261115.pdf",
+    "pdf_visual_review_receipt": "research/pdf_visual_review.json"
+  },
+  "cached_inputs": [
+    "paper.md",
+    "system_analysis.md",
+    "research/code_evidence.json",
+    "research/literature_sources.json",
+    "data/run_metrics.json",
+    "data/qualifying_timeline.csv",
+    "data/qualifying_30s_bins.csv",
+    "data/manual_software_latency_benchmark.csv",
+    "data/radio_event_summary.json",
+    "data/official_competition_results.json",
+    "data/contact_frames/frame_000338.jpg",
+    "data/contact_frames/frame_000341.jpg",
+    "data/contact_frames/frame_000346.jpg",
+    "data/contact_frames/source_manifest.json"
+  ],
+  "source_code": {
+    "relative_candidate_dirs": [
+      "../source/system",
+      "source/system",
+      "../controller_hud_candidate"
+    ],
+    "expected_files": 25,
+    "expected_recorded_build_hashes": 11,
+    "expected_recorded_build_groups": 6,
+    "main_sha256": "159b6996facdd74e151967fc76e5f408d61ad805f57245340c70a31a1157b398",
+    "note": "Package source/system is an immutable qualifying snapshot. --source-root may point to the preserved source root for independent raw/source checks."
+  },
+  "figures": [
+    "system_architecture_qualifying",
+    "qualifying_full_timeline",
+    "qualifying_macro_windows",
+    "qualifying_contact_detail",
+    "qualifying_contact_frames",
+    "manual_software_latency",
+    "radio_event_timeline"
+  ],
+  "contact_images": [
+    {
+      "frame": 338,
+      "path": "data/contact_frames/frame_000338.jpg",
+      "sha256": "f0313d338092d5ad74c1e29849dcae44e59d205426ed99c2e9ba3f4f2a58f6fd"
+    },
+    {
+      "frame": 341,
+      "path": "data/contact_frames/frame_000341.jpg",
+      "sha256": "3c546c005458510484a78e4bc3ecef05517e8e7b3cc3557e4ce8e393ebe0d7e6"
+    },
+    {
+      "frame": 346,
+      "path": "data/contact_frames/frame_000346.jpg",
+      "sha256": "aa92a40e7fc2a1c28f32e05e145ee397503b2768bced93bb48ec512f8f94fef3"
+    }
+  ],
+  "raw": {
+    "reviews": [
+      "qualifying_review_20261115_1137",
+      "oscillation_review_20261115_101513",
+      "regression_review_20261115_095920",
+      "wobble_review_20261115_0926",
+      "drive_review_20261114_1123",
+      "hairpin_review_20261114_1152",
+      "stability_review_20261114_1254",
+      "wobble_review_20261114_1521",
+      "anticipation_review_20261114",
+      "right_angle_review_20261114_1702",
+      "straight_pace_review_20261115"
+    ],
+    "required_files": [
+      "qualifying_review_20261115_1137/run_control_log.csv",
+      "manual_event_latency_review_20261115/benchmark_before_pi.json",
+      "manual_event_latency_review_20261115/benchmark_after_pi.json",
+      "manual_event_latency_review_20261115/benchmark_before_load_pi.json",
+      "manual_event_latency_review_20261115/benchmark_after_load_pi.json"
+    ],
+    "radio_required_files": [
+      "pico_radio_monitor_20261115/analysis_report_20261115/inputs/event_report.json",
+      "pico_radio_monitor_20261115/analysis_report_20261115/build/quant_findings.json"
+    ],
+    "run_script": "scripts/analyze_runs.py",
+    "radio_script": "scripts/extract_radio_summary.py",
+    "scope": "Run metrics are recalculated from saved raw captures/CSV. The radio step extracts the already frozen aggregate and does not remeasure RF or recompute an I/Q spectrum."
+  },
+  "expected": {
+    "sessions": 38,
+    "retained_observations": 13987,
+    "qualifying_samples": 1973,
+    "perception_counts": {
+      "TRACK": 1866,
+      "LOST": 28,
+      "DEGRADED": 3,
+      "STOP": 76
+    },
+    "reference_count": 12,
+    "figure_count": 7,
+    "official_qualifying_rank": 7,
+    "official_q1_laps": 3,
+    "official_q1_best_lap_s": 30.88,
+    "official_q2_laps": 8,
+    "official_q2_best_lap_s": 25.23,
+    "pico_scans": 1360,
+    "pi_radio_snapshots": 7297,
+    "pi_missing_minutes": 102
+  },
+  "verification": {
+    "percentile_method": "linear interpolation at (n-1)*p",
+    "time_ratio_method": "left endpoint hold, omit intervals >1 s, final sample weight zero",
+    "rounding": "decimal half-up for the paper display; no early rounding in calculations",
+    "require_source_code_files": true,
+    "pdf_minimum_pages": 2,
+    "pdf_minimum_text_characters": 3000,
+    "visual_review": "Separate human image inspection; automated text/numeric checks do not attest visual correctness."
+  },
+  "reuse_notes": [
+    "This config reproduces the 2026-11-15 report; frozen counts, official results and contact annotations are not assumptions for another event.",
+    "For a new event, preserve original JSONL/ZIP, choose explicit reviews and begin with analyze_runs.py --inventory-only into a different output folder."
+  ]
+}

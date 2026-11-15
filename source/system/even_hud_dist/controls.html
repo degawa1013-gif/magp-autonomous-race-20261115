@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="color-scheme" content="light">
+  <title>MAGP — 車両操作</title>
+  <style>
+    :root{font-family:-apple-system,BlinkMacSystemFont,"Noto Sans CJK JP","Segoe UI",sans-serif;color:#17202c;background:#f4f5f7;font-synthesis:none;--blue:#1762d8;--line:#e3e6eb}
+    *{box-sizing:border-box}body{margin:0}main{max-width:1080px;margin:auto;padding:24px 24px 48px}button,a{touch-action:manipulation}a{color:var(--blue);text-underline-offset:4px}button{font:inherit;cursor:pointer;border:0;border-radius:12px;min-height:50px;padding:12px 18px;font-weight:650;transition:background .12s}button:focus-visible,a:focus-visible{outline:3px solid #79aaff;outline-offset:3px}button:disabled{cursor:default;opacity:.42}button:active:not(:disabled){transform:translateY(1px)}header{display:flex;align-items:center;justify-content:space-between;margin-bottom:25px}.brand{font-size:22px;font-weight:800;letter-spacing:-.7px;color:inherit;text-decoration:none}.brand span{font-weight:450;color:#7b8594;font-size:15px;letter-spacing:0;margin-left:8px}nav{display:flex;gap:22px;font-size:14px}.link-status{display:flex;align-items:center;gap:8px;font-size:13px;color:#667183}.dot{width:8px;height:8px;border-radius:50%;background:#a1a9b3}.dot.fresh{background:#218855}.dot.stale{background:#c27b19}.topline{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:14px}.sample-age{font-variant-numeric:tabular-nums;color:#687383;font-size:12px}.panel{background:#fff;border:1px solid var(--line);border-radius:18px;padding:24px}.vehicle{display:grid;grid-template-columns:1.35fr 1fr .6fr;align-items:center;gap:24px;margin-bottom:16px}.eyebrow{font-size:12px;font-weight:650;color:#748091;letter-spacing:.05em;margin:0 0 8px}h1{font-size:34px;line-height:1.2;letter-spacing:-1px;margin:0 0 10px}h2{font-size:18px;letter-spacing:-.3px;margin:0 0 16px}.subtle{font-size:13px;line-height:1.7;color:#77818f;margin:0}.state-caption{font-size:13px;color:#697586}.speed-value{font-size:46px;font-weight:650;letter-spacing:-2px;line-height:1.15;font-variant-numeric:tabular-nums}.unit{font-size:14px;color:#7b8592;margin-left:4px}.speed-note{font-size:12px;color:#7d8796;margin-top:4px}.gear{border-left:1px solid var(--line);padding-left:30px}.gear strong{font-size:48px;line-height:1;font-weight:600}.reason{display:flex;gap:14px;align-items:flex-start;background:#ecf2fb;border:1px solid #dae5f6;border-radius:14px;padding:17px 20px;margin-bottom:18px}.reason .mark{font-size:21px;line-height:1.4;color:#3766a3}.reason h2{margin:0 0 3px;font-size:17px}.reason p{margin:0;color:#61728b;font-size:12px;line-height:1.65}.reason.emergency{background:#fff0ef;border-color:#f3ceca}.reason.emergency h2,.reason.emergency .mark{color:#b33129}.layout{display:grid;grid-template-columns:1.35fr 1fr;gap:18px}.mode-buttons{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}.mode-button{background:#f1f3f6;color:#384557;text-align:center;padding:14px 8px;border:1px solid transparent}.mode-button strong{display:block;font-size:16px}.mode-button small{display:block;font-size:11px;font-weight:450;margin-top:5px;color:#7a8593}.mode-button[aria-pressed="true"]{background:#eaf2ff;border-color:#80a9ec;color:#154b9d}.mode-button[aria-pressed="true"] small{color:#4b77b7}.stop{width:100%;margin-top:12px;background:#c63a33;color:white;font-size:17px;min-height:56px}.feedback{min-height:42px;margin:12px 0 0;font-size:13px;line-height:1.6;color:#66768a}.feedback.error{color:#b33129}.setting{display:flex;align-items:center;justify-content:space-between;padding:20px 0 18px;margin-top:10px;border-top:1px solid var(--line)}.setting strong{font-size:25px;letter-spacing:-.7px;font-variant-numeric:tabular-nums}.setting-label{font-size:13px;font-weight:600;margin-bottom:3px}.stepper{display:flex;gap:8px}.stepper button{font-size:22px;width:54px;background:#edf2fa;color:#235aa6}.reset{width:100%;margin-top:8px;background:#f5e8e6;color:#9e332c;min-height:46px;font-size:14px}dl{margin:0}.details-row{display:flex;justify-content:space-between;gap:18px;padding:13px 0;border-bottom:1px solid #eef0f3;font-size:13px}.details-row:last-child{border-bottom:0}.details-row dt{color:#788392;flex-shrink:0}.details-row dd{margin:0;text-align:right;font-weight:550;overflow-wrap:anywhere;max-width:65%}.mapping{margin-top:18px}.mapping summary{cursor:pointer;font-size:14px;font-weight:600;min-height:42px;display:flex;align-items:center;list-style:none}.mapping summary:after{content:"＋";margin-left:auto;color:#7b8594}.mapping[open] summary:after{content:"−"}.mapping-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 24px}.mapping-grid p{font-size:12px;line-height:1.8;margin:6px 0;color:#657184}.mapping-grid strong{color:#344153;font-weight:600}.g2{margin-top:18px;padding:21px 24px;display:flex;gap:20px;justify-content:space-between;align-items:flex-start}.g2 h2{margin-bottom:6px}.g2 .actions{display:flex;flex-shrink:0;gap:8px;align-items:center}.g2 .open{background:#eaf2ff;padding:12px 15px;border-radius:10px;display:inline-block;text-decoration:none;font-size:13px;font-weight:650}.copy{background:#f0f2f5;min-height:44px;font-size:12px;padding:10px 13px}code{font-family:ui-monospace,monospace;font-size:11px;overflow-wrap:anywhere;color:#6c7888}.stale-state .vehicle{opacity:.68}footer{font-size:11px;color:#8a94a1;margin-top:22px;line-height:1.8} [hidden]{display:none!important}
+    @media(max-width:740px){main{padding:20px 16px 32px}header{margin-bottom:22px}nav{gap:16px;font-size:12px}.panel{padding:20px}.vehicle{gap:15px;grid-template-columns:1.3fr 1fr .5fr}.gear{padding-left:17px}.gear strong{font-size:38px}h1{font-size:26px}.speed-value{font-size:37px}.unit{font-size:11px}.layout{grid-template-columns:1fr}.g2{display:block}.g2 .actions{margin-top:14px}.sample-age{font-size:11px}.mapping-grid{grid-template-columns:1fr}.reason{padding:15px 16px}.reason h2{font-size:15px}.mode-button strong{font-size:14px}.mode-button small{font-size:10px}.topline{gap:8px}}
+    .drive-data{margin-top:18px}.drive-data h2{margin-bottom:8px}.capture-heading{display:flex;justify-content:space-between;align-items:center;gap:16px}.capture-status{font-size:13px;font-weight:650;color:#536579}.capture-status.recording{color:#218855}.capture-status.problem{color:#a24c21}.capture-actions{display:flex;align-items:center;flex-wrap:wrap;gap:12px;margin-top:16px}.capture-actions button{background:#edf2fa;color:#235aa6;min-height:46px;font-size:13px}.capture-download{font-size:13px;font-weight:600}.capture-meta{font-size:12px;color:#748091;margin:12px 0 0;line-height:1.6;font-variant-numeric:tabular-nums}.capture-feedback{min-height:20px;font-size:12px;color:#66768a;margin:8px 0 0;line-height:1.6}.capture-feedback.error{color:#b33129}
+    @media(max-width:740px){.capture-heading{align-items:flex-start;flex-direction:column;gap:0}.capture-status{margin-bottom:10px}.capture-actions{align-items:flex-start;flex-direction:column;gap:14px}.capture-actions button{width:100%}}
+    @media(prefers-reduced-motion:reduce){*{transition:none!important}button:active:not(:disabled){transform:none}}
+  </style>
+</head>
+<body>
+<main id="app" class="stale-state">
+  <header><a href="/controls.html" class="brand">MAGP<span>車両操作</span></a><nav aria-label="関連画面"><a href="/vision">映像・白線</a><a href="/g2.html">G2表示</a></nav></header>
+  <div class="topline"><div class="link-status"><span class="dot" id="link-dot"></span><strong id="link-status">車両に接続しています</strong></div><span id="sample-age" class="sample-age">状態サンプル待ち</span></div>
+  <section class="panel vehicle" aria-label="車両の現在の状態">
+    <div><p class="eyebrow">CONTROL MODE</p><h1 id="mode">—</h1><div class="state-caption" id="enabled">状態を確認しています</div></div>
+    <div><p class="eyebrow">車輪換算速度</p><span class="speed-value" id="speed">—</span><span class="unit">km/h</span><div class="speed-note" id="speed-note">設定値で換算・未校正</div></div>
+    <div class="gear"><p class="eyebrow">GEAR</p><strong id="gear">—</strong></div>
+  </section>
+  <section class="reason" id="reason-panel" aria-label="状態の理由"><span class="mark" aria-hidden="true">ⓘ</span><div><h2 id="reason">状態サンプルを待っています</h2><p id="reason-note">主操作は、Piへ直接接続したDualSenseです。</p></div></section>
+  <div class="layout">
+    <section class="panel" aria-label="モードと自動出力設定">
+      <h2>走行モード</h2>
+      <div class="mode-buttons" role="group" aria-label="モードを選択">
+        <button class="mode-button" data-mode="MANUAL" aria-pressed="false" disabled><strong>手動</strong><small>× 操舵・R2</small></button>
+        <button class="mode-button" data-mode="STEER_AUTO" aria-pressed="false" disabled><strong>操舵自動</strong><small>□ アクセルはR2</small></button>
+        <button class="mode-button" data-mode="AUTO" aria-pressed="false" disabled><strong>全自動</strong><small>△ 操舵＋アクセル</small></button>
+      </div>
+      <button id="stop" class="stop">停止指令を送る</button>
+      <p id="feedback" class="feedback" role="status" aria-live="polite">モード変更は、車両側への反映を確認して表示します。</p>
+      <div class="setting"><div><div class="setting-label">自動出力設定</div><strong id="auto-setting">—</strong><span class="unit">%</span></div><div class="stepper" role="group" aria-label="自動出力設定"><button id="slower" aria-label="自動出力を5ポイント下げる" disabled>−</button><button id="faster" aria-label="自動出力を5ポイント上げる" disabled>＋</button></div></div>
+      <p class="subtle">1回で5ポイント。全自動中は十字↑で増速・↓で減速できます。設定変更だけでは走行を開始しません。車輪換算速度とは異なります。</p>
+      <button id="reset-emergency" class="reset" hidden>緊急停止を解除する</button>
+    </section>
+    <section class="panel" aria-label="接続と出力の詳細">
+      <h2>接続・車両の状態</h2>
+      <dl>
+        <div class="details-row"><dt>コントローラー</dt><dd id="controller">—</dd></div>
+        <div class="details-row"><dt>入力の更新経過</dt><dd id="input-age">—</dd></div>
+        <div class="details-row"><dt>白線認識</dt><dd id="perception">—</dd></div>
+        <div class="details-row"><dt>操舵指令</dt><dd id="steer-command">—</dd></div>
+        <div class="details-row"><dt>ESC指令</dt><dd id="throttle-command">—</dd></div>
+        <div class="details-row"><dt>現在の前進出力指令</dt><dd id="forward-command">—</dd></div>
+        <div class="details-row"><dt>カーブ出力上限</dt><dd id="corner-cap">—</dd></div>
+        <div class="details-row"><dt>カーブ速度調整</dt><dd id="corner-phase">—</dd></div>
+      </dl>
+      <p class="subtle" style="margin-top:14px">指令値は、実際の舵角・モーター回転・ESCの給電状態の測定値ではありません。</p>
+    </section>
+  </div>
+  <section class="panel drive-data" aria-label="走行データ">
+    <div class="capture-heading"><h2>走行データ</h2><span id="capture-status" class="capture-status" role="status">記録状態を確認しています</span></div>
+    <p class="subtle">全自動・操舵自動の開始時に自動で記録します。画像・白線認識・操舵指令・処理時間を同じフレームで保存します。</p>
+    <div class="capture-actions"><button id="capture-mark" disabled>気になった動きをマーク</button><a id="capture-download" class="capture-download" hidden download>直近の走行データを保存</a></div>
+    <p id="capture-meta" class="capture-meta">次の自動走行から記録します。</p>
+    <p id="capture-feedback" class="capture-feedback" role="status" aria-live="polite">自動走行中に押すと、気になった瞬間に印を残せます。</p>
+  </section>
+  <details class="panel mapping"><summary>DualSenseの操作を確認</summary><div class="mapping-grid">
+    <p><strong>× 手動　／　□ 操舵のみ自動　／　△ 全自動</strong><br>○ボタンには走行操作を割り当てません。</p>
+    <p><strong>全自動：十字↑ 増速 ／ ↓ 減速 ／ ← N</strong><br>↑・↓は自動出力設定を1回5ポイント変更します。← Nからの再開は△で全自動/Dを選び直します。↑だけではDに戻りません。<br><strong>手動・操舵のみ自動：↑ D ／ ← N ／ ↓ R</strong><br>手動では左スティック左右で操舵。R2でアクセル、L2でブレーキ。</p>
+    <p><strong>L1・R1・Create・Options：緊急停止</strong><br>このRCでは停止ボタンとR2・L2・スティック・十字キーを離し、×で解除して手動Nへ復帰します。解除だけでは走行を開始しません。大会実車の解除は運営へ申告します。</p>
+    <p>WebとG2は補助操作・状態表示です。通信が古いときは最終状態と表示し、未確認の反映を成功扱いしません。</p>
+  </div></details>
+  <section class="panel g2" aria-label="Even G2への表示"><div><h2>G2へ、必要な状態だけ。</h2><p class="subtle">モード・ギヤ・接続・動かない理由を表示します。G2の長押しで自動出力設定%も確認できます。G2での起動はEvenアプリの「Scan QR」から。Safariではスマホ用の表示を確認できます。</p><code id="g2-url"></code></div><div class="actions"><a class="open" href="/g2.html">G2表示を開く</a><button class="copy" id="copy-g2">URLをコピー</button></div></section>
+  <footer>映像を常時転送せず、小さな状態データを受信します。状態の更新が900ms以上止まると「最終状態」に切り替わります。キーボードには走行操作を割り当てていません。</footer>
+</main>
+<script>
+(() => {
+  "use strict";
+  const $ = id => document.getElementById(id);
+  const names = {STOP:"停止",MANUAL:"手動",STEER_AUTO:"操舵のみ自動",AUTO:"全自動"};
+  const modeButtons = [...document.querySelectorAll("[data-mode]")];
+  let sample = null, lastProgressAt = 0, previousStamp = null, previousSeq = null, hasProgress = false;
+  let pending = null, failures = 0;
+  const number = value => typeof value === "number" && Number.isFinite(value);
+  const text = (id, value) => { $(id).textContent = value; };
+  const fresh = () => sample !== null && hasProgress && performance.now() - lastProgressAt < 900;
+  const requestId = () => "web-" + (globalThis.crypto?.randomUUID?.() || Date.now().toString(36) + "-" + Math.random().toString(36).slice(2));
+  const feedback = (message, error=false) => { text("feedback", message); $("feedback").classList.toggle("error", error); };
+  function renderFreshness() {
+    const live = fresh(), known = sample !== null;
+    $("app").classList.toggle("stale-state", !live);
+    $("link-dot").className = "dot " + (live ? "fresh" : "stale");
+    text("link-status", live ? "状態を受信中" : known ? "最終状態・更新待ち" : "車両との接続待ち");
+    const elapsed = known ? Math.max(0, Math.round(performance.now() - lastProgressAt)) : null;
+    text("sample-age", known ? "状態更新から " + elapsed + "ms" : "状態サンプル待ち");
+    const emergency = sample?.reason === "emergency_stop" || sample?.reason === "emergency_button";
+    for (const button of modeButtons) button.disabled = !live || Boolean(pending) || emergency;
+    $("slower").disabled = !live || Boolean(pending) || emergency;
+    $("faster").disabled = !live || Boolean(pending) || emergency;
+    $("reset-emergency").hidden = !emergency;
+    $("reset-emergency").disabled = !live || Boolean(pending);
+    if (pending && performance.now() - pending.started > 2200) {
+      feedback("操作は送信済みです。車両側への反映を確認できていません。", true);
+      pending = null;
+    }
+  }
+  function accept(status) {
+    if (!status || !number(status.seq) || !number(status.server_time_ms) || !names[status.mode]) throw new Error("状態サンプルが未準備です");
+    const progressed = previousStamp === null || status.server_time_ms > previousStamp || (status.seq !== previousSeq && status.server_time_ms === previousStamp);
+    if (previousStamp !== null && status.server_time_ms < previousStamp && status.seq >= previousSeq) return;
+    if (progressed) {
+      if (previousStamp !== null) hasProgress = true;
+      lastProgressAt = performance.now();
+    }
+    previousStamp = status.server_time_ms;
+    previousSeq = status.seq;
+    sample = status;
+    text("mode", names[status.mode]);
+    text("gear", ["D","N","R"].includes(status.gear) ? status.gear : "—");
+    text("enabled", status.enabled ? "操作有効" : "出力待機・停止");
+    const speed = status.speed || {};
+    text("speed", speed.valid && number(speed.kph) ? speed.kph.toFixed(1) : "—");
+    text("speed-note", speed.valid ? "設定値で換算・未校正" : "未計測（新鮮な回転信号なし）");
+    text("reason", status.reason_text || "制御状態を確認してください");
+    const emergency = ["emergency_stop","emergency_button"].includes(status.reason);
+    $("reason-panel").classList.toggle("emergency", emergency);
+    const recoveryHints = {release_stop_buttons:"停止ボタンを離してください。",release_controls:"R2・L2とスティック・十字キーを離してください。",press_cross:"×で解除・手動Nへ復帰できます。",controller_disconnected:"コントローラーを接続してください。",input_stale:"コントローラー入力の復旧を待ってください。"};
+    text("reason-note", emergency ? (recoveryHints[status.emergency_recovery] || "停止ボタンと操作入力を離してください。") + " このRCは×で解除し手動Nへ復帰します。大会実車は運営へ申告してください。" : "主操作は、Piへ直接接続したDualSenseです。");
+    const controller = status.controller || {};
+    text("controller", controller.connected ? controller.device || "接続済み" : "未接続");
+    text("input-age", number(controller.input_age_ms) ? Math.round(controller.input_age_ms) + "ms" : "—");
+    const perception = status.perception || {};
+    text("perception", (perception.mode || "—") + (number(perception.confidence) ? " · " + Math.round(perception.confidence * 100) + "%" : ""));
+    const output = status.output || {};
+    text("steer-command", number(output.steer_us) ? output.steer_us + " µs" : "—");
+    text("throttle-command", number(output.throttle_us) ? output.throttle_us + " µs" : "—");
+    text("forward-command", number(output.forward_percent) ? output.forward_percent.toFixed(1) + "%" : "—");
+    text("auto-setting", number(status.auto_output_setting_percent) ? status.auto_output_setting_percent.toFixed(1) : "—");
+    const pace = status.mode === "AUTO" && status.enabled && status.gear === "D" && status.corner_pace?.active ? status.corner_pace : null;
+    const paceNames = {BASELINE:"通常走行",APPROACH:"カーブ減速",CORNER:"カーブ減速",RECOVERY:"白線再確認・減速",EXIT:"立上がり",STRAIGHT:"直線"};
+    text("corner-cap", pace && number(pace.cap_percent) ? pace.cap_percent.toFixed(1) + "%" : "—");
+    text("corner-phase", pace ? (paceNames[pace.phase] || "—") + (number(pace.requested_percent) && number(pace.applied_percent) ? " · 設定" + pace.requested_percent.toFixed(1) + "% → 指令" + pace.applied_percent.toFixed(1) + "%" : "") : "—");
+    for (const button of modeButtons) button.setAttribute("aria-pressed", String(button.dataset.mode === status.mode));
+    if (pending && status.seq !== pending.beforeSeq && fresh()) {
+      const acknowledged = status.last_request_id === pending.id;
+      const applied = pending.kind === "mode" ? status.mode === pending.mode && acknowledged
+        : pending.kind === "stop" ? status.mode === "STOP"
+        : pending.kind === "reset" ? !emergency
+        : ("last_speed_request_id" in status ? status.last_speed_request_id === pending.id : acknowledged || (number(status.auto_output_setting_percent) && status.auto_output_setting_percent !== pending.beforeSetting));
+      if (applied) { feedback(pending.kind === "stop" ? "停止指令が車両側に反映されました。" : "車両側への反映を確認しました。"); pending = null; }
+    }
+    renderFreshness();
+  }
+  async function command(kind, endpoint, payload={}, mode=null) {
+    if (kind !== "stop" && (!fresh() || pending)) return;
+    const id = requestId();
+    const operation = {id,kind,mode,started:performance.now(),beforeSeq:sample?.seq,beforeSetting:sample?.auto_output_setting_percent};
+    pending = operation;
+    feedback("送信中・車両側の反映を待っています…");
+    renderFreshness();
+    const abort = new AbortController();
+    const timeout = setTimeout(() => abort.abort(), 1600);
+    try {
+      const response = await fetch(endpoint, {method:"POST",cache:"no-store",headers:{"Content-Type":"application/json"},body:JSON.stringify({...payload,request_id:id}),signal:abort.signal});
+      const result = await response.json();
+      if (!response.ok || result.ok === false || result.accepted === false) throw new Error(result.reason_text || result.error || "車両側で受理されませんでした");
+      if (pending?.id === id) feedback("操作を受理しました。車両側への反映を確認しています…");
+    } catch (error) {
+      if (pending?.id === id) {
+        pending = null;
+        feedback(error.name === "AbortError" ? "応答を確認できません。自動で再送はしません。" : "受理されませんでした：" + error.message, true);
+      }
+    } finally { clearTimeout(timeout); renderFreshness(); }
+  }
+  for (const button of modeButtons) button.addEventListener("click", () => command("mode", "/hud/mode", {mode:button.dataset.mode}, button.dataset.mode));
+  $("stop").addEventListener("click", () => command("stop", "/control?action=neutral"));
+  $("slower").addEventListener("click", () => command("speed", "/hud/speed", {delta:-1}));
+  $("faster").addEventListener("click", () => command("speed", "/hud/speed", {delta:1}));
+  $("reset-emergency").addEventListener("click", () => command("reset", "/hud/emergency-reset"));
+  const g2url = new URL("/g2.html", location.origin).href;
+  text("g2-url", g2url);
+  $("copy-g2").addEventListener("click", async () => {
+    try { await navigator.clipboard.writeText(g2url); $("copy-g2").textContent = "コピーしました"; }
+    catch { text("g2-url", "このURLをコピーしてください：" + g2url); }
+  });
+  async function poll() {
+    const started = performance.now();
+    const abort = new AbortController();
+    const timeout = setTimeout(() => abort.abort(), 800);
+    try {
+      const response = await fetch("/hud/status", {cache:"no-store",signal:abort.signal});
+      if (!response.ok) throw new Error("status " + response.status);
+      accept(await response.json());
+      failures = 0;
+    } catch { failures = Math.min(failures + 1, 5); renderFreshness(); }
+    finally {
+      clearTimeout(timeout);
+      const interval = document.hidden ? 600 : failures ? Math.min(1600, 150 * 2 ** (failures - 1)) : 100;
+      setTimeout(poll, Math.max(20, interval - (performance.now() - started)));
+    }
+  }
+  setInterval(renderFreshness, 100);
+  poll();
+})();
+</script>
+<script>
+(() => {
+  "use strict";
+  const $ = id => document.getElementById(id);
+  let capture = null, available = false, markBusy = false;
+  const count = value => Number.isSafeInteger(value) && value >= 0 ? value.toLocaleString("ja-JP") : "—";
+  function archiveURL(value) {
+    if (typeof value !== "string") return null;
+    try {
+      const url = new URL(value, location.origin);
+      return url.origin === location.origin && /^\/output\/drive_capture\/[^/]+\.zip$/.test(url.pathname) && !url.search && !url.hash ? url.href : null;
+    } catch { return null; }
+  }
+  function renderCapture() {
+    const active = available && capture?.active === true;
+    $("capture-mark").disabled = !active || markBusy;
+    $("capture-status").className = "capture-status" + (active ? " recording" : !available || capture?.error ? " problem" : "");
+    $("capture-status").textContent = !available ? "記録状態の確認待ち" : capture.error ? (active ? "記録中・一部の保存に問題があります" : "記録を確認してください") : active ? "自動で記録中" : capture.pending ? "保存データをまとめています" : "次の自動走行から記録";
+    $("capture-meta").textContent = !available ? "記録状態を取得できません。走行操作とは別に接続を確認しています。" : capture.error ? String(capture.error).slice(0, 240) : active || capture.pending ? "保存 " + count(capture.frames) + " フレーム · 保存できなかったフレーム " + count(capture.dropped) : "走行終了後に、画像と時刻付きの記録をまとめて保存できます。";
+    const archive = archiveURL(capture?.latest_archive_url || capture?.latest_archive_href);
+    $("capture-download").hidden = !archive;
+    if (archive) $("capture-download").href = archive;
+    else $("capture-download").removeAttribute("href");
+  }
+  async function pollCapture() {
+    const abort = new AbortController();
+    const timer = setTimeout(() => abort.abort(), 1800);
+    try {
+      const response = await fetch("/diagnostics/status", {cache:"no-store", signal:abort.signal});
+      if (!response.ok) throw new Error("status " + response.status);
+      const next = await response.json();
+      if (!next || typeof next.active !== "boolean") throw new Error("unavailable status");
+      capture = next;
+      available = true;
+    } catch { available = false; }
+    finally { clearTimeout(timer); renderCapture(); setTimeout(pollCapture, 1000); }
+  }
+  $("capture-mark").addEventListener("click", async () => {
+    if (markBusy || !available || capture?.active !== true) return;
+    markBusy = true;
+    renderCapture();
+    $("capture-feedback").classList.remove("error");
+    $("capture-feedback").textContent = "印を記録しています…";
+    const abort = new AbortController();
+    const timer = setTimeout(() => abort.abort(), 1800);
+    try {
+      const response = await fetch("/diagnostics/mark", {method:"POST", cache:"no-store", headers:{"Content-Type":"application/json"}, body:JSON.stringify({label:"response_issue"}), signal:abort.signal});
+      const result = await response.json();
+      if (!response.ok || result.ok === false || result.accepted === false) throw new Error(result.error || "記録が終了している可能性があります");
+      $("capture-feedback").textContent = "今の動きに印を残しました。走行後のデータで確認できます。";
+    } catch (error) {
+      $("capture-feedback").classList.add("error");
+      $("capture-feedback").textContent = error.name === "AbortError" ? "印の記録を確認できませんでした。自動では再送しません。" : "印を残せませんでした：" + String(error.message).slice(0, 180);
+    } finally { clearTimeout(timer); markBusy = false; renderCapture(); }
+  });
+  pollCapture();
+})();
+</script>
+</body>
+</html>

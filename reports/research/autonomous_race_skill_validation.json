@@ -1,0 +1,25 @@
+{
+  "created_at_utc": "2026-11-15T12:33:47.095567+00:00",
+  "skill_path": "${SOURCE_ROOT}/reports/skills/autonomous-race-report",
+  "status": "staged_not_installed",
+  "initializer_used": "${LOCAL_USER_HOME}/.codex/skills/.system/skill-creator/scripts/init_skill.py",
+  "quick_validate": {
+    "return_code": 0,
+    "output": "Skill is valid!"
+  },
+  "reference_links_checked": true,
+  "openai_yaml_checked": true,
+  "allow_implicit_invocation": true,
+  "source_program_modified": false,
+  "global_skill_installed": false,
+  "independent_forward_test": "passed; retained CSV/JSON subset only; raw images and deployment evidence not re-examined",
+  "file_sha256": {
+    "SKILL.md": "e9b1b6f350479081fe19da27528f3abd968c20207048b4b47bf4d1be0d18c7b2",
+    "agents/openai.yaml": "d72e64ed346a7715593c3b93291b70ab802917b3f19e9370ddeed867306cbaaa",
+    "references/evidence_schema.md": "2eae5dccccbf0b94d881e4267be37afca6c07032abdcae28101321a464ebf992",
+    "references/project_profile.md": "a6907d6bbc121bcb56024240c0de42f92326fe6c5ac40168cf54d4865e0d056e"
+  },
+  "updated_at_utc": "2026-11-15T13:13:35.896006+00:00",
+  "forward_test_receipt": "research/skill_forward_test_summary.json",
+  "minor_followup": "Explicitly preserve original JSONL/ZIP; document CSV-only typed aggregation and unverified evidence scope."
+}

@@ -1,0 +1,23 @@
+{
+  "schema": "race-paper-contact-frame-sources-v1",
+  "images": [
+    {
+      "frame": 338,
+      "copy_relative_path": "data/contact_frames/frame_000338.jpg",
+      "original_relative_path": "qualifying_review_20261115_1137/magp-capture-20261115-112838-1628279c-s003/images/000338.jpg",
+      "sha256": "f0313d338092d5ad74c1e29849dcae44e59d205426ed99c2e9ba3f4f2a58f6fd"
+    },
+    {
+      "frame": 341,
+      "copy_relative_path": "data/contact_frames/frame_000341.jpg",
+      "original_relative_path": "qualifying_review_20261115_1137/magp-capture-20261115-112838-1628279c-s003/images/000341.jpg",
+      "sha256": "3c546c005458510484a78e4bc3ecef05517e8e7b3cc3557e4ce8e393ebe0d7e6"
+    },
+    {
+      "frame": 346,
+      "copy_relative_path": "data/contact_frames/frame_000346.jpg",
+      "original_relative_path": "qualifying_review_20261115_1137/magp-capture-20261115-112838-1628279c-s003/images/000346.jpg",
+      "sha256": "aa92a40e7fc2a1c28f32e05e145ee397503b2768bced93bb48ec512f8f94fef3"
+    }
+  ]
+}

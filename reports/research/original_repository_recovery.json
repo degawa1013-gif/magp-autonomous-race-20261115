@@ -1,0 +1,391 @@
+{
+  "date_local": "2026-11-15",
+  "original_repository_accessible_now": true,
+  "first_pass_original_repository_accessible": false,
+  "original_path": "${ORIGINAL_PROJECT_ROOT}",
+  "git": {
+    "inside_worktree": {
+      "exit_code": 0,
+      "output": "true",
+      "error": ""
+    },
+    "head": {
+      "exit_code": 128,
+      "output": "",
+      "error": "fatal: Needed a single revision"
+    },
+    "status_short": {
+      "exit_code": 0,
+      "output": "?? .gitignore\n?? data/\n?? even_hud/\n?? output/\n?? result.json\n?? rpi_system/\n?? tests/\n?? tmp/\n?? tools/",
+      "error": ""
+    },
+    "refs": {
+      "exit_code": 0,
+      "output": "e61aece314c99a298370b191d28c76a093d81ce0 tree refs/codex/turn-diffs/checkpoints/7e222244f4f7dd7680fced5a37c4c340/735241041842213dd2e312babad49782/1794488453701/1f4b895c-4daf-47ff-940b-d8a79f4e74be\n546164cab65886577f5048d6a4edb19b23625236 tree refs/codex/turn-diffs/checkpoints/7fc9c2fb10d6c239d0dd62a2f0c4a45e/11faa72fed231b624f6271da9c6e671c/1794384767088/dd92a315-b87a-4868-b5bf-ea0c9952b4e3\n77469dde046103c866d1c41885c25409b1da07e8 tree refs/codex/turn-diffs/checkpoints/907efa1909cb4cfdf92ad072a4c4bba3/a37dc66297656c9e9c6fc0847f5f96ba/1794726856643/0e88bda0-8b52-4cf8-a68a-0f7193ae7c71",
+      "error": ""
+    },
+    "log_all": {
+      "exit_code": 0,
+      "output": "",
+      "error": ""
+    },
+    "interpretation": "Unborn master branch, no HEAD commit; all working files untracked. Three Codex checkpoint refs point to trees, not commits. No normal commit chronology is available.",
+    "checkpoint_trees": [
+      {
+        "object": "e61aece314c99a298370b191d28c76a093d81ce0",
+        "type": "tree",
+        "ref": "refs/codex/turn-diffs/checkpoints/7e222244f4f7dd7680fced5a37c4c340/735241041842213dd2e312babad49782/1794488453701/1f4b895c-4daf-47ff-940b-d8a79f4e74be",
+        "is_commit": false,
+        "relevant_file_count": 63,
+        "sample_files": [
+          {
+            "path": "rpi_system/robust_lane_failsafe.py",
+            "sha256": "fcdc1022be8bc2f7fc0da57044d6d6a2173a42cbed21c8b70c2bb28779aef8ba",
+            "bytes": 221795
+          },
+          {
+            "path": "rpi_system/status_csv_logger.py",
+            "sha256": "d97df9179ef9fc3cdfb6315a887fa85432a8bde9beaa9acc5e543dd4dff26a51",
+            "bytes": 7365
+          },
+          {
+            "path": "rpi_system/rc_calibrate.py",
+            "sha256": "49eb695f431dc476b80b218793a8471fa64aad49035aeac1fdb284d46360d6e5",
+            "bytes": 15257
+          },
+          {
+            "path": "tmp/rc_legacy_review/rpi_drive.py",
+            "sha256": "38547a02836c61907dd011f8f1e18e3dd78c3d864e7d984f867b96a9061d569b",
+            "bytes": 11321
+          }
+        ]
+      },
+      {
+        "object": "546164cab65886577f5048d6a4edb19b23625236",
+        "type": "tree",
+        "ref": "refs/codex/turn-diffs/checkpoints/7fc9c2fb10d6c239d0dd62a2f0c4a45e/11faa72fed231b624f6271da9c6e671c/1794384767088/dd92a315-b87a-4868-b5bf-ea0c9952b4e3",
+        "is_commit": false,
+        "relevant_file_count": 55,
+        "sample_files": [
+          {
+            "path": "rpi_system/robust_lane_failsafe.py",
+            "sha256": "f51ceca23031f5d32932c4d03464d8a7f6b12f1fa4a8ef611e5821225e9cf08c",
+            "bytes": 208354
+          },
+          {
+            "path": "rpi_system/status_csv_logger.py",
+            "sha256": "d97df9179ef9fc3cdfb6315a887fa85432a8bde9beaa9acc5e543dd4dff26a51",
+            "bytes": 7365
+          },
+          {
+            "path": "rpi_system/rc_calibrate.py",
+            "sha256": "49eb695f431dc476b80b218793a8471fa64aad49035aeac1fdb284d46360d6e5",
+            "bytes": 15257
+          },
+          {
+            "path": "tmp/rc_legacy_review/rpi_drive.py",
+            "sha256": "38547a02836c61907dd011f8f1e18e3dd78c3d864e7d984f867b96a9061d569b",
+            "bytes": 11321
+          }
+        ]
+      },
+      {
+        "object": "77469dde046103c866d1c41885c25409b1da07e8",
+        "type": "tree",
+        "ref": "refs/codex/turn-diffs/checkpoints/907efa1909cb4cfdf92ad072a4c4bba3/a37dc66297656c9e9c6fc0847f5f96ba/1794726856643/0e88bda0-8b52-4cf8-a68a-0f7193ae7c71",
+        "is_commit": false,
+        "relevant_file_count": 73,
+        "sample_files": [
+          {
+            "path": "rpi_system/robust_lane_failsafe.py",
+            "sha256": "c911c5b8754f13cffff4ce7d83b3309dd470b37bcba1ed9462f6982c0a41c081",
+            "bytes": 230791
+          },
+          {
+            "path": "rpi_system/status_csv_logger.py",
+            "sha256": "d97df9179ef9fc3cdfb6315a887fa85432a8bde9beaa9acc5e543dd4dff26a51",
+            "bytes": 7365
+          },
+          {
+            "path": "rpi_system/rc_calibrate.py",
+            "sha256": "49eb695f431dc476b80b218793a8471fa64aad49035aeac1fdb284d46360d6e5",
+            "bytes": 15257
+          },
+          {
+            "path": "tmp/rc_legacy_review/rpi_drive.py",
+            "sha256": "38547a02836c61907dd011f8f1e18e3dd78c3d864e7d984f867b96a9061d569b",
+            "bytes": 11321
+          }
+        ]
+      }
+    ],
+    "object_type_counts_readonly": {
+      "tree": 629,
+      "blob": 2749
+    }
+  },
+  "qualifying_vs_recovered_rpi_system": [
+    {
+      "path": "robust_lane_failsafe.py",
+      "original_exists": true,
+      "original_sha256": "c911c5b8754f13cffff4ce7d83b3309dd470b37bcba1ed9462f6982c0a41c081",
+      "qualifying_sha256": "159b6996facdd74e151967fc76e5f408d61ad805f57245340c70a31a1157b398",
+      "same": false
+    },
+    {
+      "path": "dualsense_control.py",
+      "original_exists": false,
+      "original_sha256": null,
+      "qualifying_sha256": "a36d3661d492b6814048183c636ce74a21116aa04b894f37c6258a045616cc71",
+      "same": false
+    },
+    {
+      "path": "telemetry_hud.py",
+      "original_exists": false,
+      "original_sha256": null,
+      "qualifying_sha256": "eed929cb9b8409ca4ceca535a65bbaa2ffeead323fbeffb70fccbb73d470cf04",
+      "same": false
+    },
+    {
+      "path": "even_hud_dist/g2.html",
+      "original_exists": true,
+      "original_sha256": "2cf055a643da1756215f338f3b720b23d62dbb5c3965696adfe85ba9e61e2fae",
+      "qualifying_sha256": "e2948e57a0d313291e140b98fe71e51f2f3558e33d963561a39a086220b0cfe0",
+      "same": false
+    },
+    {
+      "path": "even_hud_dist/controls.html",
+      "original_exists": false,
+      "original_sha256": null,
+      "qualifying_sha256": "a00c822e3bb8a6274b02d0d994e327a8890943e7659dbc01cb6048f40105c93b",
+      "same": false
+    },
+    {
+      "path": "even_hud_dist/assets/g2-monitor.js",
+      "original_exists": false,
+      "original_sha256": null,
+      "qualifying_sha256": "d65f82515dd02603cb2504301f9ef8a4b468c8e017ea6f5b8d0a3a89860a40b1",
+      "same": false
+    },
+    {
+      "path": "even_hud_dist/assets/g2-monitor.css",
+      "original_exists": false,
+      "original_sha256": null,
+      "qualifying_sha256": "2ed4c44fccc0c3649a81f8427615b20ceebe32339d709aa75b2498d4384562be",
+      "same": false
+    },
+    {
+      "path": "even_hud_dist/assets/index-Dl3TIl4p.js",
+      "original_exists": true,
+      "original_sha256": "c69663e179b2d8671eca568ee9fb00c002390484b1b2d4842a62bbb6b61bc795",
+      "qualifying_sha256": "c69663e179b2d8671eca568ee9fb00c002390484b1b2d4842a62bbb6b61bc795",
+      "same": true
+    },
+    {
+      "path": "run_with_g2.sh",
+      "original_exists": true,
+      "original_sha256": "fab2c52ea4cc7cc844ddb0fab6d95b67972f84a730788484845648972e8f14e9",
+      "qualifying_sha256": "de3d94b15d8e2c5c04b17545e7635f96e3855f23b26d1d09455f86533d5784a9",
+      "same": false
+    },
+    {
+      "path": "drive_capture.py",
+      "original_exists": false,
+      "original_sha256": null,
+      "qualifying_sha256": "71942fb9f588476b12ec939c0488e20d12d8494e527cc857b44882f13f43c243",
+      "same": false
+    },
+    {
+      "path": "drive_capture_analysis.py",
+      "original_exists": false,
+      "original_sha256": null,
+      "qualifying_sha256": "536c4248547d357b650bf56484f811fba81f2f57ebc8f8099303bba19666d99c",
+      "same": false
+    },
+    {
+      "path": "analyze_drive_capture.py",
+      "original_exists": false,
+      "original_sha256": null,
+      "qualifying_sha256": "4f2fac21ae2209f50029c576fc830884753b7b2d2c28ed73ce1c76913dd4ac52",
+      "same": false
+    },
+    {
+      "path": "async_visuals.py",
+      "original_exists": false,
+      "original_sha256": null,
+      "qualifying_sha256": "ecdd477c02b48be60be615770f33f5fad407507900704b0c297f1f7dd5e68569",
+      "same": false
+    },
+    {
+      "path": "adaptive_white.py",
+      "original_exists": false,
+      "original_sha256": null,
+      "qualifying_sha256": "1a42b8220af547877de0a29b9c09c5a6875532e5ca94f7d4269da4414d4904ce",
+      "same": false
+    },
+    {
+      "path": "curve_pace.py",
+      "original_exists": false,
+      "original_sha256": null,
+      "qualifying_sha256": "25c78ba575dba421f635bd987c7311d00f24cbd2e2fd2a54b929efa0d5114cba",
+      "same": false
+    },
+    {
+      "path": "drive_capture_finalize.py",
+      "original_exists": false,
+      "original_sha256": null,
+      "qualifying_sha256": "b6b9088cd3378c8ee27e9aa9431b31dd593036ee2ee5e78a686608710fa95fe2",
+      "same": false
+    },
+    {
+      "path": "fast_control_output.py",
+      "original_exists": false,
+      "original_sha256": null,
+      "qualifying_sha256": "b6de9a35b72cbd04b3fcb2584a245c98504a0232bc118207fa1ee7792d1d1c35",
+      "same": false
+    },
+    {
+      "path": "far_preview.py",
+      "original_exists": false,
+      "original_sha256": null,
+      "qualifying_sha256": "5ccac88600da1a0bdf08221277c2c99e40568bd23c339103548336e18110568e",
+      "same": false
+    },
+    {
+      "path": "steering_preview.py",
+      "original_exists": false,
+      "original_sha256": null,
+      "qualifying_sha256": "ea790767bb35da3374e5aed81bfe449a9b3ca826188a22620845b2b5b526570a",
+      "same": false
+    },
+    {
+      "path": "legacy_pi_output.py",
+      "original_exists": false,
+      "original_sha256": null,
+      "qualifying_sha256": "ac66a65134e9316272384953ae5807a9a55268666d317ea3f2f77b6a0213fe23",
+      "same": false
+    },
+    {
+      "path": "straight_damping.py",
+      "original_exists": false,
+      "original_sha256": null,
+      "qualifying_sha256": "6bf4e8e3e9771795aa5699eace3201383dc8743d3a036b4ce095fbf484c9751a",
+      "same": false
+    },
+    {
+      "path": "wifi_monitor.py",
+      "original_exists": false,
+      "original_sha256": null,
+      "qualifying_sha256": "51fe7a878b59802fd55f62b59c0f5c8334d460365d72cd993049b03323f6b63c",
+      "same": false
+    },
+    {
+      "path": "bluetooth_monitor.py",
+      "original_exists": false,
+      "original_sha256": null,
+      "qualifying_sha256": "3f01f818e043dac82c4203e04d1b4b347457590a7a6762551f28a476e405a7fe",
+      "same": false
+    },
+    {
+      "path": "run_with_logger.sh",
+      "original_exists": true,
+      "original_sha256": "bae32a464ec0a7a94cd6bb552d59330576d8ddb3e5a9de1371cae5149fc86895",
+      "qualifying_sha256": "b116a01966be369011634a40769dd4d657d0b0d544092c70201c2aa07a7d18c2",
+      "same": false
+    },
+    {
+      "path": "return_damping.py",
+      "original_exists": false,
+      "original_sha256": null,
+      "qualifying_sha256": "f04d19cf4b4beaf6820e0bfc54fc5623f433aa08e77b4af8ef01d91bde4637b2",
+      "same": false
+    }
+  ],
+  "legacy_files": [
+    {
+      "path": "tmp/rc_legacy_review/rpi_drive.py",
+      "sha256": "38547a02836c61907dd011f8f1e18e3dd78c3d864e7d984f867b96a9061d569b",
+      "bytes": 11321
+    },
+    {
+      "path": "tmp/rc_legacy_review/robust_lane_failsafe.before_rc.py",
+      "sha256": "50424365e3111b11e020d25f2aab2d7169cca129dfc03c69d3f5151297863875",
+      "bytes": 153036
+    },
+    {
+      "path": "rpi_system/DESIGN.md",
+      "sha256": "73a144301169aaf0561156cb59ca27a5501c27dd7e69a786003c72ea6e4b3d54",
+      "bytes": 7350
+    },
+    {
+      "path": "rpi_system/SESSION_NOTES.md",
+      "sha256": "3ee28d50a934423d913922f829e2ec49c02d1b522719b103e81c13aaa114902c",
+      "bytes": 18468
+    },
+    {
+      "path": "rpi_system/OVERTAKING.md",
+      "sha256": "88fb3e3b85ac73ef10d728ebbbba7dab05d7214b70bb5752acaa32020c6e5ee6",
+      "bytes": 89631
+    },
+    {
+      "path": "rpi_system/overtaking/controller.py",
+      "sha256": "c0ea142e2c8824b3c41c477616594e1b204e040b4b890603a460397bb6860e6d",
+      "bytes": 9903
+    }
+  ],
+  "original_program_identity": {
+    "saved_rpi_drive_sha256": "38547a02836c61907dd011f8f1e18e3dd78c3d864e7d984f867b96a9061d569b",
+    "claimed_original_source_sha256_in_qualifying": "879e48c2f2f1b7c5c0890a99c7e1d206b781a621991e3875e88dd21abb423dd5",
+    "matches_claimed_original": false,
+    "interpretation": "Recovered legacy rpi_drive copy provides inheritance evidence but is not hash-identical to the original source noted by the qualifying build. Author/license unconfirmed."
+  },
+  "separate_overtaking_series": {
+    "source": "rpi_system/overtaking/",
+    "pure_pursuit_evidence": "controller.py130-137: speed-based metric lookahead, curvature2*x/(x*x+z*z)",
+    "final_qualifying_main_imports_it": false,
+    "documentation": "rpi_system/OVERTAKING.md3-35,78-93",
+    "validation_scope": "Recorded document distinguishes synthetic closed-loop test and neutral-only hardware shadow from successful physical overtaking."
+  },
+  "recovered_helpers": [
+    {
+      "path": "source/system/status_csv_logger.py",
+      "source_relative_to_original_repository": "rpi_system/status_csv_logger.py",
+      "sha256": "d97df9179ef9fc3cdfb6315a887fa85432a8bde9beaa9acc5e543dd4dff26a51",
+      "bytes": 7365,
+      "original_competition_25_manifest_member": false,
+      "provenance": "Recovered original working-tree copy, not proven deployed helper revision."
+    },
+    {
+      "path": "source/recovered_receiver_tools/rc_calibrate.py",
+      "source_relative_to_original_repository": "rpi_system/rc_calibrate.py",
+      "sha256": "49eb695f431dc476b80b218793a8471fa64aad49035aeac1fdb284d46360d6e5",
+      "bytes": 15257,
+      "original_competition_25_manifest_member": false,
+      "provenance": "Recovered original working-tree copy, not proven deployed helper revision."
+    },
+    {
+      "path": "source/recovered_receiver_tools/rc_receiver.py",
+      "source_relative_to_original_repository": "rpi_system/rc_receiver.py",
+      "sha256": "589e74febc2fa19be7142afcc7cd51bb29a7de7577c211b801feafefc4a0bbbc",
+      "bytes": 28762,
+      "original_competition_25_manifest_member": false,
+      "provenance": "Recovered original working-tree copy, not proven deployed helper revision."
+    },
+    {
+      "path": "source/recovered_receiver_tools/rc_pico_receiver.py",
+      "source_relative_to_original_repository": "rpi_system/rc_pico_receiver.py",
+      "sha256": "dbec8dbfdba8c16f08a685fec5d441a5fb68b64cbe43e3a8b2dd5a4d4736da0e",
+      "bytes": 44487,
+      "original_competition_25_manifest_member": false,
+      "provenance": "Recovered original working-tree copy, not proven deployed helper revision."
+    },
+    {
+      "path": "source/recovered_receiver_tools/rc_trigger_gesture.py",
+      "source_relative_to_original_repository": "rpi_system/rc_trigger_gesture.py",
+      "sha256": "1cd7e09706428add1b536afc4a0e07195129b9645500caf80e45cf514ce15cc0",
+      "bytes": 7975,
+      "original_competition_25_manifest_member": false,
+      "provenance": "Recovered original working-tree copy, not proven deployed helper revision."
+    }
+  ]
+}

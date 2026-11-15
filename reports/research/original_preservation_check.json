@@ -1,0 +1,11 @@
+{
+  "schema": "magp-original-files-preservation-v1",
+  "original_files_rehashed": 4748,
+  "original_files_changed": [],
+  "new_directories": [
+    "reports",
+    "source"
+  ],
+  "source_copy_is_archive_not_deployment": true,
+  "original_git_mutated": false
+}

@@ -1,0 +1,108 @@
+{
+  "schema": "autonomous-race-report-build-receipt-v1",
+  "created_utc": "2026-11-15T13:22:50.578062+00:00",
+  "config_sha256": "43942a10e1cfe525ac29e13ca8a3357b9ac58118150ba8ffb2d1ede9bf7b308c",
+  "mode": "cached",
+  "reports": "${PACKAGE_ROOT}/reports",
+  "event_date_jst": "2026-11-15",
+  "source_root": null,
+  "raw_recomputed": false,
+  "radio_recomputation_scope": "Packaged frozen summary; no raw radio calculation",
+  "skipped_figures": false,
+  "skipped_pdf": false,
+  "steps": [
+    {
+      "name": "figures_from_retained_data",
+      "command": [
+        "/usr/bin/python3",
+        "${PACKAGE_ROOT}/reports/scripts/make_figures.py",
+        "--reports",
+        "${PACKAGE_ROOT}/reports"
+      ],
+      "returncode": 0,
+      "stdout": "{\"figures\": [\"qualifying_full_timeline\", \"qualifying_contact_detail\", \"manual_software_latency\", \"qualifying_macro_windows\", \"system_architecture_qualifying\", \"qualifying_contact_frames\", \"radio_event_timeline\"], \"output\": \"${PACKAGE_ROOT}/reports/figures\", \"font\": \"/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc\"}\n",
+      "stderr": "${LOCAL_USER_HOME}/.local/lib/python3.10/site-packages/matplotlib/projections/__init__.py:63: UserWarning: Unable to import Axes3D. This may be due to multiple versions of Matplotlib being installed (e.g. as a system package and as a pip package). As a result, the 3D projection is not available.\n  warnings.warn(\"Unable to import Axes3D. This may be due to multiple versions of \"\n"
+    },
+    {
+      "name": "verified_reference_rendering",
+      "command": [
+        "/usr/bin/python3",
+        "${PACKAGE_ROOT}/reports/scripts/update_references.py",
+        "--reports",
+        "${PACKAGE_ROOT}/reports"
+      ],
+      "returncode": 0,
+      "stdout": "Updated 12 verified references.\n",
+      "stderr": ""
+    },
+    {
+      "name": "paper_pdf",
+      "command": [
+        "/usr/bin/python3",
+        "${PACKAGE_ROOT}/reports/scripts/build_pdf.py",
+        "--reports",
+        "${PACKAGE_ROOT}/reports"
+      ],
+      "returncode": 0,
+      "stdout": "${PACKAGE_ROOT}/reports/output/pdf/autonomous_race_report_20261115.pdf\n",
+      "stderr": ""
+    },
+    {
+      "name": "verification",
+      "command": [
+        "/usr/bin/python3",
+        "${PACKAGE_ROOT}/reports/scripts/verify_report.py",
+        "--reports",
+        "${PACKAGE_ROOT}/reports",
+        "--config",
+        "${PACKAGE_ROOT}/reports/report_config.json",
+        "--mode",
+        "cached"
+      ],
+      "returncode": 0,
+      "stdout": "{\"status\": \"passed\", \"checks_passed\": 12, \"checks_failed\": 0, \"failures\": [], \"warnings\": [], \"receipt\": \"${PACKAGE_ROOT}/reports/data/verification_results.json\"}\n",
+      "stderr": ""
+    }
+  ],
+  "status": "passed",
+  "environment_modified": false,
+  "live_vehicle_access": false,
+  "network_access": false,
+  "original_source_modified": false,
+  "visual_review": "Separate root visual-review receipt; not implied by this pipeline",
+  "outputs": {
+    "paper.md": {
+      "bytes": 33732,
+      "sha256": "1fa926d6018d54106ef1394022d7b12bf8a077b81bd69800177bb1558802426b"
+    },
+    "data/run_metrics.json": {
+      "bytes": 201501,
+      "sha256": "63561b45eb626b5138ef8c3aafaff91cc982ab7da5f90f38211cf5d814ce844c"
+    },
+    "data/qualifying_timeline.csv": {
+      "bytes": 855997,
+      "sha256": "b9a4c05c76d611246628e797d43e01dde8920ecc23bdd2ae854631b68925cdc0"
+    },
+    "data/radio_event_summary.json": {
+      "bytes": 288402,
+      "sha256": "50660c563e966bfc81d15e15b8f250f5657713b33e72b6d2cc7db58bc6fc6c8a"
+    },
+    "figures/figure_metadata.json": {
+      "bytes": 14042,
+      "sha256": "04538f055924ad9dc2c817e413797cd3983737a27bbcdedc29765357e6a812f2"
+    },
+    "references.bib": {
+      "bytes": 3361,
+      "sha256": "1d10665727e24fddefbd8355dc837456a82eb4afad95753a515365f1dc44251f"
+    },
+    "data/verification_results.json": {
+      "bytes": 5016,
+      "sha256": "d96838315a1176453cb6e35d07696589381205b19b518626865068daba671e5a"
+    },
+    "output/pdf/autonomous_race_report_20261115.pdf": {
+      "bytes": 3696159,
+      "sha256": "ee6dabebfc4c9c10555ac088079ad4ae71e35006ac4e3f0bb58ff3ef8657d4c1"
+    }
+  },
+  "export_note": "Execution succeeded in this package; local path prefixes in receipts are portable placeholders, not executable substitutions."
+}

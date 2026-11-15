@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "snapshot_date_local": "2026-11-15",
+  "matching_saved_qualifying_build": "159b6996facdd74e151967fc76e5f408d61ad805f57245340c70a31a1157b398",
+  "final_race_build_confirmed": false,
+  "files": [
+    {
+      "path": "source/system/robust_lane_failsafe.py",
+      "source_relative_to_saved_root": "controller_hud_candidate/robust_lane_failsafe.py",
+      "sha256": "159b6996facdd74e151967fc76e5f408d61ad805f57245340c70a31a1157b398",
+      "bytes": 159562
+    },
+    {
+      "path": "source/system/dualsense_control.py",
+      "source_relative_to_saved_root": "controller_hud_candidate/dualsense_control.py",
+      "sha256": "a36d3661d492b6814048183c636ce74a21116aa04b894f37c6258a045616cc71",
+      "bytes": 31460
+    },
+    {
+      "path": "source/system/telemetry_hud.py",
+      "source_relative_to_saved_root": "controller_hud_candidate/telemetry_hud.py",
+      "sha256": "eed929cb9b8409ca4ceca535a65bbaa2ffeead323fbeffb70fccbb73d470cf04",
+      "bytes": 9660
+    },
+    {
+      "path": "source/system/even_hud_dist/g2.html",
+      "source_relative_to_saved_root": "controller_hud_candidate/even_hud_dist/g2.html",
+      "sha256": "e2948e57a0d313291e140b98fe71e51f2f3558e33d963561a39a086220b0cfe0",
+      "bytes": 3204
+    },
+    {
+      "path": "source/system/even_hud_dist/controls.html",
+      "source_relative_to_saved_root": "controller_hud_candidate/even_hud_dist/controls.html",
+      "sha256": "a00c822e3bb8a6274b02d0d994e327a8890943e7659dbc01cb6048f40105c93b",
+      "bytes": 27652
+    },
+    {
+      "path": "source/system/even_hud_dist/assets/g2-monitor.js",
+      "source_relative_to_saved_root": "controller_hud_candidate/even_hud_dist/assets/g2-monitor.js",
+      "sha256": "d65f82515dd02603cb2504301f9ef8a4b468c8e017ea6f5b8d0a3a89860a40b1",
+      "bytes": 22264
+    },
+    {
+      "path": "source/system/even_hud_dist/assets/g2-monitor.css",
+      "source_relative_to_saved_root": "controller_hud_candidate/even_hud_dist/assets/g2-monitor.css",
+      "sha256": "2ed4c44fccc0c3649a81f8427615b20ceebe32339d709aa75b2498d4384562be",
+      "bytes": 3211
+    },
+    {
+      "path": "source/system/even_hud_dist/assets/index-Dl3TIl4p.js",
+      "source_relative_to_saved_root": "controller_hud_candidate/even_hud_dist/assets/index-Dl3TIl4p.js",
+      "sha256": "c69663e179b2d8671eca568ee9fb00c002390484b1b2d4842a62bbb6b61bc795",
+      "bytes": 83851
+    },
+    {
+      "path": "source/system/run_with_g2.sh",
+      "source_relative_to_saved_root": "controller_hud_candidate/run_with_g2.sh",
+      "sha256": "de3d94b15d8e2c5c04b17545e7635f96e3855f23b26d1d09455f86533d5784a9",
+      "bytes": 3468
+    },
+    {
+      "path": "source/system/drive_capture.py",
+      "source_relative_to_saved_root": "controller_hud_candidate/drive_capture.py",
+      "sha256": "71942fb9f588476b12ec939c0488e20d12d8494e527cc857b44882f13f43c243",
+      "bytes": 33715
+    },
+    {
+      "path": "source/system/drive_capture_analysis.py",
+      "source_relative_to_saved_root": "controller_hud_candidate/drive_capture_analysis.py",
+      "sha256": "536c4248547d357b650bf56484f811fba81f2f57ebc8f8099303bba19666d99c",
+      "bytes": 18003
+    },
+    {
+      "path": "source/system/analyze_drive_capture.py",
+      "source_relative_to_saved_root": "controller_hud_candidate/analyze_drive_capture.py",
+      "sha256": "4f2fac21ae2209f50029c576fc830884753b7b2d2c28ed73ce1c76913dd4ac52",
+      "bytes": 5137
+    },
+    {
+      "path": "source/system/async_visuals.py",
+      "source_relative_to_saved_root": "controller_hud_candidate/async_visuals.py",
+      "sha256": "ecdd477c02b48be60be615770f33f5fad407507900704b0c297f1f7dd5e68569",
+      "bytes": 3980
+    },
+    {
+      "path": "source/system/adaptive_white.py",
+      "source_relative_to_saved_root": "controller_hud_candidate/adaptive_white.py",
+      "sha256": "1a42b8220af547877de0a29b9c09c5a6875532e5ca94f7d4269da4414d4904ce",
+      "bytes": 6274
+    },
+    {
+      "path": "source/system/curve_pace.py",
+      "source_relative_to_saved_root": "controller_hud_candidate/curve_pace.py",
+      "sha256": "25c78ba575dba421f635bd987c7311d00f24cbd2e2fd2a54b929efa0d5114cba",
+      "bytes": 26799
+    },
+    {
+      "path": "source/system/drive_capture_finalize.py",
+      "source_relative_to_saved_root": "controller_hud_candidate/drive_capture_finalize.py",
+      "sha256": "b6b9088cd3378c8ee27e9aa9431b31dd593036ee2ee5e78a686608710fa95fe2",
+      "bytes": 5354
+    },
+    {
+      "path": "source/system/fast_control_output.py",
+      "source_relative_to_saved_root": "controller_hud_candidate/fast_control_output.py",
+      "sha256": "b6de9a35b72cbd04b3fcb2584a245c98504a0232bc118207fa1ee7792d1d1c35",
+      "bytes": 12094
+    },
+    {
+      "path": "source/system/far_preview.py",
+      "source_relative_to_saved_root": "controller_hud_candidate/far_preview.py",
+      "sha256": "5ccac88600da1a0bdf08221277c2c99e40568bd23c339103548336e18110568e",
+      "bytes": 7354
+    },
+    {
+      "path": "source/system/steering_preview.py",
+      "source_relative_to_saved_root": "controller_hud_candidate/steering_preview.py",
+      "sha256": "ea790767bb35da3374e5aed81bfe449a9b3ca826188a22620845b2b5b526570a",
+      "bytes": 18313
+    },
+    {
+      "path": "source/system/legacy_pi_output.py",
+      "source_relative_to_saved_root": "controller_hud_candidate/legacy_pi_output.py",
+      "sha256": "ac66a65134e9316272384953ae5807a9a55268666d317ea3f2f77b6a0213fe23",
+      "bytes": 7055
+    },
+    {
+      "path": "source/system/straight_damping.py",
+      "source_relative_to_saved_root": "controller_hud_candidate/straight_damping.py",
+      "sha256": "6bf4e8e3e9771795aa5699eace3201383dc8743d3a036b4ce095fbf484c9751a",
+      "bytes": 7477
+    },
+    {
+      "path": "source/system/wifi_monitor.py",
+      "source_relative_to_saved_root": "controller_hud_candidate/wifi_monitor.py",
+      "sha256": "51fe7a878b59802fd55f62b59c0f5c8334d460365d72cd993049b03323f6b63c",
+      "bytes": 33565
+    },
+    {
+      "path": "source/system/bluetooth_monitor.py",
+      "source_relative_to_saved_root": "controller_hud_candidate/bluetooth_monitor.py",
+      "sha256": "3f01f818e043dac82c4203e04d1b4b347457590a7a6762551f28a476e405a7fe",
+      "bytes": 12022
+    },
+    {
+      "path": "source/system/run_with_logger.sh",
+      "source_relative_to_saved_root": "controller_hud_candidate/run_with_logger.sh",
+      "sha256": "b116a01966be369011634a40769dd4d657d0b0d544092c70201c2aa07a7d18c2",
+      "bytes": 2638
+    },
+    {
+      "path": "source/system/return_damping.py",
+      "source_relative_to_saved_root": "controller_hud_candidate/return_damping.py",
+      "sha256": "f04d19cf4b4beaf6820e0bfc54fc5623f433aa08e77b4af8ef01d91bde4637b2",
+      "bytes": 9493
+    }
+  ]
+}

@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="481.889764pt" height="399.685039pt" viewBox="0 0 481.889764 399.685039" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>MAGP reproducible report figure</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 399.685039 
+L 481.889764 399.685039 
+L 481.889764 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 14.263937 58.833638 
+L 141.771969 58.833638 
+L 141.771969 19.664504 
+L 14.263937 19.664504 
+z
+" clip-path="url(#p8c5ec7e951)" style="fill: #ffffff; stroke: #657582; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 179.552126 58.833638 
+L 307.060157 58.833638 
+L 307.060157 19.664504 
+L 179.552126 19.664504 
+z
+" clip-path="url(#p8c5ec7e951)" style="fill: #ffffff; stroke: #657582; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 344.840315 58.833638 
+L 467.625827 58.833638 
+L 467.625827 19.664504 
+L 344.840315 19.664504 
+z
+" clip-path="url(#p8c5ec7e951)" style="fill: #ffffff; stroke: #657582; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 14.263937 156.756472 
+L 141.771969 156.756472 
+L 141.771969 101.919685 
+L 14.263937 101.919685 
+z
+" clip-path="url(#p8c5ec7e951)" style="fill: #edf3f5; stroke: #657582; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 179.552126 156.756472 
+L 307.060157 156.756472 
+L 307.060157 101.919685 
+L 179.552126 101.919685 
+z
+" clip-path="url(#p8c5ec7e951)" style="fill: #edf3f5; stroke: #657582; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 344.840315 156.756472 
+L 467.625827 156.756472 
+L 467.625827 101.919685 
+L 344.840315 101.919685 
+z
+" clip-path="url(#p8c5ec7e951)" style="fill: #edf3f5; stroke: #657582; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 155.939528 262.513134 
+L 325.950236 262.513134 
+L 325.950236 203.759433 
+L 155.939528 203.759433 
+z
+" clip-path="url(#p8c5ec7e951)" style="fill: #edf3f5; stroke: #657582; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 14.263937 262.513134 
+L 127.604409 262.513134 
+L 127.604409 203.759433 
+L 14.263937 203.759433 
+z
+" clip-path="url(#p8c5ec7e951)" style="fill: #edf3f5; stroke: #657582; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 359.007874 262.513134 
+L 467.625827 262.513134 
+L 467.625827 203.759433 
+L 359.007874 203.759433 
+z
+" clip-path="url(#p8c5ec7e951)" style="fill: #ffffff; stroke: #657582; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 165.384567 321.266835 
+L 316.505197 321.266835 
+L 316.505197 286.014614 
+L 165.384567 286.014614 
+z
+" clip-path="url(#p8c5ec7e951)" style="fill: #edf3f5; stroke: #657582; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 23.708976 374.145165 
+L 184.274646 374.145165 
+L 184.274646 342.809858 
+L 23.708976 342.809858 
+z
+" clip-path="url(#p8c5ec7e951)" style="fill: #ffffff; stroke: #657582; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 302.337638 374.145165 
+L 467.625827 374.145165 
+L 467.625827 342.809858 
+L 302.337638 342.809858 
+z
+" clip-path="url(#p8c5ec7e951)" style="fill: #ffffff; stroke: #657582; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 78.017953 58.833638 
+L 78.017953 101.025258 
+" clip-path="url(#p8c5ec7e951)" style="fill: none; stroke: #38495b; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 79.617953 97.825258 
+L 78.017953 101.025258 
+L 76.417953 97.825258 
+" clip-path="url(#p8c5ec7e951)" style="fill: none; stroke: #38495b; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 243.306142 58.833638 
+L 243.306142 101.025258 
+" clip-path="url(#p8c5ec7e951)" style="fill: none; stroke: #38495b; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 244.906142 97.825258 
+L 243.306142 101.025258 
+L 241.706142 97.825258 
+" clip-path="url(#p8c5ec7e951)" style="fill: none; stroke: #38495b; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 406.233071 58.833638 
+L 406.233071 101.025258 
+" clip-path="url(#p8c5ec7e951)" style="fill: none; stroke: #38495b; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 407.833071 97.825258 
+L 406.233071 101.025258 
+L 404.633071 97.825258 
+" clip-path="url(#p8c5ec7e951)" style="fill: none; stroke: #38495b; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 344.840315 129.338079 
+L 330.672756 129.338079 
+L 330.672756 86.252031 
+L 125.24315 86.252031 
+L 125.24315 101.025258 
+" clip-path="url(#p8c5ec7e951)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #38495b; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 126.84315 97.825258 
+L 125.24315 101.025258 
+L 123.64315 97.825258 
+" clip-path="url(#p8c5ec7e951)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #38495b; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 78.017953 156.756472 
+L 78.017953 180.257953 
+L 174.829606 180.257953 
+L 174.829606 202.865006 
+" clip-path="url(#p8c5ec7e951)" style="fill: none; stroke: #38495b; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 176.429606 199.665006 
+L 174.829606 202.865006 
+L 173.229606 199.665006 
+" clip-path="url(#p8c5ec7e951)" style="fill: none; stroke: #38495b; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 243.306142 156.756472 
+L 243.306142 202.865006 
+" clip-path="url(#p8c5ec7e951)" style="fill: none; stroke: #38495b; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 244.906142 199.665006 
+L 243.306142 202.865006 
+L 241.706142 199.665006 
+" clip-path="url(#p8c5ec7e951)" style="fill: none; stroke: #38495b; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 47.321575 156.756472 
+L 47.321575 202.865006 
+" clip-path="url(#p8c5ec7e951)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #38495b; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 48.921575 199.665006 
+L 47.321575 202.865006 
+L 45.721575 199.665006 
+" clip-path="url(#p8c5ec7e951)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #38495b; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 155.939528 233.136283 
+L 128.498837 233.136283 
+" clip-path="url(#p8c5ec7e951)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #38495b; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 131.698837 234.736283 
+L 128.498837 233.136283 
+L 131.698837 231.536283 
+" clip-path="url(#p8c5ec7e951)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #38495b; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_22">
+    <path d="M 325.950236 233.136283 
+L 358.113447 233.136283 
+" clip-path="url(#p8c5ec7e951)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #38495b; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 354.913447 231.536283 
+L 358.113447 233.136283 
+L 354.913447 234.736283 
+" clip-path="url(#p8c5ec7e951)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #38495b; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_23">
+    <path d="M 413.31685 203.759433 
+L 413.31685 180.257953 
+L 297.615118 180.257953 
+L 297.615118 157.6509 
+" clip-path="url(#p8c5ec7e951)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #38495b; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 296.015118 160.8509 
+L 297.615118 157.6509 
+L 299.215118 160.8509 
+" clip-path="url(#p8c5ec7e951)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #38495b; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_24">
+    <path d="M 240.944882 262.513134 
+L 240.944882 285.120187 
+" clip-path="url(#p8c5ec7e951)" style="fill: none; stroke: #38495b; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 242.544882 281.920187 
+L 240.944882 285.120187 
+L 239.344882 281.920187 
+" clip-path="url(#p8c5ec7e951)" style="fill: none; stroke: #38495b; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_25">
+    <path d="M 203.164724 321.266835 
+L 203.164724 333.017575 
+L 103.991811 333.017575 
+L 103.991811 341.915431 
+" clip-path="url(#p8c5ec7e951)" style="fill: none; stroke: #38495b; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 105.591811 338.715431 
+L 103.991811 341.915431 
+L 102.391811 338.715431 
+" clip-path="url(#p8c5ec7e951)" style="fill: none; stroke: #38495b; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_26">
+    <path d="M 283.447559 321.266835 
+L 283.447559 333.017575 
+L 384.981732 333.017575 
+L 384.981732 341.915431 
+" clip-path="url(#p8c5ec7e951)" style="fill: none; stroke: #38495b; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 386.581732 338.715431 
+L 384.981732 341.915431 
+L 383.381732 338.715431 
+" clip-path="url(#p8c5ec7e951)" style="fill: none; stroke: #38495b; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 8px; font-family: 'Noto Sans CJK JP'" transform="translate(58.017953 35.983883)">単眼カメラ</text>
+    <text style="font-size: 8px; font-family: 'Noto Sans CJK JP'" transform="translate(52.697953 47.049258)">320×240画像</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 8px; font-family: 'Noto Sans CJK JP'" transform="translate(223.609892 35.983883)">DualSense</text>
+    <text style="font-size: 8px; font-family: 'Noto Sans CJK JP'" transform="translate(216.605517 47.049258)">Bluetooth接続</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 8px; font-family: 'Noto Sans CJK JP'" transform="translate(374.233071 35.983883)">車輪回転センサー</text>
+    <text style="font-size: 8px; font-family: 'Noto Sans CJK JP'" transform="translate(392.364946 47.049258)">GPIO17</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 8px; font-family: 'Noto Sans CJK JP'" transform="translate(38.017953 120.540204)">動的白線抽出・鳥瞰点</text>
+    <text style="font-size: 8px; font-family: 'Noto Sans CJK JP'" transform="translate(32.734203 131.605579)">画像誤差PD・遠方先読み</text>
+    <text style="font-size: 8px; font-family: 'Noto Sans CJK JP'" transform="translate(38.017953 142.670954)">指令出力率の上限管理</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 8px; font-family: 'Noto Sans CJK JP'" transform="translate(221.198017 126.072891)">Linux evdev</text>
+    <text style="font-size: 8px; font-family: 'Noto Sans CJK JP'" transform="translate(199.306142 137.138266)">モード・ギア・停止仲裁</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 8px; font-family: 'Noto Sans CJK JP'" transform="translate(366.233071 126.072891)">回転パルスの速度換算</text>
+    <text style="font-size: 8px; font-family: 'Noto Sans CJK JP'" transform="translate(370.233071 137.138266)">ゲイン選択の一部へ</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 8px; font-family: 'Noto Sans CJK JP'" transform="translate(204.944882 224.338408)">唯一の出力ワーカー</text>
+    <text style="font-size: 8px; font-family: 'Noto Sans CJK JP'" transform="translate(205.748632 235.403783)">FastControlOutput</text>
+    <text style="font-size: 8px; font-family: 'Noto Sans CJK JP'" transform="translate(182.033007 246.469158)">イベント起床・10 ms待機で補完</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 8px; font-family: 'Noto Sans CJK JP'" transform="translate(42.934173 224.338408)">非同期診断記録</text>
+    <text style="font-size: 8px; font-family: 'Noto Sans CJK JP'" transform="translate(22.934173 235.403783)">画像・マスク・指令・時刻</text>
+    <text style="font-size: 8px; font-family: 'Noto Sans CJK JP'" transform="translate(42.934173 246.469158)">分割・容量制限</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 8px; font-family: 'Noto Sans CJK JP'" transform="translate(386.1481 224.338408)">Web／Even G2</text>
+    <text style="font-size: 8px; font-family: 'Noto Sans CJK JP'" transform="translate(377.31685 235.403783)">スマートフォン経由</text>
+    <text style="font-size: 8px; font-family: 'Noto Sans CJK JP'" transform="translate(373.31685 246.469158)">状態表示・モード要求</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 8px; font-family: 'Noto Sans CJK JP'" transform="translate(200.080507 300.291787)">pigpio hardware PWM</text>
+    <text style="font-size: 8px; font-family: 'Noto Sans CJK JP'" transform="translate(218.796757 311.524662)">実出力50 Hz</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 8px; font-family: 'Noto Sans CJK JP'" transform="translate(83.991811 355.212324)">操舵サーボ</text>
+    <text style="font-size: 8px; font-family: 'Noto Sans CJK JP'" transform="translate(65.683686 366.277699)">GPIO19（物理35番）</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 8px; font-family: 'Noto Sans CJK JP'" transform="translate(350.329232 355.212324)">ESC / 走行モーター</text>
+    <text style="font-size: 8px; font-family: 'Noto Sans CJK JP'" transform="translate(346.673607 366.277699)">GPIO12（物理32番）</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 8px; font-family: 'Noto Sans CJK JP'; text-anchor: end; fill: #53636f" x="330.672756" y="77.634822" transform="rotate(-0 330.672756 77.634822)">換算速度</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 8px; font-family: 'Noto Sans CJK JP'; text-anchor: start" x="89.824252" y="175.165965" transform="rotate(-0 89.824252 175.165965)">自動計画</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 8px; font-family: 'Noto Sans CJK JP'; text-anchor: middle" x="342.479055" y="223.344" transform="rotate(-0 342.479055 223.344)">状態</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 8px; font-family: 'Noto Sans CJK JP'; text-anchor: middle" x="354.285354" y="174.382583" transform="rotate(-0 354.285354 174.382583)">モード要求</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 8px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #4e5965" x="14.263937" y="389.812819" transform="rotate(-0 14.263937 389.812819)">青灰色：車載Pi上の処理。G2表示と診断保存は、自動判断の往復経路に含まれない。</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p8c5ec7e951">
+   <rect x="4.818898" y="3.99685" width="472.251969" height="391.691339"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,830 @@
+[
+  {
+    "repo": "dvdsosa/scientific-writing-skills",
+    "commit": "2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0",
+    "path": ".claude-plugin/marketplace.json",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/dvdsosa/scientific-writing-skills/2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0/.claude-plugin/marketplace.json",
+    "sha256": "694c840cb4d614e5173b6088c3d4ae9be8c7a6b07f1fc083be12cee4be311418",
+    "bytes": 1068
+  },
+  {
+    "repo": "dvdsosa/scientific-writing-skills",
+    "commit": "2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0",
+    "path": ".claude-plugin/plugin.json",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/dvdsosa/scientific-writing-skills/2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0/.claude-plugin/plugin.json",
+    "sha256": "b09c663dc3d66dbc5a2282a4389892e4175ca9b6793187fca29777936792f7b5",
+    "bytes": 845
+  },
+  {
+    "repo": "dvdsosa/scientific-writing-skills",
+    "commit": "2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0",
+    "path": ".gitignore",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/dvdsosa/scientific-writing-skills/2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0/.gitignore",
+    "sha256": "f6b09f93d1d217d454a98627ec799d53f694a5e59db2b09a50fb4a87d260b63a",
+    "bytes": 126
+  },
+  {
+    "repo": "dvdsosa/scientific-writing-skills",
+    "commit": "2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0",
+    "path": "CITATION.cff",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/dvdsosa/scientific-writing-skills/2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0/CITATION.cff",
+    "sha256": "d33c662dc7314c0bfe9c4c61be5ce2ba1741a2a649c47b549b34c86f2b93da7c",
+    "bytes": 1523
+  },
+  {
+    "repo": "dvdsosa/scientific-writing-skills",
+    "commit": "2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0",
+    "path": "CONTRIBUTING.md",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/dvdsosa/scientific-writing-skills/2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0/CONTRIBUTING.md",
+    "sha256": "1e351a08d9ee217e95a709e6a8f1d3a409e5030ccc015ad13c5b715d02b9acd7",
+    "bytes": 3071
+  },
+  {
+    "repo": "dvdsosa/scientific-writing-skills",
+    "commit": "2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0",
+    "path": "LICENSE",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/dvdsosa/scientific-writing-skills/2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0/LICENSE",
+    "sha256": "b3e27bbb2e6d90c55cab547754ca728e3a5405d1e1a8b40d57f69bede25952b1",
+    "bytes": 1073
+  },
+  {
+    "repo": "dvdsosa/scientific-writing-skills",
+    "commit": "2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0",
+    "path": "NOTICE",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/dvdsosa/scientific-writing-skills/2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0/NOTICE",
+    "sha256": "eac5934cfa217e30ce2a2368ab1446ebd5f5dab68a10f1ef61d8850a0adb19e0",
+    "bytes": 775
+  },
+  {
+    "repo": "dvdsosa/scientific-writing-skills",
+    "commit": "2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0",
+    "path": "README.md",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/dvdsosa/scientific-writing-skills/2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0/README.md",
+    "sha256": "f6c98f299b327d2b16d412a0e85a5710e14d51aa531faad958d948c6fd6a319b",
+    "bytes": 11920
+  },
+  {
+    "repo": "dvdsosa/scientific-writing-skills",
+    "commit": "2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0",
+    "path": "scripts",
+    "mode": "120000",
+    "url": "https://raw.githubusercontent.com/dvdsosa/scientific-writing-skills/2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0/scripts",
+    "sha256": "4110995a901364d576b64fce6f17edd4ef09c816270fd23d16ca201ae9f57b46",
+    "bytes": 29
+  },
+  {
+    "repo": "dvdsosa/scientific-writing-skills",
+    "commit": "2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0",
+    "path": "skills/sciwrite-manuscript/SKILL.md",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/dvdsosa/scientific-writing-skills/2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0/skills/sciwrite-manuscript/SKILL.md",
+    "sha256": "1bfb1a45b7562497c6c1fe08a8746bce5525482ae16d35862cf806399d3f7d4d",
+    "bytes": 8939
+  },
+  {
+    "repo": "dvdsosa/scientific-writing-skills",
+    "commit": "2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0",
+    "path": "skills/sciwrite-manuscript/references/oceanography-sections.md",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/dvdsosa/scientific-writing-skills/2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0/skills/sciwrite-manuscript/references/oceanography-sections.md",
+    "sha256": "b5278f84d5bd0c29ca8c1e4087078f62e27d8145a2cf54453f5a6453b9c1c210",
+    "bytes": 5835
+  },
+  {
+    "repo": "dvdsosa/scientific-writing-skills",
+    "commit": "2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0",
+    "path": "skills/sciwrite-manuscript/references/sections.md",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/dvdsosa/scientific-writing-skills/2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0/skills/sciwrite-manuscript/references/sections.md",
+    "sha256": "fab29f0fa6766674b4b536a4f7027f97fe058f2cb4fac57e47a96ddfa0879207",
+    "bytes": 11287
+  },
+  {
+    "repo": "dvdsosa/scientific-writing-skills",
+    "commit": "2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0",
+    "path": "skills/sciwrite-manuscript/references/tables-figures.md",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/dvdsosa/scientific-writing-skills/2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0/skills/sciwrite-manuscript/references/tables-figures.md",
+    "sha256": "5055a57e02eed350f4a9b4e8e28d415f0f9c76f36420455a03a862e700314c03",
+    "bytes": 7032
+  },
+  {
+    "repo": "dvdsosa/scientific-writing-skills",
+    "commit": "2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0",
+    "path": "skills/sciwrite-manuscript/references/worked-examples.md",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/dvdsosa/scientific-writing-skills/2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0/skills/sciwrite-manuscript/references/worked-examples.md",
+    "sha256": "1e36f5f94fd313b68f0095594628e077b498dcb60e8dcad9a5f725770e43a31a",
+    "bytes": 9728
+  },
+  {
+    "repo": "dvdsosa/scientific-writing-skills",
+    "commit": "2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0",
+    "path": "skills/sciwrite-outreach/SKILL.md",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/dvdsosa/scientific-writing-skills/2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0/skills/sciwrite-outreach/SKILL.md",
+    "sha256": "2c04628b9ab9ccc2eff68d7ab0fee2e0ff8af63d734b76b7932e9550097d3764",
+    "bytes": 9092
+  },
+  {
+    "repo": "dvdsosa/scientific-writing-skills",
+    "commit": "2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0",
+    "path": "skills/sciwrite-outreach/references/media.md",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/dvdsosa/scientific-writing-skills/2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0/skills/sciwrite-outreach/references/media.md",
+    "sha256": "77853fb29ac19a58e248bb3d8f817be4e0fbc585e4d9881e36891a0cfd7493e6",
+    "bytes": 3345
+  },
+  {
+    "repo": "dvdsosa/scientific-writing-skills",
+    "commit": "2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0",
+    "path": "skills/sciwrite-outreach/references/news-story.md",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/dvdsosa/scientific-writing-skills/2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0/skills/sciwrite-outreach/references/news-story.md",
+    "sha256": "98a02815b1ca7b47f7e41201618e30b87a70090a004d7110130c5fd31f7b940c",
+    "bytes": 7662
+  },
+  {
+    "repo": "dvdsosa/scientific-writing-skills",
+    "commit": "2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0",
+    "path": "skills/sciwrite-outreach/references/risk-numbers.md",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/dvdsosa/scientific-writing-skills/2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0/skills/sciwrite-outreach/references/risk-numbers.md",
+    "sha256": "9977af6789707d43789506725d21f1151432d5cb4fa0aec6be99308a9f55c633",
+    "bytes": 3326
+  },
+  {
+    "repo": "dvdsosa/scientific-writing-skills",
+    "commit": "2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0",
+    "path": "skills/sciwrite-outreach/references/social-media.md",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/dvdsosa/scientific-writing-skills/2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0/skills/sciwrite-outreach/references/social-media.md",
+    "sha256": "83b96188bdcc99ebd6f30fc5d9489bb065462eb288c21320ffb252791a93b88a",
+    "bytes": 4306
+  },
+  {
+    "repo": "dvdsosa/scientific-writing-skills",
+    "commit": "2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0",
+    "path": "skills/sciwrite-process/SKILL.md",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/dvdsosa/scientific-writing-skills/2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0/skills/sciwrite-process/SKILL.md",
+    "sha256": "e3779c9a478896bdb161c9c58a83916057c0271d11cd64393af458badb2f58a2",
+    "bytes": 10272
+  },
+  {
+    "repo": "dvdsosa/scientific-writing-skills",
+    "commit": "2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0",
+    "path": "skills/sciwrite-process/references/final-checklist.md",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/dvdsosa/scientific-writing-skills/2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0/skills/sciwrite-process/references/final-checklist.md",
+    "sha256": "afc25e2e874dcc44b671dc080e7815aaa0e2f8df2c0debecd8489c37a79b1c04",
+    "bytes": 5887
+  },
+  {
+    "repo": "dvdsosa/scientific-writing-skills",
+    "commit": "2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0",
+    "path": "skills/sciwrite-proposals/SKILL.md",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/dvdsosa/scientific-writing-skills/2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0/skills/sciwrite-proposals/SKILL.md",
+    "sha256": "e23a833e8fd5fa9908f0efd13eab54cee79365b020a6d6794d80c10bac96693c",
+    "bytes": 9508
+  },
+  {
+    "repo": "dvdsosa/scientific-writing-skills",
+    "commit": "2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0",
+    "path": "skills/sciwrite-proposals/references/letters.md",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/dvdsosa/scientific-writing-skills/2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0/skills/sciwrite-proposals/references/letters.md",
+    "sha256": "54f41aba1101062fb5c6cf0c8dc072c8978a4540e355ce86044019126a58d0ec",
+    "bytes": 11526
+  },
+  {
+    "repo": "dvdsosa/scientific-writing-skills",
+    "commit": "2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0",
+    "path": "skills/sciwrite-proposals/references/research-plan.md",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/dvdsosa/scientific-writing-skills/2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0/skills/sciwrite-proposals/references/research-plan.md",
+    "sha256": "fb5cfe17bb87d9b289d714fa2f0fff167508e0a8aed80037fc7c9a03567c282e",
+    "bytes": 4757
+  },
+  {
+    "repo": "dvdsosa/scientific-writing-skills",
+    "commit": "2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0",
+    "path": "skills/sciwrite-proposals/references/specific-aims.md",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/dvdsosa/scientific-writing-skills/2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0/skills/sciwrite-proposals/references/specific-aims.md",
+    "sha256": "f8dc1860865ebe9070d801d2234fe974a564d7ae02654f8120218153693e52d7",
+    "bytes": 6034
+  },
+  {
+    "repo": "dvdsosa/scientific-writing-skills",
+    "commit": "2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0",
+    "path": "skills/sciwrite-prose/SKILL.md",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/dvdsosa/scientific-writing-skills/2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0/skills/sciwrite-prose/SKILL.md",
+    "sha256": "8db33bf84925b5b48e56416722a696ef0642a9dcdc4973301d8bb8435914133f",
+    "bytes": 12174
+  },
+  {
+    "repo": "dvdsosa/scientific-writing-skills",
+    "commit": "2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0",
+    "path": "skills/sciwrite-prose/references/clutter-lexicon.md",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/dvdsosa/scientific-writing-skills/2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0/skills/sciwrite-prose/references/clutter-lexicon.md",
+    "sha256": "05f3ebd4dfacbc96e643a11b7db7c6fd519142ebc88766625db82b392804ebfa",
+    "bytes": 9323
+  },
+  {
+    "repo": "dvdsosa/scientific-writing-skills",
+    "commit": "2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0",
+    "path": "skills/sciwrite-prose/references/engineering-examples.md",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/dvdsosa/scientific-writing-skills/2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0/skills/sciwrite-prose/references/engineering-examples.md",
+    "sha256": "bd2ebcb3bb50efdd980ee037cfb8f733cddd022e60852a59096f9a3f6ffa916a",
+    "bytes": 8628
+  },
+  {
+    "repo": "dvdsosa/scientific-writing-skills",
+    "commit": "2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0",
+    "path": "skills/sciwrite-prose/references/grammar-and-keywords.md",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/dvdsosa/scientific-writing-skills/2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0/skills/sciwrite-prose/references/grammar-and-keywords.md",
+    "sha256": "5275229d4808beae666c0551ae0bded6caab3322160cd644016a0c8466c9cc26",
+    "bytes": 6676
+  },
+  {
+    "repo": "dvdsosa/scientific-writing-skills",
+    "commit": "2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0",
+    "path": "skills/sciwrite-prose/references/oceanography-examples.md",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/dvdsosa/scientific-writing-skills/2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0/skills/sciwrite-prose/references/oceanography-examples.md",
+    "sha256": "794cdae3c02b8465bff7638774d7024e8101e83aeab13a6b52128f802c7269cd",
+    "bytes": 7426
+  },
+  {
+    "repo": "dvdsosa/scientific-writing-skills",
+    "commit": "2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0",
+    "path": "skills/sciwrite-prose/references/paragraphs.md",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/dvdsosa/scientific-writing-skills/2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0/skills/sciwrite-prose/references/paragraphs.md",
+    "sha256": "7d0e6fa81aacc1512378d1e5ea0bbb4df7ffb0b3a0730abccdf222736e9dd1b4",
+    "bytes": 7385
+  },
+  {
+    "repo": "dvdsosa/scientific-writing-skills",
+    "commit": "2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0",
+    "path": "skills/sciwrite-prose/references/punctuation.md",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/dvdsosa/scientific-writing-skills/2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0/skills/sciwrite-prose/references/punctuation.md",
+    "sha256": "2e39fa44bfe5c9c5b66926434f323fd0b6e2da2ae149c9e5b295153ba00db5b0",
+    "bytes": 8651
+  },
+  {
+    "repo": "dvdsosa/scientific-writing-skills",
+    "commit": "2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0",
+    "path": "skills/sciwrite-prose/references/verbs-and-voice.md",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/dvdsosa/scientific-writing-skills/2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0/skills/sciwrite-prose/references/verbs-and-voice.md",
+    "sha256": "67efa984b2a81bb1a10cd698f19cea5b73087555160889f0af5b7907c0606167",
+    "bytes": 8866
+  },
+  {
+    "repo": "dvdsosa/scientific-writing-skills",
+    "commit": "2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0",
+    "path": "skills/sciwrite-prose/scripts/extract_text.py",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/dvdsosa/scientific-writing-skills/2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0/skills/sciwrite-prose/scripts/extract_text.py",
+    "sha256": "fac34ce4658a8fbcc602ba98cfa2c38e853f85e521c733771363cbef7188a0f8",
+    "bytes": 13045
+  },
+  {
+    "repo": "dvdsosa/scientific-writing-skills",
+    "commit": "2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0",
+    "path": "skills/sciwrite-prose/scripts/keyword_consistency.py",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/dvdsosa/scientific-writing-skills/2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0/skills/sciwrite-prose/scripts/keyword_consistency.py",
+    "sha256": "3454fb83f1c715513b5f6a4e6d8a2cdca89fe270558764a746d311e462d092b7",
+    "bytes": 15799
+  },
+  {
+    "repo": "dvdsosa/scientific-writing-skills",
+    "commit": "2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0",
+    "path": "skills/sciwrite-prose/scripts/numeric_consistency.py",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/dvdsosa/scientific-writing-skills/2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0/skills/sciwrite-prose/scripts/numeric_consistency.py",
+    "sha256": "987ff9603d17f5842631ffba9429423917ac0819c120a4027fbd155e79789f3d",
+    "bytes": 7440
+  },
+  {
+    "repo": "dvdsosa/scientific-writing-skills",
+    "commit": "2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0",
+    "path": "skills/sciwrite-prose/scripts/prose_audit.py",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/dvdsosa/scientific-writing-skills/2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0/skills/sciwrite-prose/scripts/prose_audit.py",
+    "sha256": "028e7584906d8ff3baf7aef9b01fb994a812f3ddc73a560ec582b99eb05fc9ce",
+    "bytes": 26747
+  },
+  {
+    "repo": "dvdsosa/scientific-writing-skills",
+    "commit": "2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0",
+    "path": "skills/sciwrite-publish/SKILL.md",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/dvdsosa/scientific-writing-skills/2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0/skills/sciwrite-publish/SKILL.md",
+    "sha256": "856df0ea1101eed26c2f1f7e002f1e2a760a330e9ce2421dffdbcb1df6977eb2",
+    "bytes": 9312
+  },
+  {
+    "repo": "dvdsosa/scientific-writing-skills",
+    "commit": "2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0",
+    "path": "skills/sciwrite-publish/references/authorship.md",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/dvdsosa/scientific-writing-skills/2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0/skills/sciwrite-publish/references/authorship.md",
+    "sha256": "73e5ca7a4b4971bfc7fc8a5d9d74d897bd710279ea549936906ba56b58c918c0",
+    "bytes": 4463
+  },
+  {
+    "repo": "dvdsosa/scientific-writing-skills",
+    "commit": "2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0",
+    "path": "skills/sciwrite-publish/references/peer-review.md",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/dvdsosa/scientific-writing-skills/2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0/skills/sciwrite-publish/references/peer-review.md",
+    "sha256": "b5e66bf9919f97664219852450eb80af432946e453cdc5dad7e39bcda7079111",
+    "bytes": 6578
+  },
+  {
+    "repo": "dvdsosa/scientific-writing-skills",
+    "commit": "2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0",
+    "path": "skills/sciwrite-publish/references/plagiarism.md",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/dvdsosa/scientific-writing-skills/2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0/skills/sciwrite-publish/references/plagiarism.md",
+    "sha256": "22322acecbaf18b3022b6ef878a133eba860c64d7a61710d86f53e4f77f697d5",
+    "bytes": 6102
+  },
+  {
+    "repo": "dvdsosa/scientific-writing-skills",
+    "commit": "2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0",
+    "path": "skills/sciwrite-publish/references/predatory-journals.md",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/dvdsosa/scientific-writing-skills/2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0/skills/sciwrite-publish/references/predatory-journals.md",
+    "sha256": "b243ce7e0ac82d3ca207fc7245415509d8db869511dd2f094fcb94b4143b04f0",
+    "bytes": 3759
+  },
+  {
+    "repo": "dvdsosa/scientific-writing-skills",
+    "commit": "2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0",
+    "path": "skills/sciwrite-publish/references/response-letter.md",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/dvdsosa/scientific-writing-skills/2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0/skills/sciwrite-publish/references/response-letter.md",
+    "sha256": "c965a5ac01ffc51ffcde92bae5ce3527ea582da680a24ac9e2f7f966eb461c7b",
+    "bytes": 4617
+  },
+  {
+    "repo": "Wavelix/claude-figure-skill",
+    "commit": "3c24a5379b8604f5e505f3e73ba624239b884224",
+    "path": ".gitignore",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/Wavelix/claude-figure-skill/3c24a5379b8604f5e505f3e73ba624239b884224/.gitignore",
+    "sha256": "6766c42c045f175b7434e6d34eba2e16bc60de61f57d4657d3ec7b09c1c0d8ab",
+    "bytes": 239
+  },
+  {
+    "repo": "Wavelix/claude-figure-skill",
+    "commit": "3c24a5379b8604f5e505f3e73ba624239b884224",
+    "path": "LICENSE",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/Wavelix/claude-figure-skill/3c24a5379b8604f5e505f3e73ba624239b884224/LICENSE",
+    "sha256": "cf0ff71f961e9ceb7f0368ba3f4934aba8a92277918fdaf4ad625139d0b4c7e6",
+    "bytes": 1064
+  },
+  {
+    "repo": "Wavelix/claude-figure-skill",
+    "commit": "3c24a5379b8604f5e505f3e73ba624239b884224",
+    "path": "README.md",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/Wavelix/claude-figure-skill/3c24a5379b8604f5e505f3e73ba624239b884224/README.md",
+    "sha256": "fda87410fefd8e20dba6267ed2d9d43eb96c50b73371e3cf179439c24b72d5bf",
+    "bytes": 9622
+  },
+  {
+    "repo": "Wavelix/claude-figure-skill",
+    "commit": "3c24a5379b8604f5e505f3e73ba624239b884224",
+    "path": "skills/sci-figure/SKILL.md",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/Wavelix/claude-figure-skill/3c24a5379b8604f5e505f3e73ba624239b884224/skills/sci-figure/SKILL.md",
+    "sha256": "0a3d558e9e549ab7f6ac2258ffd13c1842af094160ac6c257583791d73ec1857",
+    "bytes": 10763
+  },
+  {
+    "repo": "Wavelix/claude-figure-skill",
+    "commit": "3c24a5379b8604f5e505f3e73ba624239b884224",
+    "path": "skills/sci-figure/examples/fig_bayes.py",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/Wavelix/claude-figure-skill/3c24a5379b8604f5e505f3e73ba624239b884224/skills/sci-figure/examples/fig_bayes.py",
+    "sha256": "067236815a126c2ebd995f9ae54c73b94438464a065dc50ef0e21bb8e2bf8230",
+    "bytes": 3517
+  },
+  {
+    "repo": "Wavelix/claude-figure-skill",
+    "commit": "3c24a5379b8604f5e505f3e73ba624239b884224",
+    "path": "skills/sci-figure/examples/fig_control.py",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/Wavelix/claude-figure-skill/3c24a5379b8604f5e505f3e73ba624239b884224/skills/sci-figure/examples/fig_control.py",
+    "sha256": "85186cce3a1ff0ec3ba8751ce9f461f776fa885a16f6beb032110955a7a9fff4",
+    "bytes": 3759
+  },
+  {
+    "repo": "Wavelix/claude-figure-skill",
+    "commit": "3c24a5379b8604f5e505f3e73ba624239b884224",
+    "path": "skills/sci-figure/examples/fig_control2.py",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/Wavelix/claude-figure-skill/3c24a5379b8604f5e505f3e73ba624239b884224/skills/sci-figure/examples/fig_control2.py",
+    "sha256": "fb0607912d1c63e2dd34c39100d1614859b13d435d2c1bbc49f5b06c4dad7442",
+    "bytes": 2916
+  },
+  {
+    "repo": "Wavelix/claude-figure-skill",
+    "commit": "3c24a5379b8604f5e505f3e73ba624239b884224",
+    "path": "skills/sci-figure/examples/fig_drawio.py",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/Wavelix/claude-figure-skill/3c24a5379b8604f5e505f3e73ba624239b884224/skills/sci-figure/examples/fig_drawio.py",
+    "sha256": "5a62e4a64c317e8025b182431441eed7d2313a4737461aefe4dee46e2cd68e0c",
+    "bytes": 6171
+  },
+  {
+    "repo": "Wavelix/claude-figure-skill",
+    "commit": "3c24a5379b8604f5e505f3e73ba624239b884224",
+    "path": "skills/sci-figure/examples/fig_legged.py",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/Wavelix/claude-figure-skill/3c24a5379b8604f5e505f3e73ba624239b884224/skills/sci-figure/examples/fig_legged.py",
+    "sha256": "e0a8166d8fa2cdcfc70b09df635806e739d57149e055fe6d8962483b4ad302f5",
+    "bytes": 4628
+  },
+  {
+    "repo": "Wavelix/claude-figure-skill",
+    "commit": "3c24a5379b8604f5e505f3e73ba624239b884224",
+    "path": "skills/sci-figure/examples/fig_matlab_demo.m",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/Wavelix/claude-figure-skill/3c24a5379b8604f5e505f3e73ba624239b884224/skills/sci-figure/examples/fig_matlab_demo.m",
+    "sha256": "85e062570563a64361b59c3f6933d8b9d57715476cfff27106cbbb676a5881a1",
+    "bytes": 4656
+  },
+  {
+    "repo": "Wavelix/claude-figure-skill",
+    "commit": "3c24a5379b8604f5e505f3e73ba624239b884224",
+    "path": "skills/sci-figure/examples/fig_ml.py",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/Wavelix/claude-figure-skill/3c24a5379b8604f5e505f3e73ba624239b884224/skills/sci-figure/examples/fig_ml.py",
+    "sha256": "6aa74c327ce6b064ac57cac11d81dadeb993ad06ff4e0a5a55d7ba276bf86702",
+    "bytes": 2894
+  },
+  {
+    "repo": "Wavelix/claude-figure-skill",
+    "commit": "3c24a5379b8604f5e505f3e73ba624239b884224",
+    "path": "skills/sci-figure/examples/fig_racing.py",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/Wavelix/claude-figure-skill/3c24a5379b8604f5e505f3e73ba624239b884224/skills/sci-figure/examples/fig_racing.py",
+    "sha256": "07f9d81debcacdc0a09bda16b3bdf22121a01623b326c3b9e36e39ca760ff2ea",
+    "bytes": 3103
+  },
+  {
+    "repo": "Wavelix/claude-figure-skill",
+    "commit": "3c24a5379b8604f5e505f3e73ba624239b884224",
+    "path": "skills/sci-figure/examples/fig_rl_eval.py",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/Wavelix/claude-figure-skill/3c24a5379b8604f5e505f3e73ba624239b884224/skills/sci-figure/examples/fig_rl_eval.py",
+    "sha256": "bf28ebc02ad7ea5042ff81d0139a6f98b74d78456cb723ca76e3c0d9cc3ccffc",
+    "bytes": 2136
+  },
+  {
+    "repo": "Wavelix/claude-figure-skill",
+    "commit": "3c24a5379b8604f5e505f3e73ba624239b884224",
+    "path": "skills/sci-figure/examples/fig_robotics.py",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/Wavelix/claude-figure-skill/3c24a5379b8604f5e505f3e73ba624239b884224/skills/sci-figure/examples/fig_robotics.py",
+    "sha256": "8685c05972860c020986868ca9a704b96973598306cb25c8b8ce128b3136ae74",
+    "bytes": 5929
+  },
+  {
+    "repo": "Wavelix/claude-figure-skill",
+    "commit": "3c24a5379b8604f5e505f3e73ba624239b884224",
+    "path": "skills/sci-figure/examples/fig_stats.py",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/Wavelix/claude-figure-skill/3c24a5379b8604f5e505f3e73ba624239b884224/skills/sci-figure/examples/fig_stats.py",
+    "sha256": "0b61195a974c3603caafc85db3acdddb71c7a0291da4d1d0f6cc5e715663ec49",
+    "bytes": 3601
+  },
+  {
+    "repo": "Wavelix/claude-figure-skill",
+    "commit": "3c24a5379b8604f5e505f3e73ba624239b884224",
+    "path": "skills/sci-figure/examples/fig_sweep.py",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/Wavelix/claude-figure-skill/3c24a5379b8604f5e505f3e73ba624239b884224/skills/sci-figure/examples/fig_sweep.py",
+    "sha256": "42ece0a397bdebbf258e40e396a9318c951b4d5f0cbcefd49a5209b91d3294f9",
+    "bytes": 3510
+  },
+  {
+    "repo": "Wavelix/claude-figure-skill",
+    "commit": "3c24a5379b8604f5e505f3e73ba624239b884224",
+    "path": "skills/sci-figure/examples/run_all.sh",
+    "mode": "100755",
+    "url": "https://raw.githubusercontent.com/Wavelix/claude-figure-skill/3c24a5379b8604f5e505f3e73ba624239b884224/skills/sci-figure/examples/run_all.sh",
+    "sha256": "1aa9dbc54e22b8ab48136b1b1ae0e3ec309df0b85379b58d1f6f89679cda0e67",
+    "bytes": 517
+  },
+  {
+    "repo": "Wavelix/claude-figure-skill",
+    "commit": "3c24a5379b8604f5e505f3e73ba624239b884224",
+    "path": "skills/sci-figure/matlab/+sciplot/band.m",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/Wavelix/claude-figure-skill/3c24a5379b8604f5e505f3e73ba624239b884224/skills/sci-figure/matlab/+sciplot/band.m",
+    "sha256": "e706944c71ab3028518f706519244235627108ec396f77484a9056cad4c71807",
+    "bytes": 506
+  },
+  {
+    "repo": "Wavelix/claude-figure-skill",
+    "commit": "3c24a5379b8604f5e505f3e73ba624239b884224",
+    "path": "skills/sci-figure/matlab/+sciplot/cmap.m",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/Wavelix/claude-figure-skill/3c24a5379b8604f5e505f3e73ba624239b884224/skills/sci-figure/matlab/+sciplot/cmap.m",
+    "sha256": "b3bdc5f30cd4209cdee0ee64d0d4539e0e758ada2bbe5349ecf30e06323e6496",
+    "bytes": 1535
+  },
+  {
+    "repo": "Wavelix/claude-figure-skill",
+    "commit": "3c24a5379b8604f5e505f3e73ba624239b884224",
+    "path": "skills/sci-figure/matlab/+sciplot/directLabels.m",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/Wavelix/claude-figure-skill/3c24a5379b8604f5e505f3e73ba624239b884224/skills/sci-figure/matlab/+sciplot/directLabels.m",
+    "sha256": "a84065338cb1cbe46ef70db5ed1f0db8d0de74494470ece3054208547de02e49",
+    "bytes": 1109
+  },
+  {
+    "repo": "Wavelix/claude-figure-skill",
+    "commit": "3c24a5379b8604f5e505f3e73ba624239b884224",
+    "path": "skills/sci-figure/matlab/+sciplot/export.m",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/Wavelix/claude-figure-skill/3c24a5379b8604f5e505f3e73ba624239b884224/skills/sci-figure/matlab/+sciplot/export.m",
+    "sha256": "f5417e6c9b37235e794b0e7ca110761faf66290033b534b1f196ad067cf41be6",
+    "bytes": 1105
+  },
+  {
+    "repo": "Wavelix/claude-figure-skill",
+    "commit": "3c24a5379b8604f5e505f3e73ba624239b884224",
+    "path": "skills/sci-figure/matlab/+sciplot/figure.m",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/Wavelix/claude-figure-skill/3c24a5379b8604f5e505f3e73ba624239b884224/skills/sci-figure/matlab/+sciplot/figure.m",
+    "sha256": "a34d7a6e7bd4640a545fd63d00ff1fd0ca0a73b73c7b82eb35e0cbf3a476888a",
+    "bytes": 1135
+  },
+  {
+    "repo": "Wavelix/claude-figure-skill",
+    "commit": "3c24a5379b8604f5e505f3e73ba624239b884224",
+    "path": "skills/sci-figure/matlab/+sciplot/palette.m",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/Wavelix/claude-figure-skill/3c24a5379b8604f5e505f3e73ba624239b884224/skills/sci-figure/matlab/+sciplot/palette.m",
+    "sha256": "b66b8166e5c32acaa4989d51eadbcada8fe0ea332f7e8472309a1512a74b0292",
+    "bytes": 2371
+  },
+  {
+    "repo": "Wavelix/claude-figure-skill",
+    "commit": "3c24a5379b8604f5e505f3e73ba624239b884224",
+    "path": "skills/sci-figure/matlab/+sciplot/panelLabels.m",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/Wavelix/claude-figure-skill/3c24a5379b8604f5e505f3e73ba624239b884224/skills/sci-figure/matlab/+sciplot/panelLabels.m",
+    "sha256": "399c4c87be76ab9eec33fc655bb2d656f2004455adae96e70754b79c873ed297",
+    "bytes": 859
+  },
+  {
+    "repo": "Wavelix/claude-figure-skill",
+    "commit": "3c24a5379b8604f5e505f3e73ba624239b884224",
+    "path": "skills/sci-figure/matlab/+sciplot/refline.m",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/Wavelix/claude-figure-skill/3c24a5379b8604f5e505f3e73ba624239b884224/skills/sci-figure/matlab/+sciplot/refline.m",
+    "sha256": "1bc5718c16a5ec004c3e4e8655dd62926282f3366bcf1cf2d6d9c63a3497cc6e",
+    "bytes": 794
+  },
+  {
+    "repo": "Wavelix/claude-figure-skill",
+    "commit": "3c24a5379b8604f5e505f3e73ba624239b884224",
+    "path": "skills/sci-figure/matlab/+sciplot/setup.m",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/Wavelix/claude-figure-skill/3c24a5379b8604f5e505f3e73ba624239b884224/skills/sci-figure/matlab/+sciplot/setup.m",
+    "sha256": "1be22fb3981ea320bd5a423de11466c53218f48d6ab66187c89a5f5aba483697",
+    "bytes": 3629
+  },
+  {
+    "repo": "Wavelix/claude-figure-skill",
+    "commit": "3c24a5379b8604f5e505f3e73ba624239b884224",
+    "path": "skills/sci-figure/matlab/+sciplot/tidy.m",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/Wavelix/claude-figure-skill/3c24a5379b8604f5e505f3e73ba624239b884224/skills/sci-figure/matlab/+sciplot/tidy.m",
+    "sha256": "199347c7ce3407282b90fb4f03ef82ece19c9627c2b453589af039c304fe0246",
+    "bytes": 944
+  },
+  {
+    "repo": "Wavelix/claude-figure-skill",
+    "commit": "3c24a5379b8604f5e505f3e73ba624239b884224",
+    "path": "skills/sci-figure/python/pyproject.toml",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/Wavelix/claude-figure-skill/3c24a5379b8604f5e505f3e73ba624239b884224/skills/sci-figure/python/pyproject.toml",
+    "sha256": "d5cf0daaa0d277ede5ca39c264f6fbd1a599926de45c9d5ddcdae8255342e6c3",
+    "bytes": 698
+  },
+  {
+    "repo": "Wavelix/claude-figure-skill",
+    "commit": "3c24a5379b8604f5e505f3e73ba624239b884224",
+    "path": "skills/sci-figure/python/sciplot/__init__.py",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/Wavelix/claude-figure-skill/3c24a5379b8604f5e505f3e73ba624239b884224/skills/sci-figure/python/sciplot/__init__.py",
+    "sha256": "a0dcbf2cc36e4628c47b4505bae6805a126341ed49e9e6ffb4cae05c63388790",
+    "bytes": 2214
+  },
+  {
+    "repo": "Wavelix/claude-figure-skill",
+    "commit": "3c24a5379b8604f5e505f3e73ba624239b884224",
+    "path": "skills/sci-figure/python/sciplot/annotate.py",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/Wavelix/claude-figure-skill/3c24a5379b8604f5e505f3e73ba624239b884224/skills/sci-figure/python/sciplot/annotate.py",
+    "sha256": "67e4da5d92b9d9137761341f7ee59c0571d4e18a5f06dcf4ba42cdc5a57e8633",
+    "bytes": 6249
+  },
+  {
+    "repo": "Wavelix/claude-figure-skill",
+    "commit": "3c24a5379b8604f5e505f3e73ba624239b884224",
+    "path": "skills/sci-figure/python/sciplot/audit.py",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/Wavelix/claude-figure-skill/3c24a5379b8604f5e505f3e73ba624239b884224/skills/sci-figure/python/sciplot/audit.py",
+    "sha256": "b87cc3a2f1008859666fb571381520ba452437b152fbe22a7bc788c6220298db",
+    "bytes": 7899
+  },
+  {
+    "repo": "Wavelix/claude-figure-skill",
+    "commit": "3c24a5379b8604f5e505f3e73ba624239b884224",
+    "path": "skills/sci-figure/python/sciplot/control.py",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/Wavelix/claude-figure-skill/3c24a5379b8604f5e505f3e73ba624239b884224/skills/sci-figure/python/sciplot/control.py",
+    "sha256": "0e9aa92b02af62537b827fce8cbae6bff5a5b0dd0c61a17834f12ff8633c2d92",
+    "bytes": 11260
+  },
+  {
+    "repo": "Wavelix/claude-figure-skill",
+    "commit": "3c24a5379b8604f5e505f3e73ba624239b884224",
+    "path": "skills/sci-figure/python/sciplot/drawio.py",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/Wavelix/claude-figure-skill/3c24a5379b8604f5e505f3e73ba624239b884224/skills/sci-figure/python/sciplot/drawio.py",
+    "sha256": "e6c1424ef2a41cf3f2f19abfc2ebe2eb14fad6f4812a7c3e3bb35f99547ac1bd",
+    "bytes": 21528
+  },
+  {
+    "repo": "Wavelix/claude-figure-skill",
+    "commit": "3c24a5379b8604f5e505f3e73ba624239b884224",
+    "path": "skills/sci-figure/python/sciplot/export.py",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/Wavelix/claude-figure-skill/3c24a5379b8604f5e505f3e73ba624239b884224/skills/sci-figure/python/sciplot/export.py",
+    "sha256": "ea5a590779e31e38a4348d805d58fd5f280a3e9d5aab89eb3c32907b2df0a981",
+    "bytes": 790
+  },
+  {
+    "repo": "Wavelix/claude-figure-skill",
+    "commit": "3c24a5379b8604f5e505f3e73ba624239b884224",
+    "path": "skills/sci-figure/python/sciplot/layout.py",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/Wavelix/claude-figure-skill/3c24a5379b8604f5e505f3e73ba624239b884224/skills/sci-figure/python/sciplot/layout.py",
+    "sha256": "0653380bd3ede2881364de4efc050666946bd586560f3dc7a9ab8ed975afae81",
+    "bytes": 7172
+  },
+  {
+    "repo": "Wavelix/claude-figure-skill",
+    "commit": "3c24a5379b8604f5e505f3e73ba624239b884224",
+    "path": "skills/sci-figure/python/sciplot/marks.py",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/Wavelix/claude-figure-skill/3c24a5379b8604f5e505f3e73ba624239b884224/skills/sci-figure/python/sciplot/marks.py",
+    "sha256": "dca95f235e76f724fcafd1bedeeb4cf55f7fea917ca1dcd3ddaaaddcf6613562",
+    "bytes": 3253
+  },
+  {
+    "repo": "Wavelix/claude-figure-skill",
+    "commit": "3c24a5379b8604f5e505f3e73ba624239b884224",
+    "path": "skills/sci-figure/python/sciplot/ml.py",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/Wavelix/claude-figure-skill/3c24a5379b8604f5e505f3e73ba624239b884224/skills/sci-figure/python/sciplot/ml.py",
+    "sha256": "b8109f3d069a2755fc26d0ef4e0a0ca3b285fb0fc95feb64b443c37ce8c06244",
+    "bytes": 15836
+  },
+  {
+    "repo": "Wavelix/claude-figure-skill",
+    "commit": "3c24a5379b8604f5e505f3e73ba624239b884224",
+    "path": "skills/sci-figure/python/sciplot/palettes.py",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/Wavelix/claude-figure-skill/3c24a5379b8604f5e505f3e73ba624239b884224/skills/sci-figure/python/sciplot/palettes.py",
+    "sha256": "47372cf0b8a656d2e5047525bc13dcbbe481a9a9eacbdc7d0d09f79af0033eab",
+    "bytes": 6418
+  },
+  {
+    "repo": "Wavelix/claude-figure-skill",
+    "commit": "3c24a5379b8604f5e505f3e73ba624239b884224",
+    "path": "skills/sci-figure/python/sciplot/robotics.py",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/Wavelix/claude-figure-skill/3c24a5379b8604f5e505f3e73ba624239b884224/skills/sci-figure/python/sciplot/robotics.py",
+    "sha256": "28fc7869911ed1843513789bd7fca8281278a6ac8ebcd1f4c52d0357900b38b0",
+    "bytes": 9617
+  },
+  {
+    "repo": "Wavelix/claude-figure-skill",
+    "commit": "3c24a5379b8604f5e505f3e73ba624239b884224",
+    "path": "skills/sci-figure/python/sciplot/stats.py",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/Wavelix/claude-figure-skill/3c24a5379b8604f5e505f3e73ba624239b884224/skills/sci-figure/python/sciplot/stats.py",
+    "sha256": "b496a09dd5523351287783781b8df230d0276f1fc2177864b06d5f6772846a63",
+    "bytes": 15895
+  },
+  {
+    "repo": "Wavelix/claude-figure-skill",
+    "commit": "3c24a5379b8604f5e505f3e73ba624239b884224",
+    "path": "skills/sci-figure/python/sciplot/style.py",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/Wavelix/claude-figure-skill/3c24a5379b8604f5e505f3e73ba624239b884224/skills/sci-figure/python/sciplot/style.py",
+    "sha256": "6a95905ffff27b390bc51df0021a0ab479d5641a2967675fcdab5faab5b2704d",
+    "bytes": 8107
+  },
+  {
+    "repo": "Wavelix/claude-figure-skill",
+    "commit": "3c24a5379b8604f5e505f3e73ba624239b884224",
+    "path": "skills/sci-figure/python/sciplot/ticks.py",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/Wavelix/claude-figure-skill/3c24a5379b8604f5e505f3e73ba624239b884224/skills/sci-figure/python/sciplot/ticks.py",
+    "sha256": "bd6e1ce188ec9658c6a29df4e777d432f6ff31d89f5237eb1a63c22be2aa47df",
+    "bytes": 1408
+  },
+  {
+    "repo": "Wavelix/claude-figure-skill",
+    "commit": "3c24a5379b8604f5e505f3e73ba624239b884224",
+    "path": "skills/sci-figure/references/drawio.md",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/Wavelix/claude-figure-skill/3c24a5379b8604f5e505f3e73ba624239b884224/skills/sci-figure/references/drawio.md",
+    "sha256": "5659837311a40c7b09f565a617cd7984b35b6542bf51e7db13a4e6e053e90bb4",
+    "bytes": 4223
+  },
+  {
+    "repo": "Wavelix/claude-figure-skill",
+    "commit": "3c24a5379b8604f5e505f3e73ba624239b884224",
+    "path": "skills/sci-figure/references/gap-analysis.md",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/Wavelix/claude-figure-skill/3c24a5379b8604f5e505f3e73ba624239b884224/skills/sci-figure/references/gap-analysis.md",
+    "sha256": "4b282473b45a8f3603e0b6bd40f7cd17fc03e31ca08dc085a317c6fd6bf1c12b",
+    "bytes": 4871
+  },
+  {
+    "repo": "Wavelix/claude-figure-skill",
+    "commit": "3c24a5379b8604f5e505f3e73ba624239b884224",
+    "path": "skills/sci-figure/references/landscape.md",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/Wavelix/claude-figure-skill/3c24a5379b8604f5e505f3e73ba624239b884224/skills/sci-figure/references/landscape.md",
+    "sha256": "2fc4625c97afb7252cfe8787f4ec2460f020228d1c28caa10cca2a7ebe3da306",
+    "bytes": 1572
+  },
+  {
+    "repo": "Wavelix/claude-figure-skill",
+    "commit": "3c24a5379b8604f5e505f3e73ba624239b884224",
+    "path": "skills/sci-figure/references/matlab.md",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/Wavelix/claude-figure-skill/3c24a5379b8604f5e505f3e73ba624239b884224/skills/sci-figure/references/matlab.md",
+    "sha256": "a6fa5e0712062e57faca758da812595b424984b46503fdb33635d6c0a34e86af",
+    "bytes": 2373
+  },
+  {
+    "repo": "Wavelix/claude-figure-skill",
+    "commit": "3c24a5379b8604f5e505f3e73ba624239b884224",
+    "path": "skills/sci-figure/references/recipes.md",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/Wavelix/claude-figure-skill/3c24a5379b8604f5e505f3e73ba624239b884224/skills/sci-figure/references/recipes.md",
+    "sha256": "78b1401445f5bd4fc36332a2fca7e81964564b566484d14a08332723b3f0ca03",
+    "bytes": 7182
+  },
+  {
+    "repo": "Wavelix/claude-figure-skill",
+    "commit": "3c24a5379b8604f5e505f3e73ba624239b884224",
+    "path": "skills/sci-figure/references/venues.md",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/Wavelix/claude-figure-skill/3c24a5379b8604f5e505f3e73ba624239b884224/skills/sci-figure/references/venues.md",
+    "sha256": "2e83411d241bac309cf17541f92fb4d3a169de31904981bdcd143bf37d9696e6",
+    "bytes": 2083
+  },
+  {
+    "repo": "Wavelix/claude-figure-skill",
+    "commit": "3c24a5379b8604f5e505f3e73ba624239b884224",
+    "path": "skills/sci-figure/tests/test_sciplot.py",
+    "mode": "100644",
+    "url": "https://raw.githubusercontent.com/Wavelix/claude-figure-skill/3c24a5379b8604f5e505f3e73ba624239b884224/skills/sci-figure/tests/test_sciplot.py",
+    "sha256": "22a47b98e3203d7c495ecf86236f61b2448a3a895fc3dc49eb6b47bbd418853f",
+    "bytes": 3885
+  }
+]

@@ -1,0 +1,5 @@
+condition,version,samples,pipe_to_fake_output_median_ms,pipe_to_fake_output_p95_ms,accepted_to_fake_output_median_ms,accepted_to_fake_output_p95_ms,actual_radio_or_gpio_measured
+no_perception_load,before,200,6.078,9.811,6.01,9.749,False
+no_perception_load,after,200,0.165,0.481,0.089,0.254,False
+perception_load,before,200,6.663,10.322,6.244,9.961,False
+perception_load,after,200,0.38,1.661,0.146,0.367,False

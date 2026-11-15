@@ -1,0 +1,134 @@
+{
+  "summary": {
+    "label": "paper.md",
+    "words": 1375,
+    "sentences": 18,
+    "mean_sentence_words": 76.4,
+    "longest_sentence_words": 948,
+    "nominalisation_density_per_100w": 1.3,
+    "to_be_density_per_100w": 0.0,
+    "passive_count": 0,
+    "counts": {
+      "acronyms": 15,
+      "verbs": 1
+    }
+  },
+  "findings": {
+    "verbs": [
+      {
+        "line": 195,
+        "match": "reports",
+        "fix": "move the verb up, set the description aside in commas",
+        "note": "buried predicate: 17 words before the main verb ('reports'); readers wait for the verb",
+        "sentence": "Carnegie Mellon University / CMU-RI-TR-92-01. 1992. https://publications.ri.cmu.edu/implementation-of-the-pur…"
+      }
+    ],
+    "acronyms": [
+      {
+        "line": 1,
+        "match": "NATC",
+        "fix": null,
+        "note": "not defined at first use; used only 3 times — spell it out and drop the acronym (uses: 3)",
+        "sentence": "NATC Tochigi／車両名 Monovision_2 著者・所属：[要確認] 大会日：2026年11月14～15日 技術報告初稿：2026年11月15日 本報告は、第4回ミニカー自動運転レースMAGPに向けて開発…"
+      },
+      {
+        "line": 1,
+        "match": "MAGP",
+        "fix": null,
+        "note": "not defined at first use; used only 3 times — spell it out and drop the acronym (uses: 3)",
+        "sentence": "NATC Tochigi／車両名 Monovision_2 著者・所属：[要確認] 大会日：2026年11月14～15日 技術報告初稿：2026年11月15日 本報告は、第4回ミニカー自動運転レースMAGPに向けて開発…"
+      },
+      {
+        "line": 1,
+        "match": "GPIO19",
+        "fix": null,
+        "note": "not defined at first use; used only 1 time — spell it out and drop the acronym (uses: 1)",
+        "sentence": "NATC Tochigi／車両名 Monovision_2 著者・所属：[要確認] 大会日：2026年11月14～15日 技術報告初稿：2026年11月15日 本報告は、第4回ミニカー自動運転レースMAGPに向けて開発…"
+      },
+      {
+        "line": 1,
+        "match": "ESC",
+        "fix": null,
+        "note": "not defined at first use; used only 1 time — spell it out and drop the acronym (uses: 1)",
+        "sentence": "NATC Tochigi／車両名 Monovision_2 著者・所属：[要確認] 大会日：2026年11月14～15日 技術報告初稿：2026年11月15日 本報告は、第4回ミニカー自動運転レースMAGPに向けて開発…"
+      },
+      {
+        "line": 1,
+        "match": "GPIO12",
+        "fix": null,
+        "note": "not defined at first use; used only 1 time — spell it out and drop the acronym (uses: 1)",
+        "sentence": "NATC Tochigi／車両名 Monovision_2 著者・所属：[要確認] 大会日：2026年11月14～15日 技術報告初稿：2026年11月15日 本報告は、第4回ミニカー自動運転レースMAGPに向けて開発…"
+      },
+      {
+        "line": 1,
+        "match": "TBLE",
+        "fix": null,
+        "note": "not defined at first use; used only 1 time — spell it out and drop the acronym (uses: 1)",
+        "sentence": "NATC Tochigi／車両名 Monovision_2 著者・所属：[要確認] 大会日：2026年11月14～15日 技術報告初稿：2026年11月15日 本報告は、第4回ミニカー自動運転レースMAGPに向けて開発…"
+      },
+      {
+        "line": 1,
+        "match": "GPIO17",
+        "fix": null,
+        "note": "not defined at first use; used only 1 time — spell it out and drop the acronym (uses: 1)",
+        "sentence": "NATC Tochigi／車両名 Monovision_2 著者・所属：[要確認] 大会日：2026年11月14～15日 技術報告初稿：2026年11月15日 本報告は、第4回ミニカー自動運転レースMAGPに向けて開発…"
+      },
+      {
+        "line": 1,
+        "match": "LOST",
+        "fix": null,
+        "note": "not defined at first use; used only 1 time — spell it out and drop the acronym (uses: 1)",
+        "sentence": "NATC Tochigi／車両名 Monovision_2 著者・所属：[要確認] 大会日：2026年11月14～15日 技術報告初稿：2026年11月15日 本報告は、第4回ミニカー自動運転レースMAGPに向けて開発…"
+      },
+      {
+        "line": 1,
+        "match": "DEGRADED",
+        "fix": null,
+        "note": "not defined at first use; used only 1 time — spell it out and drop the acronym (uses: 1)",
+        "sentence": "NATC Tochigi／車両名 Monovision_2 著者・所属：[要確認] 大会日：2026年11月14～15日 技術報告初稿：2026年11月15日 本報告は、第4回ミニカー自動運転レースMAGPに向けて開発…"
+      },
+      {
+        "line": 183,
+        "match": "AM08",
+        "fix": null,
+        "note": "not defined at first use; used only 1 time — spell it out and drop the acronym (uses: 1)",
+        "sentence": "Feedback Systems: An Introduction for Scientists and Engineers. 2 / Princeton University Press / Public Chapt…"
+      },
+      {
+        "line": 191,
+        "match": "SIG",
+        "fix": null,
+        "note": "not defined at first use; used only 1 time — spell it out and drop the acronym (uses: 1)",
+        "sentence": "About iw. 刊行・更新年未確認. https://wireless.docs.kernel.org/en/latest/en/users/documentation/iw.html （参照 2026-11-15…"
+      },
+      {
+        "line": 195,
+        "match": "CMU",
+        "fix": null,
+        "note": "not defined at first use; used only 1 time — spell it out and drop the acronym (uses: 1)",
+        "sentence": "Carnegie Mellon University / CMU-RI-TR-92-01. 1992. https://publications.ri.cmu.edu/implementation-of-the-pur…"
+      },
+      {
+        "line": 195,
+        "match": "RI",
+        "fix": null,
+        "note": "not defined at first use; used only 1 time — spell it out and drop the acronym (uses: 1)",
+        "sentence": "Carnegie Mellon University / CMU-RI-TR-92-01. 1992. https://publications.ri.cmu.edu/implementation-of-the-pur…"
+      },
+      {
+        "line": 195,
+        "match": "TR",
+        "fix": null,
+        "note": "not defined at first use; used only 1 time — spell it out and drop the acronym (uses: 1)",
+        "sentence": "Carnegie Mellon University / CMU-RI-TR-92-01. 1992. https://publications.ri.cmu.edu/implementation-of-the-pur…"
+      },
+      {
+        "line": 195,
+        "match": "ID",
+        "fix": null,
+        "note": "not defined at first use; used only 1 time — spell it out and drop the acronym (uses: 1)",
+        "sentence": "Carnegie Mellon University / CMU-RI-TR-92-01. 1992. https://publications.ri.cmu.edu/implementation-of-the-pur…"
+      }
+    ]
+  }
+}

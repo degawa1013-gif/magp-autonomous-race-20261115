@@ -1,0 +1,73 @@
+{
+  "scientific-writing-skills/source/skills/sciwrite-prose/scripts/extract_text.py": {
+    "imports": [
+      "argparse",
+      "json",
+      "pathlib",
+      "re",
+      "sys",
+      "xml.etree.ElementTree",
+      "zipfile"
+    ],
+    "relevant_calls": [
+      {
+        "line": 267,
+        "call": "path.read_text"
+      },
+      {
+        "line": 211,
+        "call": "z.read"
+      }
+    ],
+    "syntax": "parsed without executing"
+  },
+  "scientific-writing-skills/source/skills/sciwrite-prose/scripts/keyword_consistency.py": {
+    "imports": [
+      "argparse",
+      "collections",
+      "difflib",
+      "extract_text",
+      "json",
+      "pathlib",
+      "re",
+      "sys"
+    ],
+    "relevant_calls": [],
+    "syntax": "parsed without executing"
+  },
+  "scientific-writing-skills/source/skills/sciwrite-prose/scripts/numeric_consistency.py": {
+    "imports": [
+      "argparse",
+      "collections",
+      "extract_text",
+      "json",
+      "pathlib",
+      "re",
+      "sys"
+    ],
+    "relevant_calls": [],
+    "syntax": "parsed without executing"
+  },
+  "scientific-writing-skills/source/skills/sciwrite-prose/scripts/prose_audit.py": {
+    "imports": [
+      "argparse",
+      "collections",
+      "extract_text",
+      "json",
+      "pathlib",
+      "re",
+      "sys"
+    ],
+    "relevant_calls": [
+      {
+        "line": 480,
+        "call": "sys.stdin.read"
+      },
+      {
+        "line": 498,
+        "call": "Path(args.path).read_text"
+      }
+    ],
+    "syntax": "parsed without executing"
+  }
+}

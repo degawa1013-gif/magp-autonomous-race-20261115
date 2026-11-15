@@ -1,0 +1,548 @@
+{
+  "schema": "magp_source_inventory_v1",
+  "created_utc": "2026-11-15T12:03:03.548396+00:00",
+  "downloads_allowlist": [
+    "robust_lane_failsafe_spec*.html",
+    "quickstart*",
+    "lane_analyzer*",
+    "TT02_RaspberryPi_MAGP_Driving_Guide.pdf",
+    "45053_2021.pdf"
+  ],
+  "downloads_matches": [
+    "45053_2021.pdf",
+    "TT02_RaspberryPi_MAGP_Driving_Guide.pdf",
+    "lane_analyzer (1).html",
+    "lane_analyzer (2).html",
+    "lane_analyzer.html",
+    "robust_lane_failsafe_spec (1).html",
+    "robust_lane_failsafe_spec (2).html",
+    "robust_lane_failsafe_spec (3).html",
+    "robust_lane_failsafe_spec (4).html",
+    "robust_lane_failsafe_spec.html"
+  ],
+  "downloads_unmatched_patterns": [
+    "quickstart*"
+  ],
+  "original_repository": {
+    "path": "${ORIGINAL_PROJECT_ROOT}",
+    "exists": true,
+    "mount_path": "${LOCAL_MEDIA_ROOT}/5402273002271690",
+    "mount_present": true,
+    "git_metadata_at_original_root": true,
+    "git_metadata_at_preserved_root": false,
+    "history_read": false,
+    "reason": "No Git history was read; preserved snapshots and SHA manifests are not Git commits"
+  },
+  "scan_policy": {
+    "excluded_directory_names": [
+      ".cache",
+      ".git",
+      ".pytest_cache",
+      ".venv",
+      "__pycache__",
+      "asr_venv",
+      "build",
+      "checkpoints",
+      "model",
+      "models",
+      "node_modules",
+      "pdf_render",
+      "rendered",
+      "site-packages",
+      "venv",
+      "voice_runtime",
+      "weights"
+    ],
+    "hidden_directories_excluded": true,
+    "symlinks_followed": false,
+    "model_suffixes_excluded": [
+      ".ckpt",
+      ".onnx",
+      ".pt",
+      ".pth",
+      ".safetensors",
+      ".vvbin",
+      ".vvm"
+    ],
+    "hash_max_bytes": 33554432,
+    "hash_policy": "text/source/log/metadata and representative artifacts; ordinary bulk images/media are stat only",
+    "source_files_modified": false,
+    "network_access": false,
+    "original_program_imported": false
+  },
+  "excluded_counts": {
+    "dependency_cache_or_hidden_directory": 32,
+    "hidden_file": 1,
+    "report_output_directory": 1
+  },
+  "summary": {
+    "archive": {
+      "files": 34,
+      "bytes": 183392957,
+      "hashed_files": 0
+    },
+    "captured_image_or_mask": {
+      "files": 10332,
+      "bytes": 40254114,
+      "hashed_files": 0
+    },
+    "document": {
+      "files": 69,
+      "bytes": 5930352,
+      "hashed_files": 69
+    },
+    "image_or_figure": {
+      "files": 3474,
+      "bytes": 87976058,
+      "hashed_files": 1
+    },
+    "manifest_or_metadata": {
+      "files": 501,
+      "bytes": 16827198,
+      "hashed_files": 501
+    },
+    "media": {
+      "files": 48,
+      "bytes": 103823728,
+      "hashed_files": 0
+    },
+    "other": {
+      "files": 43,
+      "bytes": 34140526,
+      "hashed_files": 0
+    },
+    "source_or_tool": {
+      "files": 195,
+      "bytes": 5325901,
+      "hashed_files": 195
+    },
+    "structured_log": {
+      "files": 111,
+      "bytes": 184010357,
+      "hashed_files": 111
+    },
+    "test_source": {
+      "files": 64,
+      "bytes": 651404,
+      "hashed_files": 64
+    }
+  },
+  "top_level_groups": {
+    "(root)": {
+      "files": 38,
+      "bytes": 829535
+    },
+    "adaptive_white": {
+      "files": 9,
+      "bytes": 149798
+    },
+    "anticipation_review_20261114": {
+      "files": 1515,
+      "bytes": 46400762
+    },
+    "combined_brightness": {
+      "files": 3,
+      "bytes": 135612
+    },
+    "combined_candidate": {
+      "files": 3,
+      "bytes": 127544
+    },
+    "combined_final": {
+      "files": 3,
+      "bytes": 131306
+    },
+    "controller_hud_candidate": {
+      "files": 147,
+      "bytes": 9844595
+    },
+    "corner_followup_20261114_1236": {
+      "files": 17,
+      "bytes": 14484237
+    },
+    "drive_review_20261114_1123": {
+      "files": 3176,
+      "bytes": 16380217
+    },
+    "github_release_20261115": {
+      "files": 30,
+      "bytes": 584793
+    },
+    "hairpin_review_20261114_1152": {
+      "files": 13,
+      "bytes": 25002076
+    },
+    "lost_steering_candidate": {
+      "files": 7,
+      "bytes": 159303
+    },
+    "manual_event_latency_review_20261115": {
+      "files": 28,
+      "bytes": 820292
+    },
+    "manual_latency_review_20261114": {
+      "files": 5,
+      "bytes": 154171
+    },
+    "motion_candidate": {
+      "files": 10,
+      "bytes": 2496224
+    },
+    "motion_capture": {
+      "files": 93,
+      "bytes": 11006998
+    },
+    "motion_capture_requested": {
+      "files": 295,
+      "bytes": 30067651
+    },
+    "oscillation_review_20261115_101513": {
+      "files": 87,
+      "bytes": 23616358
+    },
+    "pico_radio_monitor_20261115": {
+      "files": 109,
+      "bytes": 46126825
+    },
+    "qualifying_review_20261115_1137": {
+      "files": 8215,
+      "bytes": 247389462
+    },
+    "regression_review_20261115_095920": {
+      "files": 87,
+      "bytes": 15106435
+    },
+    "right_angle_review_20261114_1702": {
+      "files": 540,
+      "bytes": 30618867
+    },
+    "speed_candidate": {
+      "files": 5,
+      "bytes": 230410
+    },
+    "stability_review_20261114_1254": {
+      "files": 19,
+      "bytes": 32313736
+    },
+    "steering_cadence_candidate": {
+      "files": 8,
+      "bytes": 158441
+    },
+    "steering_gpio19_candidate": {
+      "files": 11,
+      "bytes": 430429
+    },
+    "steering_smooth_candidate": {
+      "files": 8,
+      "bytes": 150541
+    },
+    "straight_pace_review_20261115": {
+      "files": 48,
+      "bytes": 47112235
+    },
+    "thick_exact": {
+      "files": 3,
+      "bytes": 124062
+    },
+    "thick_optimized": {
+      "files": 3,
+      "bytes": 133488
+    },
+    "wobble_review_20261114_1521": {
+      "files": 17,
+      "bytes": 29594686
+    },
+    "wobble_review_20261115_0926": {
+      "files": 309,
+      "bytes": 26853116
+    }
+  },
+  "representatives": [
+    {
+      "id": "SRC01",
+      "relative_path": "baseline_robust_lane_failsafe.py",
+      "role": "初期保存ソース",
+      "evidence_limit": "初期実装との比較起点。大会最終稼働版とは同一視しない",
+      "exists": true,
+      "bytes": 108986,
+      "sha256": "620b3c0048b3bd13abff1f1ff95dd7728d6d5ac1e81e416d14727efb1dbf32e7",
+      "content_review_scope": "Inventory confirms existence and hash; algorithmic review is documented separately"
+    },
+    {
+      "id": "SRC02",
+      "relative_path": "baseline_legacy_pi_output.py",
+      "role": "初期出力モジュール",
+      "evidence_limit": "Pi直接出力の保存版。実配線や実波形の証明とは別",
+      "exists": true,
+      "bytes": 6449,
+      "sha256": "acbd2487b5d503338551a56d09501ad73f10c63557ee82ebc6b9b15413a64d93",
+      "content_review_scope": "Inventory confirms existence and hash; algorithmic review is documented separately"
+    },
+    {
+      "id": "SRC03",
+      "relative_path": "controller_hud_candidate/robust_lane_failsafe.py",
+      "role": "統合制御ソース",
+      "evidence_limit": "認識・制御・入力・記録を統合した保存ソース",
+      "exists": true,
+      "bytes": 159562,
+      "sha256": "159b6996facdd74e151967fc76e5f408d61ad805f57245340c70a31a1157b398",
+      "content_review_scope": "Inventory confirms existence and hash; algorithmic review is documented separately"
+    },
+    {
+      "id": "SRC04",
+      "relative_path": "controller_hud_candidate/CURRENT_MANIFEST.json",
+      "role": "統合版ハッシュ一覧",
+      "evidence_limit": "各モジュールの同一性を照合できる。Gitコミットではない",
+      "exists": true,
+      "bytes": 2380,
+      "sha256": "07cc90b158e798c4b8e37c817fa698e1048595a3d3acc59cc4070e13346dfd9e",
+      "content_review_scope": "Inventory confirms existence and hash; algorithmic review is documented separately"
+    },
+    {
+      "id": "SRC05",
+      "relative_path": "controller_hud_candidate/IMPLEMENTATION.md",
+      "role": "実装・操作説明",
+      "evidence_limit": "モード、G2、DualSenseと検証範囲の説明。記述時点を区別する",
+      "exists": true,
+      "bytes": 7811,
+      "sha256": "3165c44352b20ae916d995db73df4fcf4bb87c4618f3a038c98a56d180b25d0a",
+      "content_review_scope": "Inventory confirms existence and hash; algorithmic review is documented separately"
+    },
+    {
+      "id": "SRC06",
+      "relative_path": "controller_hud_candidate/PHYSICAL_VERIFICATION.md",
+      "role": "台上確認記録",
+      "evidence_limit": "操舵・前後進等の確認。路面試験や成功率へ一般化しない",
+      "exists": true,
+      "bytes": 4362,
+      "sha256": "858b1b38b94113e33ad98463125e7ba5e45b7419bbb271feb0abead5ea1e0142",
+      "content_review_scope": "Inventory confirms existence and hash; algorithmic review is documented separately"
+    },
+    {
+      "id": "SRC07",
+      "relative_path": "controller_hud_candidate/steering_preview.py",
+      "role": "操舵先読み",
+      "evidence_limit": "現行候補の実装を説明する一次ソース",
+      "exists": true,
+      "bytes": 18313,
+      "sha256": "ea790767bb35da3374e5aed81bfe449a9b3ca826188a22620845b2b5b526570a",
+      "content_review_scope": "Inventory confirms existence and hash; algorithmic review is documented separately"
+    },
+    {
+      "id": "SRC08",
+      "relative_path": "controller_hud_candidate/far_preview.py",
+      "role": "遠方白線抽出",
+      "evidence_limit": "先読み候補の処理内容を確認できる",
+      "exists": true,
+      "bytes": 7354,
+      "sha256": "5ccac88600da1a0bdf08221277c2c99e40568bd23c339103548336e18110568e",
+      "content_review_scope": "Inventory confirms existence and hash; algorithmic review is documented separately"
+    },
+    {
+      "id": "SRC09",
+      "relative_path": "controller_hud_candidate/curve_pace.py",
+      "role": "自動出力調整",
+      "evidence_limit": "出力割合の演算。実速度や最速経路の証明ではない",
+      "exists": true,
+      "bytes": 26799,
+      "sha256": "25c78ba575dba421f635bd987c7311d00f24cbd2e2fd2a54b929efa0d5114cba",
+      "content_review_scope": "Inventory confirms existence and hash; algorithmic review is documented separately"
+    },
+    {
+      "id": "SRC10",
+      "relative_path": "controller_hud_candidate/dualsense_control.py",
+      "role": "手動入力処理",
+      "evidence_limit": "入力・モード・ギア処理の一次ソース",
+      "exists": true,
+      "bytes": 31460,
+      "sha256": "a36d3661d492b6814048183c636ce74a21116aa04b894f37c6258a045616cc71",
+      "content_review_scope": "Inventory confirms existence and hash; algorithmic review is documented separately"
+    },
+    {
+      "id": "SRC11",
+      "relative_path": "controller_hud_candidate/fast_control_output.py",
+      "role": "出力処理",
+      "evidence_limit": "操作遅延対策の候補実装。無線区間の遅延とは区別する",
+      "exists": true,
+      "bytes": 12094,
+      "sha256": "b6de9a35b72cbd04b3fcb2584a245c98504a0232bc118207fa1ee7792d1d1c35",
+      "content_review_scope": "Inventory confirms existence and hash; algorithmic review is documented separately"
+    },
+    {
+      "id": "SRC12",
+      "relative_path": "controller_hud_candidate/drive_capture.py",
+      "role": "画像・状態記録",
+      "evidence_limit": "記録条件・保存周期・容量制限の定義",
+      "exists": true,
+      "bytes": 33715,
+      "sha256": "71942fb9f588476b12ec939c0488e20d12d8494e527cc857b44882f13f43c243",
+      "content_review_scope": "Inventory confirms existence and hash; algorithmic review is documented separately"
+    },
+    {
+      "id": "SRC13",
+      "relative_path": "controller_hud_candidate/wifi_monitor.py",
+      "role": "車載Wi-Fi診断",
+      "evidence_limit": "測定・キャッシュ・収集項目の定義",
+      "exists": true,
+      "bytes": 33565,
+      "sha256": "51fe7a878b59802fd55f62b59c0f5c8334d460365d72cd993049b03323f6b63c",
+      "content_review_scope": "Inventory confirms existence and hash; algorithmic review is documented separately"
+    },
+    {
+      "id": "SRC14",
+      "relative_path": "controller_hud_candidate/bluetooth_monitor.py",
+      "role": "車載Bluetooth診断",
+      "evidence_limit": "HCI診断等の取得方法。電波スペクトラム測定ではない",
+      "exists": true,
+      "bytes": 12022,
+      "sha256": "3f01f818e043dac82c4203e04d1b4b347457590a7a6762551f28a476e405a7fe",
+      "content_review_scope": "Inventory confirms existence and hash; algorithmic review is documented separately"
+    },
+    {
+      "id": "SRC15",
+      "relative_path": "qualifying_review_20261115_1137/archive_sources.json",
+      "role": "予選資料の凍結索引",
+      "evidence_limit": "アーカイブ・走行ログ・ソースハッシュの対応",
+      "exists": true,
+      "bytes": 6016,
+      "sha256": "e20e9f6143b093ae92cd38d1c760c1397a1c389366c0ca0f52c67d0e09f688e1",
+      "content_review_scope": "Inventory confirms existence and hash; algorithmic review is documented separately"
+    },
+    {
+      "id": "SRC16",
+      "relative_path": "qualifying_review_20261115_1137/run_control_log.csv",
+      "role": "予選制御ログ",
+      "evidence_limit": "指令・認識・エンコーダ等の記録。実舵角や測位真値は含意しない",
+      "exists": true,
+      "bytes": 2715507,
+      "sha256": "10ee02501c9747308b5732e3ce7d3864a0683222426b6947ef321f885fb005a4",
+      "content_review_scope": "Inventory confirms existence and hash; algorithmic review is documented separately"
+    },
+    {
+      "id": "SRC17",
+      "relative_path": "qualifying_review_20261115_1137/run_log_manifest.json",
+      "role": "走行ログ形式",
+      "evidence_limit": "CSV・マスク動画の同期キーと列を定義",
+      "exists": true,
+      "bytes": 799,
+      "sha256": "a9203c7305c2cbd8130c08ba7144226ee320230f84c0e06a0a3f01cb2a7ab79a",
+      "content_review_scope": "Inventory confirms existence and hash; algorithmic review is documented separately"
+    },
+    {
+      "id": "SRC18",
+      "relative_path": "qualifying_review_20261115_1137/magp-capture-20261115-112838-1628279c-s003/frames.jsonl",
+      "role": "画像同期メタデータ",
+      "evidence_limit": "画像と認識・指令を同一frameで照合する一次記録",
+      "exists": true,
+      "bytes": 7621309,
+      "sha256": "9d424af11258577d3be6726c1c51c185bf3af8b858c5aafb735adc15622e9479",
+      "content_review_scope": "Inventory confirms existence and hash; algorithmic review is documented separately"
+    },
+    {
+      "id": "SRC19",
+      "relative_path": "qualifying_review_20261115_1137/analysis_summary.json",
+      "role": "予選解析要約",
+      "evidence_limit": "観測・仮説・未確定事項の二次資料。原ログとの照合が必要",
+      "exists": true,
+      "bytes": 1707,
+      "sha256": "52f800c9eb7d7e7fa8c3e8f8d36eed8abd27e8db033dc83f8056c8e83b0b03c1",
+      "content_review_scope": "Inventory confirms existence and hash; algorithmic review is documented separately"
+    },
+    {
+      "id": "SRC20",
+      "relative_path": "qualifying_review_20261115_1137/qualifying_diagnosis.png",
+      "role": "接触場面の図版",
+      "evidence_limit": "画像と指令の説明図。指令値を実舵角として読まない",
+      "exists": true,
+      "bytes": 1240911,
+      "sha256": "67c403e33d9707489b0b97b6865cef8d5f28cebdcf08848a201bc9920a364b3b",
+      "content_review_scope": "Inventory confirms existence and hash; algorithmic review is documented separately"
+    },
+    {
+      "id": "SRC21",
+      "relative_path": "qualifying_review_20261115_1137/macro_temporal_audit.json",
+      "role": "AUTO全区間の解析",
+      "evidence_limit": "接触までの経過時間などを原記録から再検証する入口",
+      "exists": true,
+      "bytes": 241754,
+      "sha256": "4461afd6cf9787d266d279e0c9a596bdd5078cae6f0072af2661b463947caa14",
+      "content_review_scope": "Inventory confirms existence and hash; algorithmic review is documented separately"
+    },
+    {
+      "id": "SRC22",
+      "relative_path": "pico_radio_monitor_20261115/pico_main.py",
+      "role": "Pico観測ファーム",
+      "evidence_limit": "走行制御用Picoの過去版と区別した、無線観測用コード",
+      "exists": true,
+      "bytes": 2752,
+      "sha256": "315d9705b5fcd3a8f87f93f88425662b9a84e9047f0f154ee9484eb2ffe27539",
+      "content_review_scope": "Inventory confirms existence and hash; algorithmic review is documented separately"
+    },
+    {
+      "id": "SRC23",
+      "relative_path": "pico_radio_monitor_20261115/logs/scans.jsonl",
+      "role": "Pico Wi-Fi観測",
+      "evidence_limit": "PC位置でのAP検出記録。車両位置や帯域占有率ではない",
+      "exists": true,
+      "bytes": 3494239,
+      "sha256": "48064dece9a74d8746502e95f328241e713c71ba88dc5d5a870dab90f3152b71",
+      "content_review_scope": "Inventory confirms existence and hash; algorithmic review is documented separately"
+    },
+    {
+      "id": "SRC24",
+      "relative_path": "pico_radio_monitor_20261115/pi_radio_logs/pi_radio.jsonl",
+      "role": "車載診断の収集",
+      "evidence_limit": "スナップショット・欠測・キャッシュを含む",
+      "exists": true,
+      "bytes": 320513,
+      "sha256": "fb382d9321970ccac2225e0297750f335aece2aced4711751cb730e08cc5b667",
+      "content_review_scope": "Inventory confirms existence and hash; algorithmic review is documented separately"
+    },
+    {
+      "id": "SRC25",
+      "relative_path": "pico_radio_monitor_20261115/event_reports/event_report.json",
+      "role": "無線全体の分集計",
+      "evidence_limit": "データ数・時系列集計の二次資料。原記録へ戻れる",
+      "exists": true,
+      "bytes": 1195048,
+      "sha256": "5c3cd511ffdced577739d769605ac33d8d525fa4a34fb44647be2356793afa1d",
+      "content_review_scope": "Inventory confirms existence and hash; algorithmic review is documented separately"
+    },
+    {
+      "id": "SRC26",
+      "relative_path": "pico_radio_monitor_20261115/analysis_report_20261115/output/pdf/tournament_radio_measurement_report_20261115.pdf",
+      "role": "既存無線レポート",
+      "evidence_limit": "先行報告の再利用元。今回の論文から無引用で転載しない",
+      "exists": true,
+      "bytes": 2023689,
+      "sha256": "3db978c23ca756ca62a5e0e0b2610e9af3139c599d22d4a8edd2b904371199b9",
+      "content_review_scope": "Inventory confirms existence and hash; algorithmic review is documented separately"
+    },
+    {
+      "id": "SRC27",
+      "relative_path": "pico_radio_monitor_20261115/measurement_window.json",
+      "role": "測定期間設定",
+      "evidence_limit": "18時終了の予定。18時まで実際に採れたことの証拠にはしない",
+      "exists": true,
+      "bytes": 1713,
+      "sha256": "ddec978b6360559ed5cf3a6c616c5dc1b9966c7eec91a4c5ea9688789059edfb",
+      "content_review_scope": "Inventory confirms existence and hash; algorithmic review is documented separately"
+    },
+    {
+      "id": "SRC28",
+      "relative_path": "steering_gpio19_candidate/CURRENT_WIRING.md",
+      "role": "保存配線資料",
+      "evidence_limit": "当該版の接続表。長期開発で変更された配線と区別する",
+      "exists": true,
+      "bytes": 2349,
+      "sha256": "fefa78b4538fdd7462a26c52e4ca52ce27fd94277743f575a886aa6e96931521",
+      "content_review_scope": "Inventory confirms existence and hash; algorithmic review is documented separately"
+    }
+  ],
+  "export_scope": {
+    "full_file_ledger_included": false,
+    "original_ledger_entries": 14871,
+    "original_file_byte_hash_location": "release_export_manifest.json:selected_report_files",
+    "note": "A compact classification/representative-source index; not the original per-file machine ledger. Original file-byte hash is in the release export manifest."
+  }
+}

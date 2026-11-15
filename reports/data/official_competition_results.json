@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "accessed_jst": "2026-11-15",
+  "website_url": "https://minicar-autogp.org/race/04th_results/",
+  "sheet_url": "https://docs.google.com/spreadsheets/d/1QaWHFzPd1AkKqufYSo0ngA-mUV5UsZ6hh69O2cwgjCQ/edit",
+  "sheet_name": "Q1 results",
+  "sheet_range": "A16:I16",
+  "headers": [
+    "Drive Order",
+    "Course",
+    "Team Name",
+    "Q1. Safe laps",
+    "Best lap",
+    "Q2.Safe laps",
+    "Best lap",
+    "Class",
+    "Order"
+  ],
+  "observed_row": [
+    "#15",
+    null,
+    "NATC Tochigi",
+    "3",
+    "30.88",
+    "8",
+    "25.23",
+    "MAGP",
+    "７"
+  ],
+  "team_name": "NATC Tochigi",
+  "machine_name": "Monovision_2",
+  "class": "MAGP",
+  "combined_MAGP_RR_qualifying_rank": 7,
+  "qualifying1": {
+    "safe_laps": 3,
+    "best_lap_s": 30.88
+  },
+  "qualifying2": {
+    "safe_laps": 8,
+    "best_lap_s": 25.23
+  },
+  "final_tournament": {
+    "qualified": true,
+    "round1_result": "敗退",
+    "result_source": "参加者本人の2026-11-15申告",
+    "official_final_overall_rank": null,
+    "official_round1_score": null
+  },
+  "limitations": [
+    "公式HTMLの予選2表は最新値とは異なるため、リンク先の公式集計表とトーナメント図を優先した。",
+    "保存261秒AUTOログと公式Q2の8周を一対一に同定するスタートマーカーはない。",
+    "決勝初戦のログ・タイム・勝敗スコア・稼働版は未照合。",
+    "予選順位はMAGP/RR統合の7位であり、決勝総合7位とは記述しない。"
+  ]
+}

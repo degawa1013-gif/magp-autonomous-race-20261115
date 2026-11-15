@@ -1,0 +1,6 @@
+interface:
+  display_name: "自動走行競技レポート"
+  short_description: "保存ソースと走行記録から再現可能な競技技術報告書を作成する"
+  default_prompt: "$autonomous-race-report を使い、この大会の保存ソース・走行記録・公式結果を照合して日本語の技術報告書を作成してください。"
+policy:
+  allow_implicit_invocation: true

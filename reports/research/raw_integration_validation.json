@@ -1,0 +1,106 @@
+{
+  "schema": "race-report-raw-integration-test-v1",
+  "status": "passed",
+  "reports_copy": "/tmp/magp-report-raw-integration",
+  "source_root": "${SOURCE_ROOT}",
+  "original_reports_written": false,
+  "original_source_files_hashed": 90,
+  "original_source_changes": [],
+  "data_equal_to_packaged": {
+    "run_metrics.json": {
+      "sha256": "71d5f482abf6a9724dbb4a390378df02f1e7814b459bafa56df996c07d26e5dd",
+      "identical_to_packaged_data": true
+    },
+    "qualifying_timeline.csv": {
+      "sha256": "b9a4c05c76d611246628e797d43e01dde8920ecc23bdd2ae854631b68925cdc0",
+      "identical_to_packaged_data": true
+    },
+    "qualifying_30s_bins.csv": {
+      "sha256": "6244b7147132a20f7b648c0024570e7cae25fc8fadf1f9cab2334fb9e668aa29",
+      "identical_to_packaged_data": true
+    },
+    "session_metrics.csv": {
+      "sha256": "7ff2d66a8a43b91258cffa76611934c11bb5c7e0a9cf94373c0c3bb0ffcd3a8d",
+      "identical_to_packaged_data": true
+    },
+    "manual_software_latency_benchmark.csv": {
+      "sha256": "b999d59870260e5209c8a652c4e04ca1bcf3934f8c05bee6ef69fe8270e96ecf",
+      "identical_to_packaged_data": true
+    },
+    "radio_event_summary.json": {
+      "sha256": "50660c563e966bfc81d15e15b8f250f5657713b33e72b6d2cc7db58bc6fc6c8a",
+      "identical_to_packaged_data": true
+    }
+  },
+  "expected_major_results": {
+    "sessions": 38,
+    "retained_observations": 13987,
+    "qualifying_samples": 1973,
+    "qualifying_span_s": 261.07044897460935,
+    "track_sample_percent": 94.57678661936139,
+    "track_estimated_time_percent": 94.54221751924582,
+    "camera_to_output_median_ms": 60.69,
+    "camera_to_output_p95_ms": 78.228,
+    "contact_annotation_s": 221.8788359375,
+    "encoder_freeze_s": 9.6590849609375
+  },
+  "pipeline_steps": [
+    {
+      "name": "raw_run_recalculation",
+      "returncode": 0
+    },
+    {
+      "name": "frozen_radio_aggregate_extraction",
+      "returncode": 0
+    },
+    {
+      "name": "figures_from_retained_data",
+      "returncode": 0
+    },
+    {
+      "name": "verified_reference_rendering",
+      "returncode": 0
+    },
+    {
+      "name": "paper_pdf",
+      "returncode": 0
+    },
+    {
+      "name": "verification",
+      "returncode": 0
+    }
+  ],
+  "preflight_cases": [
+    {
+      "case": "no_source_root",
+      "returncode": 2,
+      "result": {
+        "status": "failed_preflight",
+        "error": "--mode raw requires --source-root pointing to preserved original evidence. Cached summaries are not raw inputs."
+      },
+      "outputs_not_written": true,
+      "isolated_reports": "/tmp/magp-report-raw-integration/preflight_cases/no_source_root"
+    },
+    {
+      "case": "empty_source_root",
+      "returncode": 2,
+      "result": {
+        "status": "failed_preflight",
+        "error": "Raw recreation cannot proceed; missing original evidence:\nqualifying_review_20261115_1137/\noscillation_review_20261115_101513/\nregression_review_20261115_095920/\nwobble_review_20261115_0926/\ndrive_review_20261114_1123/\nhairpin_review_20261114_1152/\nstability_review_20261114_1254/\nwobble_review_20261114_1521/\nanticipation_review_20261114/\nright_angle_review_20261114_1702/\nstraight_pace_review_20261115/\nqualifying_review_20261115_1137/run_control_log.csv\nmanual_event_latency_review_20261115/benchmark_before_pi.json\nmanual_event_latency_review_20261115/benchmark_after_pi.json\nmanual_event_latency_review_20261115/benchmark_before_load_pi.json\nmanual_event_latency_review_20261115/benchmark_after_load_pi.json\npico_radio_monitor_20261115/analysis_report_20261115/inputs/event_report.json\npico_radio_monitor_20261115/analysis_report_20261115/build/quant_findings.json\nUse --mode cached to regenerate from the packaged retained aggregates; it does not recompute raw evidence."
+      },
+      "outputs_not_written": true,
+      "isolated_reports": "/tmp/magp-report-raw-integration/preflight_cases/empty_source_root"
+    }
+  ],
+  "receipt_paths": {
+    "build": "/tmp/magp-report-raw-integration/output/build_receipt.json",
+    "verification": "/tmp/magp-report-raw-integration/data/verification_results.json",
+    "preflight": "/tmp/magp-report-raw-integration/integration_preflight_checks.json"
+  },
+  "pdf_info": "Title:           単眼白線追従による小型自動走行車の競技開発と記録に基づく失敗解析\nSubject:         (unspecified)\nKeywords:        \nAuthor:          NATC Tochigi - authorship details pending\nCreator:         (unspecified)\nProducer:        ReportLab PDF Library - www.reportlab.com\nCreationDate:    Sun Nov 15 09:00:00 2026 JST\nModDate:         Sun Nov 15 09:00:00 2026 JST\nCustom Metadata: no\nMetadata Stream: no\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           16\nEncrypted:       no\nPage size:       595.276 x 841.89 pts (A4)\nPage rot:        0\nFile size:       3696156 bytes\nOptimized:       no\nPDF version:     1.4\n",
+  "no_install": true,
+  "no_vehicle_access": true,
+  "network_access": false,
+  "radio_scope": "Extracted saved frozen aggregate; did not recalculate raw RF, occupancy or I/Q spectrum",
+  "visual_QA_scope": "This task tested raw pipeline integration and arithmetic; root performs final manuscript PDF visual review separately."
+}

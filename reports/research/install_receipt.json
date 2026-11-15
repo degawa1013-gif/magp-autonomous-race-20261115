@@ -1,0 +1,140 @@
+{
+  "status": "installed",
+  "user_authorization": "Explicit approval for the three scientific writing skills relayed by parent agent",
+  "installed_at_utc": "2026-11-15T11:45:56.590354+00:00",
+  "commit": "2eb42c9afb4c9edd4ad5c3a4ae9351e139bae0a0",
+  "destination_root": "${LOCAL_USER_HOME}/.codex/skills",
+  "skills": [
+    "sciwrite-manuscript",
+    "sciwrite-prose",
+    "sciwrite-process"
+  ],
+  "upstream_files_checked": 19,
+  "file_checks": [
+    {
+      "skill": "sciwrite-manuscript",
+      "path": "SKILL.md",
+      "sha256": "1bfb1a45b7562497c6c1fe08a8746bce5525482ae16d35862cf806399d3f7d4d",
+      "matches_audit_copy": true
+    },
+    {
+      "skill": "sciwrite-manuscript",
+      "path": "references/oceanography-sections.md",
+      "sha256": "b5278f84d5bd0c29ca8c1e4087078f62e27d8145a2cf54453f5a6453b9c1c210",
+      "matches_audit_copy": true
+    },
+    {
+      "skill": "sciwrite-manuscript",
+      "path": "references/sections.md",
+      "sha256": "fab29f0fa6766674b4b536a4f7027f97fe058f2cb4fac57e47a96ddfa0879207",
+      "matches_audit_copy": true
+    },
+    {
+      "skill": "sciwrite-manuscript",
+      "path": "references/tables-figures.md",
+      "sha256": "5055a57e02eed350f4a9b4e8e28d415f0f9c76f36420455a03a862e700314c03",
+      "matches_audit_copy": true
+    },
+    {
+      "skill": "sciwrite-manuscript",
+      "path": "references/worked-examples.md",
+      "sha256": "1e36f5f94fd313b68f0095594628e077b498dcb60e8dcad9a5f725770e43a31a",
+      "matches_audit_copy": true
+    },
+    {
+      "skill": "sciwrite-prose",
+      "path": "SKILL.md",
+      "sha256": "8db33bf84925b5b48e56416722a696ef0642a9dcdc4973301d8bb8435914133f",
+      "matches_audit_copy": true
+    },
+    {
+      "skill": "sciwrite-prose",
+      "path": "references/clutter-lexicon.md",
+      "sha256": "05f3ebd4dfacbc96e643a11b7db7c6fd519142ebc88766625db82b392804ebfa",
+      "matches_audit_copy": true
+    },
+    {
+      "skill": "sciwrite-prose",
+      "path": "references/engineering-examples.md",
+      "sha256": "bd2ebcb3bb50efdd980ee037cfb8f733cddd022e60852a59096f9a3f6ffa916a",
+      "matches_audit_copy": true
+    },
+    {
+      "skill": "sciwrite-prose",
+      "path": "references/grammar-and-keywords.md",
+      "sha256": "5275229d4808beae666c0551ae0bded6caab3322160cd644016a0c8466c9cc26",
+      "matches_audit_copy": true
+    },
+    {
+      "skill": "sciwrite-prose",
+      "path": "references/oceanography-examples.md",
+      "sha256": "794cdae3c02b8465bff7638774d7024e8101e83aeab13a6b52128f802c7269cd",
+      "matches_audit_copy": true
+    },
+    {
+      "skill": "sciwrite-prose",
+      "path": "references/paragraphs.md",
+      "sha256": "7d0e6fa81aacc1512378d1e5ea0bbb4df7ffb0b3a0730abccdf222736e9dd1b4",
+      "matches_audit_copy": true
+    },
+    {
+      "skill": "sciwrite-prose",
+      "path": "references/punctuation.md",
+      "sha256": "2e39fa44bfe5c9c5b66926434f323fd0b6e2da2ae149c9e5b295153ba00db5b0",
+      "matches_audit_copy": true
+    },
+    {
+      "skill": "sciwrite-prose",
+      "path": "references/verbs-and-voice.md",
+      "sha256": "67efa984b2a81bb1a10cd698f19cea5b73087555160889f0af5b7907c0606167",
+      "matches_audit_copy": true
+    },
+    {
+      "skill": "sciwrite-prose",
+      "path": "scripts/extract_text.py",
+      "sha256": "fac34ce4658a8fbcc602ba98cfa2c38e853f85e521c733771363cbef7188a0f8",
+      "matches_audit_copy": true
+    },
+    {
+      "skill": "sciwrite-prose",
+      "path": "scripts/keyword_consistency.py",
+      "sha256": "3454fb83f1c715513b5f6a4e6d8a2cdca89fe270558764a746d311e462d092b7",
+      "matches_audit_copy": true
+    },
+    {
+      "skill": "sciwrite-prose",
+      "path": "scripts/numeric_consistency.py",
+      "sha256": "987ff9603d17f5842631ffba9429423917ac0819c120a4027fbd155e79789f3d",
+      "matches_audit_copy": true
+    },
+    {
+      "skill": "sciwrite-prose",
+      "path": "scripts/prose_audit.py",
+      "sha256": "028e7584906d8ff3baf7aef9b01fb994a812f3ddc73a560ec582b99eb05fc9ce",
+      "matches_audit_copy": true
+    },
+    {
+      "skill": "sciwrite-process",
+      "path": "SKILL.md",
+      "sha256": "e3779c9a478896bdb161c9c58a83916057c0271d11cd64393af458badb2f58a2",
+      "matches_audit_copy": true
+    },
+    {
+      "skill": "sciwrite-process",
+      "path": "references/final-checklist.md",
+      "sha256": "afc25e2e874dcc44b671dc080e7815aaa0e2f8df2c0debecd8489c37a79b1c04",
+      "matches_audit_copy": true
+    }
+  ],
+  "scripts_verified": [
+    "extract_text.py",
+    "prose_audit.py",
+    "keyword_consistency.py",
+    "numeric_consistency.py"
+  ],
+  "license_notice_copied_to_each_skill": true,
+  "origin_file": "ORIGIN.json",
+  "pip_or_npm_executed": false,
+  "manuscript_scripts_executed": false,
+  "existing_skill_overwritten": false
+}

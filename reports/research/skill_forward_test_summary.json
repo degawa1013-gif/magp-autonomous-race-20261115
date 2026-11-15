@@ -1,0 +1,282 @@
+{
+  "schema": "autonomous-race-report-skill-forward-test-v1",
+  "review_date_jst": "2026-11-15",
+  "independent_agent": "report_skill_forward_test",
+  "existing_paper_read": false,
+  "existing_technical_review_read": false,
+  "inputs": "Retained qualifying CSV, aggregate JSON and official-result JSON; original images/JSONL/deployment manifest/official website not re-examined",
+  "method": "Converted CSV columns to numeric types and used existing summarize(); independently checked keys/time order/state proportions.",
+  "result": "No aggregate differences; 1973 unique observations; no major Skill defect observed.",
+  "scope_limit": "Does not establish raw evidence recreation, original image inspection, source adoption or whole-paper validity.",
+  "followup": "Added original JSONL/ZIP retention and CSV-only typed aggregation guidance to SKILL.md.",
+  "original_sources_modified": false,
+  "artifact_sha256": {
+    "skill_feedback.md": "3b102435d78eff48c7cfc9aec3d0c7438da5c7f5232c29b6c61efc744692631b",
+    "technical_summary.md": "9e03cf9202efee220e350719e1f5c9c66779cd6cc476a4dc406dd2e45fee8e75",
+    "verification.json": "9f91f72b53ec23fd6bca4ee655999eef2f2a5cc919f7c41a4d2dc0775c5ed559"
+  },
+  "independent_verification": {
+    "input_hashes": {
+      "data/qualifying_timeline.csv": "b9a4c05c76d611246628e797d43e01dde8920ecc23bdd2ae854631b68925cdc0",
+      "data/run_metrics.json": "71d5f482abf6a9724dbb4a390378df02f1e7814b459bafa56df996c07d26e5dd",
+      "data/official_competition_results.json": "a94dc5690e214f59cb4a8d8d35d15d97bb9d86ee206260d64421af852c1fccd7"
+    },
+    "scope": "Reduced timeline CSV checked against matching run_metrics session. Source archives, original images, deployment manifest, and official website were not independently re-examined.",
+    "unique_sync_keys": 1973,
+    "duplicate_sync_keys": 0,
+    "strictly_increasing_timestamps": true,
+    "published_summary_differences": [],
+    "summary": {
+      "samples": 1973,
+      "start_jst": "2026-11-15T11:28:38.627+09:00",
+      "end_jst": "2026-11-15T11:32:59.697+09:00",
+      "saved_span_s": 261.07044897460935,
+      "perception_count": {
+        "TRACK": 1866,
+        "LOST": 28,
+        "DEGRADED": 3,
+        "STOP": 76
+      },
+      "perception_sample_percent": {
+        "TRACK": 94.57678661936139,
+        "LOST": 1.4191586416624429,
+        "DEGRADED": 0.15205271160669032,
+        "STOP": 3.852002027369488
+      },
+      "observed_interval_s": 261.0704489746098,
+      "perception_estimated_dwell_s": {
+        "TRACK": 246.8217917480473,
+        "LOST": 3.6672758789062505,
+        "DEGRADED": 0.39792626953125,
+        "STOP": 10.183455078124998
+      },
+      "perception_estimated_time_percent": {
+        "TRACK": 94.54221751924582,
+        "LOST": 1.4047073858071575,
+        "DEGRADED": 0.1524210308344588,
+        "STOP": 3.90065406411255
+      },
+      "excluded_recording_gaps_over_1s": [],
+      "vehicle_mode_count": {
+        "AUTO": 1973
+      },
+      "sample_interval_ms": {
+        "count": 1972,
+        "minimum": 100.090087890625,
+        "mean": 132.38866580862543,
+        "median": 133.010498046875,
+        "p95": 155.8327880859375,
+        "maximum": 196.171142578125
+      },
+      "track_absolute_image_error_px": {
+        "count": 1866,
+        "minimum": 0.021,
+        "mean": 41.22024115755627,
+        "median": 40.302,
+        "p95": 89.90675,
+        "maximum": 109.748
+      },
+      "source_sha256": [
+        "159b6996facdd74e151967fc76e5f408d61ad805f57245340c70a31a1157b398"
+      ],
+      "image_error_scope": "TRACK samples only; control-point image error in transformed pixel coordinates, not physical lateral tracking error",
+      "camera_to_output_ms": {
+        "count": 1973,
+        "minimum": 38.559,
+        "mean": 61.567205271160674,
+        "median": 60.69,
+        "p95": 78.228,
+        "maximum": 104.69
+      },
+      "vision_ms": {
+        "count": 1973,
+        "minimum": 18.274,
+        "mean": 36.03900861632033,
+        "median": 36.042,
+        "p95": 47.9662,
+        "maximum": 69.7
+      },
+      "frame_interval_ms": {
+        "count": 1973,
+        "minimum": 31.692,
+        "mean": 63.348465281297514,
+        "median": 65.195,
+        "p95": 74.61959999999999,
+        "maximum": 112.944
+      },
+      "plan_to_decision_ms": {
+        "count": 1973,
+        "minimum": 0.07,
+        "mean": 0.623384693360365,
+        "median": 0.456,
+        "p95": 1.0321999999999996,
+        "maximum": 13.267
+      },
+      "encoder_speed_kph": {
+        "count": 1973,
+        "minimum": 0.0,
+        "mean": 6.093324328433857,
+        "median": 5.8056,
+        "p95": 11.636759999999999,
+        "maximum": 21.3664
+      },
+      "steering_command_us": {
+        "count": 1973,
+        "minimum": 1101.0,
+        "mean": 1552.7546882919412,
+        "median": 1547.0,
+        "p95": 1765.3999999999999,
+        "maximum": 1959.0
+      },
+      "throttle_command_us": {
+        "count": 1973,
+        "minimum": 1281.0,
+        "mean": 1419.3142422706537,
+        "median": 1422.0,
+        "p95": 1470.0,
+        "maximum": 1470.0
+      },
+      "requested_forward_percent": {
+        "count": 1973,
+        "minimum": 13.0,
+        "mean": 42.04967055245819,
+        "median": 48.0,
+        "p95": 53.0,
+        "maximum": 53.0
+      },
+      "forward_command_percent": {
+        "count": 1973,
+        "minimum": 13.0,
+        "mean": 23.668514445007602,
+        "median": 23.0,
+        "p95": 42.77359999999997,
+        "maximum": 53.0
+      },
+      "software_frame_rate_from_median_interval_hz": 15.338599585857812,
+      "recorded_frame_rate_from_median_interval_hz": 7.5182035605007975
+    },
+    "case_csv_observations": {
+      "first_lost": {
+        "source": "qualifying_review_20261115_1137/magp-capture-20261115-112838-1628279c-s003.zip!frames.jsonl",
+        "source_line": "341",
+        "segment": "magp-capture-20261115-112838-1628279c-s003",
+        "frame": "341",
+        "frame_index": "10445",
+        "time_unix_ms": 1794709939843.272,
+        "time_jst": "2026-11-15T11:32:19.843+09:00",
+        "vehicle_mode": "AUTO",
+        "capture_mode": "AUTO",
+        "perception_mode": "LOST",
+        "reason": "hist_low:0",
+        "confidence": 0.0,
+        "point_count": 0.0,
+        "image_error_px": -9.937,
+        "steering_command_us": 1661.0,
+        "throttle_command_us": 1470.0,
+        "steering_logical_duty": "10.9146",
+        "throttle_logical_duty": "10.0813",
+        "requested_forward_percent": 53.0,
+        "forward_command_percent": 13.0,
+        "encoder_speed_kph": 7.2573,
+        "encoder_count": 40292.0,
+        "camera_to_output_ms": 61.466,
+        "vision_ms": 30.544,
+        "frame_interval_ms": 42.654,
+        "plan_to_decision_ms": 0.085,
+        "fast_output_error": "",
+        "preview_active": "False",
+        "preview_delta_duty": "0.0",
+        "return_delta_duty": "0.0",
+        "mask_ratio": 0.0,
+        "source_sha256": "159b6996facdd74e151967fc76e5f408d61ad805f57245340c70a31a1157b398",
+        "elapsed_s": 221.21622290039062
+      },
+      "first_perception_stop": {
+        "source": "qualifying_review_20261115_1137/magp-capture-20261115-112838-1628279c-s003.zip!frames.jsonl",
+        "source_line": "349",
+        "segment": "magp-capture-20261115-112838-1628279c-s003",
+        "frame": "349",
+        "frame_index": "10461",
+        "time_unix_ms": 1794709940906.003,
+        "time_jst": "2026-11-15T11:32:20.906+09:00",
+        "vehicle_mode": "AUTO",
+        "capture_mode": "AUTO",
+        "perception_mode": "STOP",
+        "reason": "hist_low:0",
+        "confidence": 0.0,
+        "point_count": 0.0,
+        "image_error_px": -9.937,
+        "steering_command_us": 1530.0,
+        "throttle_command_us": 1470.0,
+        "steering_logical_duty": "10.0",
+        "throttle_logical_duty": "10.0813",
+        "requested_forward_percent": 53.0,
+        "forward_command_percent": 13.0,
+        "encoder_speed_kph": 3.1897,
+        "encoder_count": 40391.0,
+        "camera_to_output_ms": 56.828,
+        "vision_ms": 35.464,
+        "frame_interval_ms": 67.547,
+        "plan_to_decision_ms": 0.088,
+        "fast_output_error": "",
+        "preview_active": "False",
+        "preview_delta_duty": "0.0",
+        "return_delta_duty": "0.0",
+        "mask_ratio": 0.02883,
+        "source_sha256": "159b6996facdd74e151967fc76e5f408d61ad805f57245340c70a31a1157b398",
+        "elapsed_s": 222.27895385742187
+      },
+      "track_recovery": {
+        "source": "qualifying_review_20261115_1137/magp-capture-20261115-112838-1628279c-s003.zip!frames.jsonl",
+        "source_line": "425",
+        "segment": "magp-capture-20261115-112838-1628279c-s003",
+        "frame": "425",
+        "frame_index": "10613",
+        "time_unix_ms": 1794709951089.458,
+        "time_jst": "2026-11-15T11:32:31.089+09:00",
+        "vehicle_mode": "AUTO",
+        "capture_mode": "AUTO",
+        "perception_mode": "TRACK",
+        "reason": "tt02_sliding_window",
+        "confidence": 0.98,
+        "point_count": 8.0,
+        "image_error_px": 87.753,
+        "steering_command_us": 1662.0,
+        "throttle_command_us": 1470.0,
+        "steering_logical_duty": "10.924",
+        "throttle_logical_duty": "10.0813",
+        "requested_forward_percent": 13.0,
+        "forward_command_percent": 13.0,
+        "encoder_speed_kph": 8.1694,
+        "encoder_count": 40425.0,
+        "camera_to_output_ms": 74.231,
+        "vision_ms": 40.323,
+        "frame_interval_ms": 44.089,
+        "plan_to_decision_ms": 0.437,
+        "fast_output_error": "",
+        "preview_active": "False",
+        "preview_delta_duty": "0.0",
+        "return_delta_duty": "0.0",
+        "mask_ratio": 0.05723,
+        "source_sha256": "159b6996facdd74e151967fc76e5f408d61ad805f57245340c70a31a1157b398",
+        "elapsed_s": 232.46240893554688
+      },
+      "encoder_count_40391": {
+        "count": 73,
+        "start_s": 221.8788359375,
+        "end_s": 231.5379208984375,
+        "duration_s": 9.659084960937491,
+        "vehicle_modes": [
+          "AUTO"
+        ],
+        "forward_command_percent_values": [
+          13.0,
+          15.0
+        ],
+        "steering_command_us_values": [
+          1530.0
+        ]
+      }
+    }
+  }
+}

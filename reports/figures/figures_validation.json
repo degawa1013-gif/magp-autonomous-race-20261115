@@ -1,0 +1,135 @@
+{
+  "schema": "race-paper-figures-validation-v1",
+  "runtime": {
+    "python": "/usr/bin/python3",
+    "numpy": "2.2.6",
+    "matplotlib": "3.10.9",
+    "Pillow": "9.0.1",
+    "installed_packages": false
+  },
+  "checks": {
+    "qualifying_full_timeline": {
+      "png_pixels": [
+        2007,
+        1511
+      ],
+      "pdf_size": "Page size:       481.89 x 362.835 pts",
+      "font_embedding": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nCVKVVF+NotoSansCJKjp-Regular         CID Type 0C (OT)  Identity-H       yes yes yes     15  0\n",
+      "source_metadata_present": true,
+      "png_sha256": "859627cd3fad9420482efb3354851ea4344c361858f802c5c242d2681013eb7e",
+      "pdf_render_verified": true,
+      "byte_identical_second_generation": true
+    },
+    "qualifying_contact_detail": {
+      "png_pixels": [
+        2007,
+        1511
+      ],
+      "pdf_size": "Page size:       481.89 x 362.835 pts",
+      "font_embedding": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nCVKVVF+NotoSansCJKjp-Regular         CID Type 0C (OT)  Identity-H       yes yes yes     15  0\n",
+      "source_metadata_present": true,
+      "png_sha256": "c696648175bcff74b887c90b07c3f5c00b60750bd1e1959d4666c04d3f300f98",
+      "pdf_render_verified": true,
+      "byte_identical_second_generation": true
+    },
+    "manual_software_latency": {
+      "png_pixels": [
+        2007,
+        980
+      ],
+      "pdf_size": "Page size:       481.89 x 235.276 pts",
+      "font_embedding": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nCVKVVF+NotoSansCJKjp-Regular         CID Type 0C (OT)  Identity-H       yes yes yes     15  0\n",
+      "source_metadata_present": true,
+      "png_sha256": "d9a423592a5fb4798843311c28d7f257b3137518e6c50d12968b626149f1b080",
+      "pdf_render_verified": true,
+      "byte_identical_second_generation": true
+    },
+    "qualifying_macro_windows": {
+      "png_pixels": [
+        2007,
+        1240
+      ],
+      "pdf_size": "Page size:       481.89 x 297.638 pts",
+      "font_embedding": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nCVKVVF+NotoSansCJKjp-Regular         CID Type 0C (OT)  Identity-H       yes yes yes     17  0\n",
+      "source_metadata_present": true,
+      "png_sha256": "d84b995d7a91b26821f80676a8c8c37b58fa7d9cfadd235ef1768ebc00729d93",
+      "pdf_render_verified": true,
+      "byte_identical_second_generation": true
+    },
+    "system_architecture_qualifying": {
+      "png_pixels": [
+        2007,
+        1665
+      ],
+      "pdf_size": "Page size:       481.89 x 399.685 pts",
+      "font_embedding": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nCVKVVF+NotoSansCJKjp-Regular         CID Type 0C (OT)  Identity-H       yes yes yes     15  0\n",
+      "source_metadata_present": true,
+      "png_sha256": "c8c2367619b7c94a36a2a3949e86e23c6d5ab43a890e84afc85ce7771303a165",
+      "pdf_render_verified": true,
+      "byte_identical_second_generation": true
+    },
+    "qualifying_contact_frames": {
+      "png_pixels": [
+        2007,
+        956
+      ],
+      "pdf_size": "Page size:       481.89 x 229.606 pts",
+      "font_embedding": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nCVKVVF+NotoSansCJKjp-Regular         CID Type 0C (OT)  Identity-H       yes yes yes     18  0\n",
+      "source_metadata_present": true,
+      "png_sha256": "d4498f383f66f7aa6e3175747999559bc083fe8da59bf72ae26ae50b9b7ac734",
+      "pdf_render_verified": true,
+      "byte_identical_second_generation": true
+    },
+    "radio_event_timeline": {
+      "png_pixels": [
+        2007,
+        1559
+      ],
+      "pdf_size": "Page size:       481.89 x 374.173 pts",
+      "font_embedding": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nCVKVVF+NotoSansCJKjp-Regular         CID Type 0C (OT)  Identity-H       yes yes yes     15  0\n",
+      "source_metadata_present": true,
+      "png_sha256": "acf76482426b7a18052ebd653b69978d98d4045344b5efc7718c7bf78c6d1dc9",
+      "pdf_render_verified": true,
+      "byte_identical_second_generation": true
+    }
+  },
+  "visual_review": {
+    "status": "reviewed_and_corrected",
+    "scope": "All 7 final PNGs and all 7 rendered PDF pages at 150 dpi, 170 mm print width; G2 mode-request arrow separately checked after final correction",
+    "corrections": [
+      "Moved state legend below the time-axis label to remove overlap",
+      "Removed zoom-axis clipping and retained complete steering values",
+      "Moved benchmark legend away from bars and numerical labels",
+      "Raised legends and annotations to a minimum 8 pt",
+      "Added separate diagnostic branch from recognition to recording in the system diagram",
+      "Separated G2 status output from mode requests entering ControlState arbitration"
+    ],
+    "limitations": "No physical actuator, radio or race experiment was repeated."
+  },
+  "pdf_renderer": "/usr/bin/pdftoppm",
+  "environment_notes": [
+    "Bundled Poppler executable requires newer GLIBC; system Poppler rendered every figure successfully.",
+    "Existing Matplotlib emits an unavailable optional Axes3D warning; these figures use only 2D plotting."
+  ],
+  "radio_summary_validation": {
+    "aggregate_whitelist": true,
+    "IPv4_or_MAC_value_found": false,
+    "byte_identical_second_extraction": true,
+    "pico_scans": 1360,
+    "pi_cached_snapshots": 7297,
+    "minutes_exported": 357,
+    "no_live_collection": true
+  },
+  "original_contact_JPEG_hashes_verified": [
+    "f0313d338092d5ad74c1e29849dcae44e59d205426ed99c2e9ba3f4f2a58f6fd",
+    "3c546c005458510484a78e4bc3ecef05517e8e7b3cc3557e4ce8e393ebe0d7e6",
+    "aa92a40e7fc2a1c28f32e05e145ee397503b2768bced93bb48ec512f8f94fef3"
+  ],
+  "reproduction": {
+    "identical_artifacts": 21,
+    "identical_svg_pdf_png": true,
+    "second_output_directory": "/tmp/magp-figures-repro-check",
+    "script_sha256": "f4869ff4d4200f968d258813f0ca178e6e4086969f0720b36f25258e1fbcc478"
+  },
+  "font_review_limit": "Noto CJK is embedded and visibly renders with successful extraction. System Poppler may warn about embedded font type mismatch; full PDF/PNG rendering was checked. No font-package change was performed."
+}

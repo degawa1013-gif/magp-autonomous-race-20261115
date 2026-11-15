@@ -1,0 +1,69 @@
+{
+  "sample_sizes": [],
+  "abstract_orphans": [],
+  "over_precision": [
+    {
+      "value": "0.085",
+      "section": "3.2 画像座標PD制御と先読み補助",
+      "context": "状倍率gを用いて次の形で計算する。 u₀ = 10 + g(K_P e_u + K_D d_f + 0.085h) d_k = clip((e_u,k − e_u,k−1)(1/30)/Δt, −18, 18)",
+      "note": "3 decimal places — report only what the measurement supports"
+    },
+    {
+      "value": "38.627",
+      "section": "5.2 保存予選区間の定量評価",
+      "context": "く、認識試験や部分記録を含むため、走行成功率の分母には使用しない。詳細対象は2026年11月15日11:28:38.627～11:32:59.697 JSTの画像付き予選記録であり、1973観測、261.070秒である［E02、E1",
+      "note": "3 decimal places — report only what the measurement supports"
+    },
+    {
+      "value": "59.697",
+      "section": "5.2 保存予選区間の定量評価",
+      "context": "むため、走行成功率の分母には使用しない。詳細対象は2026年11月15日11:28:38.627～11:32:59.697 JSTの画像付き予選記録であり、1973観測、261.070秒である［E02、E10］。 表4 予選記録の保",
+      "note": "3 decimal places — report only what the measurement supports"
+    },
+    {
+      "value": "261.070",
+      "section": "5.2 保存予選区間の定量評価",
+      "context": "11月15日11:28:38.627～11:32:59.697 JSTの画像付き予選記録であり、1973観測、261.070秒である［E02、E10］。 表4 予選記録の保存観測に基づく集計。p95は線形補間による95パーセンタイル",
+      "note": "3 decimal places — report only what the measurement supports"
+    },
+    {
+      "value": "221.879",
+      "section": "5.3 全体傾向と接触場面",
+      "context": "指令は直前1661 µsから221.609秒には1530 µsの中立へ戻った一方、前進指令は13%を維持した。221.879秒のフレーム346ではバリアが画面を占め、以後9.659秒間の保存観測で車輪パルス数が一定であった。画像とパル",
+      "note": "3 decimal places — report only what the measurement supports"
+    },
+    {
+      "value": "232.462",
+      "section": "5.3 全体傾向と接触場面",
+      "context": "令であり、実舵角ではない。](figures/qualifying_contact_frames.png) 232.462秒ではTRACKへ復帰した。したがって、261秒の全記録は接触後の停止相当区間と復帰走行を含む。最終保存画像も",
+      "note": "3 decimal places — report only what the measurement supports"
+    }
+  ],
+  "pm_precision": [],
+  "sections": [
+    "第4回MAGPにおける認識・制御・操縦応答・無線診断の技術報告",
+    "要旨",
+    "1. 緒言",
+    "2.1 競技条件と版の同定",
+    "2.2 ハードウェアとソフトウェア",
+    "3.1 動的白線抽出と経路点",
+    "3.2 画像座標PD制御と先読み補助",
+    "3.3 前進指令、喪失時動作、回転換算",
+    "3.4 操縦・出力・記録の分離",
+    "4.1 継承部分と今回の改善",
+    "4.2 探索的な別系列",
+    "5.1 公式成績と観測範囲",
+    "5.2 保存予選区間の定量評価",
+    "5.3 全体傾向と接触場面",
+    "5.4 手動応答のソフトウェア比較",
+    "5.5 Wi-Fi・Bluetoothの大会中観測",
+    "6.1 継続走行と局所的な認識破綻",
+    "6.2 先読み、平滑化、実応答の整合",
+    "6.3 手動応答と無線観測の位置付け",
+    "6.4 評価の限界と次回の優先事項",
+    "7. 結言",
+    "8. 参考文献",
+    "付録A　内部証拠の追跡",
+    "付録B　再生成と提出前確認"
+  ]
+}

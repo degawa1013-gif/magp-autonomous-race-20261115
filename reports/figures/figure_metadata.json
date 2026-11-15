@@ -1,0 +1,263 @@
+{
+  "schema": "race-paper-figure-metadata-v1",
+  "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+  "font_point_size": 8.5,
+  "minimum_annotation_point_size": 8.0,
+  "native_vector_formats": [
+    "svg",
+    "pdf"
+  ],
+  "png_dpi": 300,
+  "sources": {
+    "run_metrics.json": "63561b45eb626b5138ef8c3aafaff91cc982ab7da5f90f38211cf5d814ce844c",
+    "qualifying_timeline.csv": "b9a4c05c76d611246628e797d43e01dde8920ecc23bdd2ae854631b68925cdc0",
+    "qualifying_30s_bins.csv": "6244b7147132a20f7b648c0024570e7cae25fc8fadf1f9cab2334fb9e668aa29",
+    "manual_software_latency_benchmark.csv": "b999d59870260e5209c8a652c4e04ca1bcf3934f8c05bee6ef69fe8270e96ecf",
+    "radio_event_summary.json": "50660c563e966bfc81d15e15b8f250f5657713b33e72b6d2cc7db58bc6fc6c8a"
+  },
+  "figures": {
+    "qualifying_full_timeline": {
+      "caption_ja": "予選の261.070秒の連続AUTO保存区間。操舵PWM指令、前進設定値と制限適用後の指令、車輪換算速度、および認識状態を示す。点線は開始221.879秒後の接触場面、淡灰色は主たるLOSTからTRACK復帰までの区間である。",
+      "source_files": [
+        "data/qualifying_timeline.csv",
+        "data/run_metrics.json"
+      ],
+      "conditions_ja": "1973保存観測。操舵は受理PWM指令、前進率はソフトウェア指令、速度は車輪回転からの換算値。状態帯は左端保持。",
+      "limitations_ja": "実舵角・対地速度・物理横偏差を測定していない。線は保存観測間を接続したもので、未保存の制御フレームを実測したものではない。接触線は記録画像の注釈で、衝突センサの実測時刻ではない。",
+      "x_limits_s": [
+        0,
+        261.07044897460935
+      ],
+      "contact_annotation_s": 221.8788359375,
+      "line_loss_annotation_s": 221.21622290039062,
+      "files": {
+        "svg": {
+          "path": "qualifying_full_timeline.svg",
+          "sha256": "818f7d23d75e77377ef86c026f202b428ed3da9aca14d8c99774c51ccc3c5b43",
+          "bytes": 133187
+        },
+        "pdf": {
+          "path": "qualifying_full_timeline.pdf",
+          "sha256": "b74a5a61c19756b3c44f9aed79206452042b140d96b8678df2d9255dbabbbc2a",
+          "bytes": 79661
+        },
+        "png": {
+          "path": "qualifying_full_timeline.png",
+          "sha256": "859627cd3fad9420482efb3354851ea4344c361858f802c5c242d2681013eb7e",
+          "bytes": 497549
+        }
+      },
+      "width_mm": 170.0,
+      "height_mm": 128.0
+    },
+    "qualifying_contact_detail": {
+      "caption_ja": "予選の接触場面前後の拡大。最初の保存AUTO観測を0秒とし、接触場面の5秒前から2秒後までを示す。破線は近傍白線点が消えたLOST開始、点線はバリアが画面を占めることを確認した保存観測である。",
+      "source_files": [
+        "data/qualifying_timeline.csv",
+        "data/run_metrics.json"
+      ],
+      "conditions_ja": "1973保存観測。操舵は受理PWM指令、前進率はソフトウェア指令、速度は車輪回転からの換算値。状態帯は左端保持。",
+      "limitations_ja": "実舵角・対地速度・物理横偏差を測定していない。線は保存観測間を接続したもので、未保存の制御フレームを実測したものではない。接触線は記録画像の注釈で、衝突センサの実測時刻ではない。",
+      "x_limits_s": [
+        216.8788359375,
+        223.8788359375
+      ],
+      "contact_annotation_s": 221.8788359375,
+      "line_loss_annotation_s": 221.21622290039062,
+      "files": {
+        "svg": {
+          "path": "qualifying_contact_detail.svg",
+          "sha256": "94e75eb030d1be11369ad6ea452f1ca19315078ac57859fb14f3b1e4248c40f6",
+          "bytes": 44050
+        },
+        "pdf": {
+          "path": "qualifying_contact_detail.pdf",
+          "sha256": "5e5516cfcb1be90bb23a7c7085513fdd0c0802af4a0f69ef90c50d6fa8d17758",
+          "bytes": 45151
+        },
+        "png": {
+          "path": "qualifying_contact_detail.png",
+          "sha256": "c696648175bcff74b887c90b07c3f5c00b60750bd1e1959d4666c04d3f300f98",
+          "bytes": 265587
+        }
+      },
+      "width_mm": 170.0,
+      "height_mm": 128.0
+    },
+    "manual_software_latency": {
+      "caption_ja": "手動入力処理のソフトウェアベンチマーク。evdev形式のイベントをパイプ送信した時刻から、模擬出力先が更新された時刻までの中央値とp95を、改修前後・画像処理負荷の有無で比較した。",
+      "source_files": [
+        "data/manual_software_latency_benchmark.csv",
+        "manual_event_latency_review_20261115/benchmark_before_pi.json",
+        "manual_event_latency_review_20261115/benchmark_after_pi.json",
+        "manual_event_latency_review_20261115/benchmark_before_load_pi.json",
+        "manual_event_latency_review_20261115/benchmark_after_load_pi.json"
+      ],
+      "conditions_ja": "各条件200イベント。Pi上の保存済みソフトウェア試験であり、本図の作成時に実機試験は再実行していない。p95は保存された実験集計値を利用。",
+      "limitations_ja": "Bluetooth空中伝送、実GPIO/PWM、機械応答は測定対象外。負荷ありの測定では画像処理反復回数が異なる。独立反復の信頼区間はないため誤差棒を描いていない。",
+      "files": {
+        "svg": {
+          "path": "manual_software_latency.svg",
+          "sha256": "d7640df34e24b3c9bf6e81a75282216758762857e438687e37660fa2dbc6ebd5",
+          "bytes": 15791
+        },
+        "pdf": {
+          "path": "manual_software_latency.pdf",
+          "sha256": "a3843168e6061d29f6cb6548bdfcd617f2bf3556199766b673e786f074af4bb3",
+          "bytes": 34095
+        },
+        "png": {
+          "path": "manual_software_latency.png",
+          "sha256": "d9a423592a5fb4798843311c28d7f257b3137518e6c50d12968b626149f1b080",
+          "bytes": 121605
+        }
+      },
+      "width_mm": 170.0,
+      "height_mm": 83.0
+    },
+    "qualifying_macro_windows": {
+      "caption_ja": "予選のマクロな時間変化。上段は30秒区間のTRACK推定時間率、下段は同じ区間に保存されたカメラからソフトウェア出力までの時間の中央値とp95である。各点は区間中央に配置した。",
+      "source_files": [
+        "data/qualifying_30s_bins.csv",
+        "data/run_metrics.json"
+      ],
+      "conditions_ja": "区間は[0,30),[30,60),…,[240,261.070449]秒。状態の左端保持で時間率を推定し、各区間の先頭から末尾の保存観測までを分母とする。点線は接触場面。",
+      "limitations_ja": "TRACK判定の真偽を人手で全件ラベル付けしていないため、認識正解率ではない。区間内の設定速度・曲線条件は一定でなく、性能の因果比較には使用しない。",
+      "files": {
+        "svg": {
+          "path": "qualifying_macro_windows.svg",
+          "sha256": "4dc76725a86ee14cb7f7a1c91a1d58069353962c02aa303a425153d397d0b59b",
+          "bytes": 21471
+        },
+        "pdf": {
+          "path": "qualifying_macro_windows.pdf",
+          "sha256": "f5cb1cc1252907bd6b5a863a055d8e6f49484c704608a0a6f9d159a5cf6d973c",
+          "bytes": 31975
+        },
+        "png": {
+          "path": "qualifying_macro_windows.png",
+          "sha256": "d84b995d7a91b26821f80676a8c8c37b58fa7d9cfadd235ef1768ebc00729d93",
+          "bytes": 147276
+        }
+      },
+      "width_mm": 170.0,
+      "height_mm": 105.0
+    },
+    "system_architecture_qualifying": {
+      "caption_ja": "保存予選版のシステム構成。カメラ由来の自動計画とDualSenseの入力を、画像処理から独立した唯一の出力ワーカーで仲裁し、操舵とESCへ50 HzのPWMを出力する。点線は状態・診断・モード要求および換算速度の経路を示す。",
+      "source_files": [
+        "system_analysis.md",
+        "research/code_evidence.json",
+        "controller_hud_candidate/fast_control_output.py",
+        "controller_hud_candidate/legacy_pi_output.py"
+      ],
+      "conditions_ja": "予選記録のsource SHA-256 159b6996facdd74e151967fc76e5f408d61ad805f57245340c70a31a1157b398と照合した構成。10 msは出力ワーカーの周期待機補完であり、PWM周期や遅延保証ではない。",
+      "limitations_ja": "実装の依存関係を抽象化した構成図であり、信号線・電源の配線図ではない。決勝の稼働版は未照合。別系列のPure PursuitやROSを予選経路へ含めていない。",
+      "files": {
+        "svg": {
+          "path": "system_architecture_qualifying.svg",
+          "sha256": "e3bbb4b6aacd17a5d2e9652c98bb8655b5dea198f7737548dbf3761ca20e0588",
+          "bytes": 15725
+        },
+        "pdf": {
+          "path": "system_architecture_qualifying.pdf",
+          "sha256": "5300e13046d7e6c404649d0d0834d9808c1db3df9950efffe836b39743cf610a",
+          "bytes": 71884
+        },
+        "png": {
+          "path": "system_architecture_qualifying.png",
+          "sha256": "c8c2367619b7c94a36a2a3949e86e23c6d5ab43a890e84afc85ce7771303a165",
+          "bytes": 262106
+        }
+      },
+      "width_mm": 170.0,
+      "height_mm": 141.0
+    },
+    "qualifying_contact_frames": {
+      "caption_ja": "予選のカーブ接近から白線抽出喪失、バリア接近までの元カメラ画像。(a) s003フレーム338、(b)341、(c)346。画像下に同時刻の操舵PWM指令とソフトウェア前進指令を示す。",
+      "source_files": [
+        "data/qualifying_timeline.csv",
+        "data/run_metrics.json",
+        "data/contact_frames/"
+      ],
+      "conditions_ja": "元JPEG3枚を変更せずコピーし、SHA-256一致を確認した。白マスク0画素は保存マスクの計数であり、元画像に白線が物理的に存在しないという意味ではない。",
+      "limitations_ja": "画像と同時刻の指令の対応を示すもので、実舵角や因果を実測したものではない。バリアが前方を占める画像を、力センサで計測した衝突の瞬間として扱わない。",
+      "copied_images": [
+        {
+          "frame": 338,
+          "copy_relative_path": "data/contact_frames/frame_000338.jpg",
+          "original_relative_path": "qualifying_review_20261115_1137/magp-capture-20261115-112838-1628279c-s003/images/000338.jpg",
+          "sha256": "f0313d338092d5ad74c1e29849dcae44e59d205426ed99c2e9ba3f4f2a58f6fd",
+          "elapsed_s": 220.7802080078125,
+          "steering_command_us": 1558,
+          "forward_command_percent": 47.819
+        },
+        {
+          "frame": 341,
+          "copy_relative_path": "data/contact_frames/frame_000341.jpg",
+          "original_relative_path": "qualifying_review_20261115_1137/magp-capture-20261115-112838-1628279c-s003/images/000341.jpg",
+          "sha256": "3c546c005458510484a78e4bc3ecef05517e8e7b3cc3557e4ce8e393ebe0d7e6",
+          "elapsed_s": 221.21622290039062,
+          "steering_command_us": 1661,
+          "forward_command_percent": 13.0
+        },
+        {
+          "frame": 346,
+          "copy_relative_path": "data/contact_frames/frame_000346.jpg",
+          "original_relative_path": "qualifying_review_20261115_1137/magp-capture-20261115-112838-1628279c-s003/images/000346.jpg",
+          "sha256": "aa92a40e7fc2a1c28f32e05e145ee397503b2768bced93bb48ec512f8f94fef3",
+          "elapsed_s": 221.8788359375,
+          "steering_command_us": 1530,
+          "forward_command_percent": 13.0
+        }
+      ],
+      "files": {
+        "svg": {
+          "path": "qualifying_contact_frames.svg",
+          "sha256": "d7245dd29b64cbd12c2e73ff18fefa893f6caa3d848d3d46002f4791b66c8108",
+          "bytes": 879690
+        },
+        "pdf": {
+          "path": "qualifying_contact_frames.pdf",
+          "sha256": "29811fd73446627223e69f31cda9db61fbbcc361a7f9c6f796a0df4d538b182c",
+          "bytes": 616693
+        },
+        "png": {
+          "path": "qualifying_contact_frames.png",
+          "sha256": "d4498f383f66f7aa6e3175747999559bc083fe8da59bf72ae26ae50b9b7ac734",
+          "bytes": 797956
+        }
+      },
+      "width_mm": 170.0,
+      "height_mm": 81.0
+    },
+    "radio_event_timeline": {
+      "caption_ja": "大会当日の無線診断の時間変化。上段はノートPC側Pico 2 Wで検出したAP数、下3段は車載Piの接続先Wi-FiのRSSI、ゲートウェイへの往復RTT、Bluetoothリンク品質指標LQである。すべて分平均であり、欠測区間を補間していない。",
+      "source_files": [
+        "data/radio_event_summary.json"
+      ],
+      "conditions_ja": "Pico1360スキャン、12:01–15:47の227分。Pi7297診断スナップショット、09:51–15:45の253観測分、同期間内102分欠測。薄灰色はPiに記録のない区間。RSSI等が個別に欠測する分も線を結ばない。",
+      "limitations_ja": "Picoと車載Piは異なる観測点。RTTとBluetoothはキャッシュ値を繰り返し含み、独立試行や混線率ではない。LQ0–255はコントローラ定義の値で、成功率ではない。予選接触時11:32にPicoは測定開始前である。",
+      "files": {
+        "svg": {
+          "path": "radio_event_timeline.svg",
+          "sha256": "7fa991eb53c0021b46eb95490c11824d5bbb4c4183a7657f5cf72f876e7f515f",
+          "bytes": 54707
+        },
+        "pdf": {
+          "path": "radio_event_timeline.pdf",
+          "sha256": "a0dd6b09598982df509ba7720dd48d0154b231f2dab624833a33de76190b1ee6",
+          "bytes": 37391
+        },
+        "png": {
+          "path": "radio_event_timeline.png",
+          "sha256": "acf76482426b7a18052ebd653b69978d98d4045344b5efc7718c7bf78c6d1dc9",
+          "bytes": 320624
+        }
+      },
+      "width_mm": 170.0,
+      "height_mm": 132.0
+    }
+  },
+  "system_analysis_sha256": "489af543d6b264e264e63f5555c2d52257284191c57740648c64b4183ac08d09"
+}

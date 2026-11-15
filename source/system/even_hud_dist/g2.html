@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="color-scheme" content="light">
+  <title>MAGP — 車両ステータス / G2</title>
+  <link rel="stylesheet" href="./assets/g2-monitor.css?v=1">
+  <script type="module" src="./assets/g2-monitor.js?v=status-pacing-1"></script>
+</head>
+<body>
+  <main>
+    <header><a class="brand" href="/">MAGP<span> / PIT</span></a><span class="version">G2 STATUS</span></header>
+    <div class="connection"><span id="link-dot" class="dot"></span><strong id="link">接続中</strong><span id="age">—</span></div>
+    <section class="vehicle" aria-label="車両の状態">
+      <p class="eyebrow" id="state-caption">車両からの状態を待っています</p>
+      <div class="primary"><h1 id="mode">—</h1><div class="gear" aria-label="ギヤ"><small>GEAR</small><strong id="gear">—</strong></div></div>
+      <div class="speed"><strong id="speed">—</strong><span>km/h <small>車輪換算速度</small></span></div>
+      <p id="speed-note" class="muted">設定値で換算・未校正。有効な回転信号があるときだけ表示します。</p>
+    </section>
+    <section class="reason" aria-label="走行状態の理由"><p class="eyebrow">いまの状態 / 動かない理由</p><h2 id="reason">状態を取得しています</h2></section>
+    <dl class="details"><div><dt>コントローラー</dt><dd id="controller">—</dd></div><div><dt>白線認識</dt><dd id="perception">—</dd></div><div><dt>G2表示</dt><dd id="glasses">接続待ち</dd></div></dl>
+    <button id="connect-glasses" class="secondary">G2へ表示</button>
+    <section class="mode-control"><p class="eyebrow">補助操作</p><button id="toggle" disabled>状態を確認中</button><p id="feedback" role="status" aria-live="polite">G2を1回タップすると自動／手動を切り替えます。</p><p class="muted">長押しで自動出力設定などの詳細表示。主操作はDualSenseです。<br>このRCの緊急停止は操作入力を離し、×で解除・手動Nへ復帰します。大会実車は運営へ申告してください。</p></section>
+    <details class="diagnostics"><summary>指令値・通信の詳細</summary><dl class="details"><div><dt>自動出力設定</dt><dd id="auto-setting">—</dd></div><div><dt>操舵指令</dt><dd id="steering">—</dd></div><div><dt>ESC指令</dt><dd id="throttle">—</dd></div><div><dt>前進出力</dt><dd id="forward">—</dd></div><div><dt>更新番号</dt><dd id="seq">—</dd></div></dl><p class="muted">全自動：十字↑で増速・↓で減速（1回5ポイント）、←はN。← Nからの再開は△で全自動/Dを選び直します。↑だけではDに戻りません。<br>手動・操舵のみ自動：↑ D ／ ← N ／ ↓ R。<br>自動出力設定の%は車輪換算速度とは別の値です。指令値は実際の舵角や給電状態の測定値ではありません。</p></details>
+    <footer>映像を送らず、車両の状態だけを受信します。通信が古い場合は最終状態と表示します。</footer>
+  </main>
+</body>
+</html>

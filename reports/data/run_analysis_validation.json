@@ -1,0 +1,35 @@
+{
+  "reproduction": {
+    "run_metrics.json": {
+      "sha256": "71d5f482abf6a9724dbb4a390378df02f1e7814b459bafa56df996c07d26e5dd",
+      "byte_identical_second_run": true
+    },
+    "qualifying_timeline.csv": {
+      "sha256": "b9a4c05c76d611246628e797d43e01dde8920ecc23bdd2ae854631b68925cdc0",
+      "byte_identical_second_run": true
+    },
+    "qualifying_30s_bins.csv": {
+      "sha256": "6244b7147132a20f7b648c0024570e7cae25fc8fadf1f9cab2334fb9e668aa29",
+      "byte_identical_second_run": true
+    },
+    "session_metrics.csv": {
+      "sha256": "7ff2d66a8a43b91258cffa76611934c11bb5c7e0a9cf94373c0c3bb0ffcd3a8d",
+      "byte_identical_second_run": true
+    },
+    "manual_software_latency_benchmark.csv": {
+      "sha256": "b999d59870260e5209c8a652c4e04ca1bcf3934f8c05bee6ef69fe8270e96ecf",
+      "byte_identical_second_run": true
+    }
+  },
+  "generic_mode_smoke": {
+    "sessions": 4,
+    "observations": 2049,
+    "stage_inferred": false
+  },
+  "checks": [
+    "Duplicate aliases excluded without metadata conflicts",
+    "Qualifying saved sample counts and frozen encoder interval independently matched retained rows",
+    "No live device or source mutation",
+    "Python compile passed"
+  ]
+}

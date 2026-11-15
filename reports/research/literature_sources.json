@@ -1,0 +1,312 @@
+{
+  "schema_version": 1,
+  "scope": "L1-L9 concern the saved final qualifying runtime. L10 is limited to separate recovered overtaking/Pure Pursuit development; no external source establishes design intent or project-specific performance.",
+  "retrieval_date_local": "2026-11-15",
+  "timezone": "Asia/Tokyo",
+  "reference_count": 10,
+  "sources": [
+    {
+      "id": "L1",
+      "bib_key": "opencv_inrange",
+      "type": "online",
+      "title": "Thresholding Operations using inRange",
+      "authors": [
+        "Lorena García",
+        "OpenCV contributors"
+      ],
+      "year": null,
+      "version": "OpenCV 4.13.0 documentation",
+      "url": "https://docs.opencv.org/4.13.0/da/d97/tutorial_threshold_inRange.html",
+      "requested_url": "https://docs.opencv.org/4.x/da/d97/tutorial_threshold_inRange.html",
+      "locator": "Goal; HSV colorspace; Explanation",
+      "supports": "HSV component ranges and inRange pixel membership for color segmentation.",
+      "local_evidence": [
+        {
+          "path": "controller_hud_candidate/adaptive_white.py",
+          "lines": "6-48,87-123"
+        }
+      ],
+      "does_not_support": "The project-specific floor statistics, color-cast gates, their originality, or recognition accuracy.",
+      "verification": "Web open succeeded; 4.x redirected to 4.13.0; original author and compatibility credit visible.",
+      "doi": "",
+      "doi_verification": "Not independently verified; intentionally omitted.",
+      "accessed": "2026-11-15",
+      "source_class": "primary",
+      "reachability": "read_success"
+    },
+    {
+      "id": "L2",
+      "bib_key": "opencv_morphology",
+      "type": "online",
+      "title": "Morphological Transformations",
+      "authors": [
+        "OpenCV contributors"
+      ],
+      "year": null,
+      "version": "OpenCV 4.13.0 documentation",
+      "url": "https://docs.opencv.org/4.13.0/d9/d61/tutorial_py_morphological_ops.html",
+      "requested_url": "https://docs.opencv.org/4.x/d9/d61/tutorial_py_morphological_ops.html",
+      "locator": "Theory; §4 Closing",
+      "supports": "Binary morphological operators with structuring elements; closing is dilation followed by erosion.",
+      "local_evidence": [
+        {
+          "path": "controller_hud_candidate/adaptive_white.py",
+          "lines": "117-120"
+        }
+      ],
+      "does_not_support": "The custom horizontal interior-fill rule or any measured improvement.",
+      "verification": "Web open succeeded; 4.x redirected to 4.13.0; closing section inspected.",
+      "doi": "",
+      "doi_verification": "Not independently verified; intentionally omitted.",
+      "accessed": "2026-11-15",
+      "source_class": "primary",
+      "reachability": "read_success"
+    },
+    {
+      "id": "L3",
+      "bib_key": "opencv_transform",
+      "type": "online",
+      "title": "Geometric Image Transformations",
+      "authors": [
+        "OpenCV contributors"
+      ],
+      "year": null,
+      "version": "OpenCV 4.13.0 documentation",
+      "url": "https://docs.opencv.org/4.13.0/da/d54/group__imgproc__transform.html",
+      "requested_url": "https://docs.opencv.org/4.x/da/d54/group__imgproc__transform.html",
+      "locator": "Detailed Description; getPerspectiveTransform; warpPerspective; remap",
+      "supports": "Perspective transform from four point correspondences and inverse image resampling.",
+      "local_evidence": [
+        {
+          "path": "controller_hud_candidate/robust_lane_failsafe.py",
+          "lines": "227-230,1854-1858"
+        },
+        {
+          "path": "controller_hud_candidate/far_preview.py",
+          "lines": "39-57,60-159"
+        }
+      ],
+      "does_not_support": "Metric ground-plane calibration, physical lookahead distance, or global map accuracy.",
+      "verification": "Web open succeeded; 4.x redirected to 4.13.0; function signatures and mapping description inspected.",
+      "doi": "",
+      "doi_verification": "Not independently verified; intentionally omitted.",
+      "accessed": "2026-11-15",
+      "source_class": "primary",
+      "reachability": "read_success"
+    },
+    {
+      "id": "L4",
+      "bib_key": "astrom_murray2021",
+      "type": "book",
+      "title": "Feedback Systems: An Introduction for Scientists and Engineers",
+      "authors": [
+        "Karl Johan Åström",
+        "Richard M. Murray"
+      ],
+      "year": 2021,
+      "edition": "2",
+      "publisher": "Princeton University Press",
+      "isbn": "9780691193984",
+      "url": "https://www.cds.caltech.edu/~murray/books/AM08/pdf/fbs-pid_24Jul2020.pdf",
+      "supporting_urls": [
+        "https://press.princeton.edu/books/hardcover/9780691193984/feedback-systems",
+        "https://fbswiki.org/wiki/index.php/Feedback_Systems:_An_Introduction_for_Scientists_and_Engineers"
+      ],
+      "version": "Public Chapter 11 PDF v3.1.5, 2020-07-24; published book second edition 2021",
+      "locator": "Chapter 11, §11.1; filtered derivative discussion, chapter pp.11-5–11-6",
+      "supports": "Proportional and derivative action; sensitivity of differentiation to measurement noise; filtered derivative.",
+      "local_evidence": [
+        {
+          "path": "controller_hud_candidate/robust_lane_failsafe.py",
+          "lines": "2290-2342,2397-2455"
+        }
+      ],
+      "does_not_support": "Integral control adoption, the project-specific gains or dt normalization, closed-loop stability guarantees, or the authors original design intent.",
+      "verification": "Author-managed wiki and public chapter PDF opened. Publisher confirmed title/authors/second edition/ISBN and publication 2021-02-02. Full-book PDF exceeded tool length but chapter PDF was read.",
+      "doi": "",
+      "doi_verification": "Not independently verified; intentionally omitted.",
+      "accessed": "2026-11-15",
+      "source_class": "primary",
+      "reachability": "read_success"
+    },
+    {
+      "id": "L5",
+      "bib_key": "linux_input_codes",
+      "type": "online",
+      "title": "Input event codes",
+      "authors": [
+        "The Linux kernel development community"
+      ],
+      "year": null,
+      "url": "https://docs.kernel.org/input/event-codes.html",
+      "locator": "Introduction; §2.2.1 EV_SYN (SYN_REPORT and SYN_DROPPED)",
+      "supports": "Stateful changed-value input events; report packet boundaries; resynchronization after queue overflow.",
+      "local_evidence": [
+        {
+          "path": "controller_hud_candidate/dualsense_control.py",
+          "lines": "82-91,314-400,620-670"
+        }
+      ],
+      "does_not_support": "A hardware radio heartbeat, guaranteed Bluetooth delivery, or the end-to-end controller latency.",
+      "verification": "Linux official documentation opened; introduction and EV_SYN definitions inspected.",
+      "doi": "",
+      "doi_verification": "Not independently verified; intentionally omitted.",
+      "accessed": "2026-11-15",
+      "source_class": "primary",
+      "reachability": "read_success"
+    },
+    {
+      "id": "L6",
+      "bib_key": "pigpio_hardware_pwm",
+      "type": "software",
+      "title": "pigpio Python module: hardware_PWM",
+      "authors": [
+        "Joan",
+        "pigpio contributors"
+      ],
+      "year": null,
+      "url": "https://raw.githubusercontent.com/joan2937/pigpio/master/pigpio.py",
+      "supporting_urls": [
+        "https://github.com/joan2937/pigpio"
+      ],
+      "locator": "hardware_PWM docstring, source lines1876-1935 in fetched master",
+      "supports": "Hardware PWM API frequency/duty units; GPIO12/18 share channel0 and GPIO13/19 share channel1.",
+      "local_evidence": [
+        {
+          "path": "controller_hud_candidate/legacy_pi_output.py",
+          "lines": "12-17,31-49,62-100"
+        }
+      ],
+      "does_not_support": "50Hz as a library-wide requirement, the installed runtime version, servo angle calibration, or electrical waveform measurements.",
+      "verification": "Author repository raw source opened. Author-hosted API page https://abyz.me.uk/rpi/pigpio/python.html returned403, so first-party source docstring used.",
+      "doi": "",
+      "doi_verification": "Not independently verified; intentionally omitted.",
+      "accessed": "2026-11-15",
+      "source_class": "primary",
+      "reachability": "read_success"
+    },
+    {
+      "id": "L7",
+      "bib_key": "picamera2_2026",
+      "type": "manual",
+      "title": "The Picamera2 Library",
+      "authors": [
+        "Raspberry Pi Ltd"
+      ],
+      "year": 2026,
+      "version": "Release7; build2026-10-27 f7f16579351f; manual describes Picamera2 0.3.37",
+      "url": "https://datasheets.raspberrypi.com/camera/picamera2-manual.pdf",
+      "locator": "More on the queue parameter (printed p.18); capture_request and release (printed p.38)",
+      "supports": "Disabling retained last-frame delivery with queue=False; obtaining image and metadata from one request; releasing borrowed buffers.",
+      "local_evidence": [
+        {
+          "path": "controller_hud_candidate/robust_lane_failsafe.py",
+          "lines": "3206-3212,3289-3299"
+        }
+      ],
+      "does_not_support": "The actual installed Picamera2 version, zero camera delay, fixed end-to-end latency, or no frame drops.",
+      "verification": "Official86-pagePDF opened; colophon date/version and relevant API sections inspected.",
+      "doi": "",
+      "doi_verification": "Not independently verified; intentionally omitted.",
+      "accessed": "2026-11-15",
+      "source_class": "primary",
+      "reachability": "read_success"
+    },
+    {
+      "id": "L8",
+      "bib_key": "linux_iw",
+      "type": "online",
+      "title": "About iw",
+      "authors": [
+        "Linux Wireless documentation contributors"
+      ],
+      "year": null,
+      "url": "https://wireless.docs.kernel.org/en/latest/en/users/documentation/iw.html",
+      "locator": "Getting link status; Getting station statistics",
+      "supports": "Wi-Fi link signal in dBm, PHY bitrates, station counters and link status.",
+      "local_evidence": [
+        {
+          "path": "controller_hud_candidate/wifi_monitor.py",
+          "lines": "83-175,392-510"
+        }
+      ],
+      "does_not_support": "AP distance, measured channel airtime if survey counters unavailable, interference attribution, or one-way control latency.",
+      "verification": "Linux Wireless official documentation opened; link and station dump examples inspected.",
+      "doi": "",
+      "doi_verification": "Not independently verified; intentionally omitted.",
+      "accessed": "2026-11-15",
+      "source_class": "primary",
+      "reachability": "read_success"
+    },
+    {
+      "id": "L9",
+      "bib_key": "bluetooth_core61_hci",
+      "type": "manual",
+      "title": "Bluetooth Core Specification, Vol.4, Part E: Host Controller Interface Functional Specification",
+      "authors": [
+        "Bluetooth SIG"
+      ],
+      "year": null,
+      "version": "6.1",
+      "url": "https://www.bluetooth.com/wp-content/uploads/Files/Specification/HTML/Core-61/out/en/host-controller-interface/host-controller-interface-functional-specification.html",
+      "locator": "§§7.5.3 Read Link Quality;7.5.4 Read RSSI;7.5.5 Read AFH Channel Map",
+      "supports": "Vendor-defined quality0..255; BR/EDR relative RSSI in dB; AFH map with79 meaningful bits and latest LMP_SET_AFH state.",
+      "local_evidence": [
+        {
+          "path": "controller_hud_candidate/bluetooth_monitor.py",
+          "lines": "182-190,206-253"
+        }
+      ],
+      "does_not_support": "Packet-loss percentage from quality, absolute dBm from Classic RSSI, measured spectrum or observed use of every AFH frequency, or identified interference cause.",
+      "verification": "Bluetooth SIG official Core6.1HTML opened; sections7.5.3–7.5.5 read; publication year not independently confirmed.",
+      "doi": "",
+      "doi_verification": "Not independently verified; intentionally omitted.",
+      "accessed": "2026-11-15",
+      "source_class": "primary",
+      "reachability": "read_success"
+    },
+    {
+      "id": "L10",
+      "bib_key": "coulter1992",
+      "type": "techreport",
+      "title": "Implementation of the Pure Pursuit Path Tracking Algorithm",
+      "authors": [
+        "R. Craig Coulter"
+      ],
+      "year": 1992,
+      "month": "January",
+      "institution": "Carnegie Mellon University",
+      "number": "CMU-RI-TR-92-01",
+      "url": "https://publications.ri.cmu.edu/implementation-of-the-pure-pursuit-path-tracking-algorithm/",
+      "locator": "Official Robotics Institute record: authors, date, abstract, report number and BibTeX.",
+      "supports": "Pure Pursuit implementation and geometric curvature derivation as a reference for the separate recovered overtaking controller.",
+      "local_evidence": [
+        {
+          "root": "recovered_original_repository",
+          "path": "rpi_system/overtaking/controller.py",
+          "lines": "130-137"
+        },
+        {
+          "root": "recovered_original_repository",
+          "path": "rpi_system/OVERTAKING.md",
+          "lines": "13-35,78-93"
+        }
+      ],
+      "does_not_support": "Pure Pursuit adoption in the final qualifying PD runtime, successful physical overtaking, final race performance or an originality claim.",
+      "verification": "Official CMU Robotics Institute page opened successfully; title, author, January1992, reportCMU-RI-TR-92-01 and supplied BibTeX verified.",
+      "doi": "",
+      "doi_verification": "Not independently verified; intentionally omitted.",
+      "accessed": "2026-11-15",
+      "source_class": "primary",
+      "reachability": "read_success",
+      "scope": "Separate exploratory development series only; not the final qualifying controller."
+    }
+  ],
+  "excluded_technologies": [
+    "Stanley",
+    "SLAM",
+    "ROS/ROS2"
+  ],
+  "exclusion_reason": "Not evidenced as adopted in final qualifying runtime; separate overtaking code and Pure Pursuit are explicitly scoped in L10.",
+  "unknown_year_policy": "Null year means publication/update year not confirmed; use n.d. or access date, not retrieval year as publication year."
+}

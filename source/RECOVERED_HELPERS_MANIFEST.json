@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "recovered_date_local": "2026-11-15",
+  "files": [
+    {
+      "path": "source/system/status_csv_logger.py",
+      "source_relative_to_original_repository": "rpi_system/status_csv_logger.py",
+      "sha256": "d97df9179ef9fc3cdfb6315a887fa85432a8bde9beaa9acc5e543dd4dff26a51",
+      "bytes": 7365,
+      "original_competition_25_manifest_member": false,
+      "provenance": "Recovered original working-tree copy, not proven deployed helper revision."
+    },
+    {
+      "path": "source/recovered_receiver_tools/rc_calibrate.py",
+      "source_relative_to_original_repository": "rpi_system/rc_calibrate.py",
+      "sha256": "49eb695f431dc476b80b218793a8471fa64aad49035aeac1fdb284d46360d6e5",
+      "bytes": 15257,
+      "original_competition_25_manifest_member": false,
+      "provenance": "Recovered original working-tree copy, not proven deployed helper revision."
+    },
+    {
+      "path": "source/recovered_receiver_tools/rc_receiver.py",
+      "source_relative_to_original_repository": "rpi_system/rc_receiver.py",
+      "sha256": "589e74febc2fa19be7142afcc7cd51bb29a7de7577c211b801feafefc4a0bbbc",
+      "bytes": 28762,
+      "original_competition_25_manifest_member": false,
+      "provenance": "Recovered original working-tree copy, not proven deployed helper revision."
+    },
+    {
+      "path": "source/recovered_receiver_tools/rc_pico_receiver.py",
+      "source_relative_to_original_repository": "rpi_system/rc_pico_receiver.py",
+      "sha256": "dbec8dbfdba8c16f08a685fec5d441a5fb68b64cbe43e3a8b2dd5a4d4736da0e",
+      "bytes": 44487,
+      "original_competition_25_manifest_member": false,
+      "provenance": "Recovered original working-tree copy, not proven deployed helper revision."
+    },
+    {
+      "path": "source/recovered_receiver_tools/rc_trigger_gesture.py",
+      "source_relative_to_original_repository": "rpi_system/rc_trigger_gesture.py",
+      "sha256": "1cd7e09706428add1b536afc4a0e07195129b9645500caf80e45cf514ce15cc0",
+      "bytes": 7975,
+      "original_competition_25_manifest_member": false,
+      "provenance": "Recovered original working-tree copy, not proven deployed helper revision."
+    }
+  ]
+}

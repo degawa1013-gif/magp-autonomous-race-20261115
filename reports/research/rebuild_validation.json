@@ -1,0 +1,140 @@
+{
+  "schema": "autonomous-race-report-rebuild-test-v1",
+  "created_utc": "2026-11-15T13:14:55.206646+00:00",
+  "event_date_jst": "2026-11-15",
+  "status": "passed",
+  "fixture": "/tmp/magp portable evidence 2q6p7qy3",
+  "scope": "Portable package layout with spaces, no original raw folders or full source inventory; figures/references and cached verification executed; PDF intentionally excluded. Full PDF build and all-page review are recorded separately by root.",
+  "fixture_metrics_base": "${SOURCE_ROOT}",
+  "raw_originals_available": false,
+  "cached_pdf_excluded": true,
+  "original_source25_and_paper_unchanged": true,
+  "portable_figure_outputs": 21,
+  "checks": [
+    {
+      "name": "portable_cached_figures_and_references",
+      "returncode": 0,
+      "expected_returncode": 0,
+      "command": [
+        "/usr/bin/python3",
+        "/tmp/magp portable evidence 2q6p7qy3/reports/scripts/rebuild.py",
+        "--reports",
+        "/tmp/magp portable evidence 2q6p7qy3/reports",
+        "--mode",
+        "cached",
+        "--skip-pdf"
+      ],
+      "stdout": "{\"step\": \"figures_from_retained_data\", \"status\": \"passed\"}\n{\"step\": \"verified_reference_rendering\", \"status\": \"passed\"}\n{\"step\": \"verification\", \"status\": \"passed\"}\n{\"status\": \"passed\", \"mode\": \"cached\", \"receipt\": \"/tmp/magp portable evidence 2q6p7qy3/reports/output/build_receipt.json\", \"raw_recomputed\": false, \"pdf_rebuilt\": false}\n",
+      "stderr": ""
+    },
+    {
+      "name": "changed_csv_statistic_rejected",
+      "returncode": 1,
+      "expected_returncode": 1,
+      "command": [
+        "/usr/bin/python3",
+        "/tmp/magp portable evidence 2q6p7qy3/reports/scripts/verify_report.py",
+        "--reports",
+        "/tmp/magp portable evidence 2q6p7qy3/reports",
+        "--skip-pdf"
+      ],
+      "stdout": "{\"status\": \"failed\", \"checks_passed\": 9, \"checks_failed\": 3, \"failures\": [{\"name\": \"retained_csv_metrics\", \"status\": \"failed\", \"detail\": \"camera_to_output_ms.maximum: recalculated 1063.276, stored 104.69\"}, {\"name\": \"macro_and_contact_timing\", \"status\": \"failed\", \"detail\": \"Macro p95: recalculated 69.36035, stored 68.97384999999998\"}, {\"name\": \"figures_and_contact_images\", \"status\": \"failed\", \"detail\": \"Figure generated from another data version: qualifying_timeline.csv\"}], \"warnings\": [], \"receipt\": \"/tmp/magp portable evidence 2q6p7qy3/reports/data/verification_results.json\"}\n",
+      "stderr": ""
+    },
+    {
+      "name": "changed_contact_jpeg_rejected",
+      "returncode": 1,
+      "expected_returncode": 1,
+      "command": [
+        "/usr/bin/python3",
+        "/tmp/magp portable evidence 2q6p7qy3/reports/scripts/verify_report.py",
+        "--reports",
+        "/tmp/magp portable evidence 2q6p7qy3/reports",
+        "--skip-pdf"
+      ],
+      "stdout": "{\"status\": \"failed\", \"checks_passed\": 11, \"checks_failed\": 1, \"failures\": [{\"name\": \"figures_and_contact_images\", \"status\": \"failed\", \"detail\": \"Contact JPEG changed\"}], \"warnings\": [], \"receipt\": \"/tmp/magp portable evidence 2q6p7qy3/reports/data/verification_results.json\"}\n",
+      "stderr": ""
+    },
+    {
+      "name": "changed_source_snapshot_rejected",
+      "returncode": 1,
+      "expected_returncode": 1,
+      "command": [
+        "/usr/bin/python3",
+        "/tmp/magp portable evidence 2q6p7qy3/reports/scripts/verify_report.py",
+        "--reports",
+        "/tmp/magp portable evidence 2q6p7qy3/reports",
+        "--skip-pdf"
+      ],
+      "stdout": "{\"status\": \"failed\", \"checks_passed\": 11, \"checks_failed\": 1, \"failures\": [{\"name\": \"qualifying_source_and_runtime_hashes\", \"status\": \"failed\", \"detail\": \"Qualifying source SHA differs: controller_hud_candidate/legacy_pi_output.py\"}], \"warnings\": [], \"receipt\": \"/tmp/magp portable evidence 2q6p7qy3/reports/data/verification_results.json\"}\n",
+      "stderr": ""
+    },
+    {
+      "name": "missing_recorded_build_groups_rejected",
+      "returncode": 1,
+      "expected_returncode": 1,
+      "command": [
+        "/usr/bin/python3",
+        "/tmp/magp portable evidence 2q6p7qy3/reports/scripts/verify_report.py",
+        "--reports",
+        "/tmp/magp portable evidence 2q6p7qy3/reports",
+        "--skip-pdf"
+      ],
+      "stdout": "{\"status\": \"failed\", \"checks_passed\": 11, \"checks_failed\": 1, \"failures\": [{\"name\": \"qualifying_source_and_runtime_hashes\", \"status\": \"failed\", \"detail\": \"Recorded build group count differs\"}], \"warnings\": [], \"receipt\": \"/tmp/magp portable evidence 2q6p7qy3/reports/data/verification_results.json\"}\n",
+      "stderr": ""
+    },
+    {
+      "name": "restored_fixture_passes",
+      "returncode": 0,
+      "expected_returncode": 0,
+      "command": [
+        "/usr/bin/python3",
+        "/tmp/magp portable evidence 2q6p7qy3/reports/scripts/verify_report.py",
+        "--reports",
+        "/tmp/magp portable evidence 2q6p7qy3/reports",
+        "--skip-pdf"
+      ],
+      "stdout": "{\"status\": \"passed\", \"checks_passed\": 12, \"checks_failed\": 0, \"failures\": [], \"warnings\": [], \"receipt\": \"/tmp/magp portable evidence 2q6p7qy3/reports/data/verification_results.json\"}\n",
+      "stderr": ""
+    },
+    {
+      "name": "raw_requires_explicit_source_root",
+      "returncode": 2,
+      "expected_returncode": 2,
+      "command": [
+        "/usr/bin/python3",
+        "/tmp/magp portable evidence 2q6p7qy3/reports/scripts/rebuild.py",
+        "--reports",
+        "/tmp/magp portable evidence 2q6p7qy3/reports",
+        "--mode",
+        "raw",
+        "--dry-run"
+      ],
+      "stdout": "",
+      "stderr": "{\"status\": \"failed_preflight\", \"error\": \"--mode raw requires --source-root pointing to preserved original evidence. Cached summaries are not raw inputs.\"}\n"
+    },
+    {
+      "name": "raw_missing_originals_fails_preflight",
+      "returncode": 2,
+      "expected_returncode": 2,
+      "command": [
+        "/usr/bin/python3",
+        "/tmp/magp portable evidence 2q6p7qy3/reports/scripts/rebuild.py",
+        "--reports",
+        "/tmp/magp portable evidence 2q6p7qy3/reports",
+        "--mode",
+        "raw",
+        "--source-root",
+        "/tmp/magp portable evidence 2q6p7qy3/empty raw",
+        "--dry-run"
+      ],
+      "stdout": "",
+      "stderr": "{\"status\": \"failed_preflight\", \"error\": \"Raw recreation cannot proceed; missing original evidence:\\nqualifying_review_20261115_1137/\\noscillation_review_20261115_101513/\\nregression_review_20261115_095920/\\nwobble_review_20261115_0926/\\ndrive_review_20261114_1123/\\nhairpin_review_20261114_1152/\\nstability_review_20261114_1254/\\nwobble_review_20261114_1521/\\nanticipation_review_20261114/\\nright_angle_review_20261114_1702/\\nstraight_pace_review_20261115/\\nqualifying_review_20261115_1137/run_control_log.csv\\nmanual_event_latency_review_20261115/benchmark_before_pi.json\\nmanual_event_latency_review_20261115/benchmark_after_pi.json\\nmanual_event_latency_review_20261115/benchmark_before_load_pi.json\\nmanual_event_latency_review_20261115/benchmark_after_load_pi.json\\npico_radio_monitor_20261115/analysis_report_20261115/inputs/event_report.json\\npico_radio_monitor_20261115/analysis_report_20261115/build/quant_findings.json\\nUse --mode cached to regenerate from the packaged retained aggregates; it does not recompute raw evidence.\"}\n"
+    }
+  ],
+  "script_sha256": {
+    "rebuild.py": "0114bb4f08145c20bfd1e5e28295e79e45cad482269245421cbb7a843229ee9d",
+    "verify_report.py": "69ccd5178481c07d368b3e659268959de4ff37f1896407284cad0bb0b12159d2"
+  },
+  "config_sha256": "43942a10e1cfe525ac29e13ca8a3357b9ac58118150ba8ffb2d1ede9bf7b308c"
+}
